@@ -909,6 +909,10 @@ select {
   margin-top: 1.25rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .block {
   display: block;
 }
@@ -967,6 +971,10 @@ select {
 
 .h-8 {
   height: 2rem;
+}
+
+.h-96 {
+  height: 24rem;
 }
 
 .h-\[2px\] {
@@ -2039,6 +2047,48 @@ select {
   }
 }
 
+@keyframes fadeZoomColor {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+    color: #ffffff;
+  }
+
+  50% {
+    opacity: 0.5;
+    transform: scale(1);
+    color: #004890;
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    color: #ffffff;
+  }
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translateX(-1px);
+  }
+
+  20%, 80% {
+    transform: translateX(2px);
+  }
+
+  30%, 50%, 70% {
+    transform: translateX(-4px);
+  }
+
+  40%, 60% {
+    transform: translateX(4px);
+  }
+}
+
+.combined-animation:hover {
+  animation: fadeZoomColor 2s ease-in-out forwards, shake 0.5s 2.5s ease-in-out;
+}
+
 .placeholder\:text-gray-400::-moz-placeholder {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
@@ -2536,11 +2586,6 @@ select {
     line-height: 1;
   }
 
-  .lg\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
-  }
-
   .lg\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -2563,4 +2608,5 @@ select {
     line-height: 1.5;
   }
 }
+  
   
