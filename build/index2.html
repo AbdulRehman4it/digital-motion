@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/output.css">
+</head>
+<body class="blackcolourbg space-y-20">
+    <!-- Top Navigation Bar -->
+<nav class=" shadow-lg px-4 py-8 md:px-8">
+    <div class="container mx-auto flex items-center justify-between">
+      <!-- Logo -->
+      <a href="#" class="flex items-center">
+        <img src="./assets/img/logo.png" alt="Company Logo" class="h-10">
+      </a>
+  
+      <!-- Navigation Links (Hidden on small screens) -->
+      <div class="hidden md:flex space-x-9">
+        <a href="#" class="whitecolortext secondaryfont text-xl">Home</a>
+        <a href="#" class="whitecolortext secondaryfont text-xl">About</a>
+        <a href="#" class="whitecolortext secondaryfont text-xl">Services</a>
+        <a href="#" class="whitecolortext secondaryfont text-xl">Accreditations</a>
+        <a href="#" class="whitecolortext secondaryfont text-xl">Gallery</a>
+        <a href="#" class="whitecolortext secondaryfont text-xl">Blog</a>
+        <a href="#" class="whitecolortext secondaryfont text-xl">Clients</a>
+      </div>
+  
+      <!-- Contact Button (Hidden on small screens) -->
+      <div class="hidden md:flex">
+        <a href="#" class="px-6 py-4 border border-[#00AFCE] text-[#00AFCE] rounded-full hover:bg-[#00AFCE] hover:text-white transition duration-300">
+          Contact Now
+        </a>
+      </div>
+      
+  
+      <!-- Mobile Menu Button (Visible on small screens) -->
+      <div class="md:hidden flex items-center">
+        <button class="mobile-menu-button text-gray-600 focus:outline-none focus:text-gray-900">
+          <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  
+    <!-- Mobile Menu Links (Visible on small screens) -->
+    <div class="mobile-menu hidden md:hidden">
+      <a href="#" class="block py-2 px-4 text-sm whitecolortext secondaryfont">Home</a>
+      <a href="#" class="block py-2 px-4 text-sm whitecolortext secondaryfont">About</a>
+      <a href="#" class="block py-2 px-4 text-sm whitecolortext secondaryfont">Services</a>
+      <a href="#" class="block py-2 px-4 text-sm whitecolortext secondaryfont">Accreditations</a>
+      <a href="#" class="block py-2 px-4 text-sm whitecolortext secondaryfont">Gallery</a>
+      <a href="#" class="block py-2 px-4 text-sm whitecolortext secondaryfont">Blog</a>
+      <a href="#" class="block py-2 px-4 text-sm whitecolortext secondaryfont">Clients</a>
+      <a href="#" class="block px-6 py-4 border border-[#00AFCE] text-[#00AFCE] rounded-full hover:bg-[#00AFCE] hover:text-white transition duration-300">Contact Now</a>
+    </div>
+  </nav>
+
+
+<!-- Hero Section -->
+<section class=" p-5">
+    <div class="lg:space-y-8 container mx-auto flex flex-col items-center justify-center space-y-4">
+      <!-- Top Section: Images and Heading -->
+      <div class="flex flex-col items-center md:flex-row md:space-x-4">
+        <!-- Left Image -->
+        <div class="mb-4 md:mb-0">
+          <img src="./assets/img/heroleft.png" alt="Left Image" class="w-20 h-20 object-cover ">
+        </div>
+        <!-- Center Heading -->
+        <h1 class="primaryfont text-center text-white lg:text-6xl md:text-5xl text-2xl md:mx-4">
+            Shaping Tomorrow's Technology Through <br class="hidden sm:block"><span class="neon-text primaryfont font-bold text-[#00AFCE]">Dynamic Motion</span>
+        </h1>
+        <!-- Right Image -->
+        <div class="mt-4 md:mt-0">
+          <img src="./assets/img/heroright.png" alt="Right Image" class="w-20 h-20 object-cover ">
+        </div>
+      </div>
+  
+      <!-- Centered Paragraph -->
+      <p class="text-[#A7A8AC] text-xl text-center lg:max-w-full md:m-w-full m-w-xl secondaryfont">
+        We blend cutting-edge technology with creativity to drive movement and ignite innovation. From personalized motion solutions to advanced robotics, we help businesses and individuals push boundaries and achieve their vision.
+    </p>
+  
+      <!-- Full Width Video -->
+      <div class="w-full">
+        <iframe 
+          class="w-full h-48 md:h-64 lg:h-[800px] rounded-3xl" 
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+<!-- Logo Slider Section -->
+<section class=" p-5">
+    <div class="container mx-auto overflow-hidden">
+      <!-- Slider Container with Marquee Effect -->
+      <div class="marquee animate-slide">
+        <!-- Logo Items (6 logos, each taking equal width) -->
+        <img src="./assets/img/sliderlogo1.png" alt="Company 1" class="h-20 flex-shrink-0 w-1/6 object-contain">
+        <img src="./assets/img/sliderlogo2.png" alt="Company 2" class="h-20 flex-shrink-0 w-1/6 object-contain">
+        <img src="./assets/img/sliderlogo3.png" alt="Company 3" class="h-20 flex-shrink-0 w-1/6 object-contain">
+        <img src="./assets/img/sliderlogo4.png" alt="Company 4" class="h-20 flex-shrink-0 w-1/6 object-contain">
+        <img src="./assets/img/sliderlogo5.png" alt="Company 5" class="h-20 flex-shrink-0 w-1/6 object-contain">
+        <img src="./assets/img/sliderlogo6.png" alt="Company 6" class="h-20 flex-shrink-0 w-1/6 object-contain">
+        <!-- Duplicate the logos for continuous scrolling effect -->
+        <img src="./assets/img/sliderlogo1.png" alt="Company 1" class="h-20 flex-shrink-0 w-1/6 object-contain">
+        <img src="./assets/img/sliderlogo2.png" alt="Company 2" class="h-20 flex-shrink-0 w-1/6 object-contain">
+        <img src="./assets/img/sliderlogo3.png" alt="Company 3" class="h-20 flex-shrink-0 w-1/6 object-contain">
+        <img src="./assets/img/sliderlogo4.png" alt="Company 4" class="h-20 flex-shrink-0 w-1/6 object-contain">
+        <img src="./assets/img/sliderlogo5.png" alt="Company 5" class="h-20 flex-shrink-0 w-1/6 object-contain">
+        <img src="./assets/img/sliderlogo6.png" alt="Company 6" class="h-20 flex-shrink-0 w-1/6 object-contain">
+      </div>
+    </div>
+  </section>
+  
+<!-- Basic Layout Section -->
+<section class=" p-5">
+    <div class="container mx-auto flex flex-col md:flex-row">
+      <!-- Left Side -->
+      <div class="md:w-1/2 p-5 space-y-5">
+        <h2 class="text-5xl text-white primaryfont mb-2">UAE Beirut China KSA</h2>
+        <p class="text-[#A7A8AC] secondaryfont">Fit-outs and Interior Concepts. Design visionaries. Event innovators. Production specialists. For more than two decades, Dynamic Motion has been helping world-leading brands and businesses successfully connect with their target audience.</p>
+        <p class="text-[#A7A8AC] secondaryfont">Whether it’s something as simple as an impactful premium through to turnkey exhibition presence, footfall-driving retail activations or large-scale headline making events, we have a 20-year-plus track record of delivering engaging, interactive experiences to complement your business goals.</p>
+            <p class="text-[#A7A8AC] secondaryfont">As dynamic as our name, our portfolio spans the globe with clients on four continents. Headquartered in Dubai, with offices and production facilities in the UAE, China, Lebanon and Saudi Arabia, our expert team has its finger on the pulse when it comes to putting your brand in the spotlight.</p>
+        </div>
+  
+      <!-- Right Side -->
+      <div class="md:w-1/2 flex p-5">
+        <div class="flex flex-col w-1/2 justify-end">
+          <img src="https://via.placeholder.com/300x225" alt="Left Image" class="h-3/4 w-full object-cover mb-2"> <!-- Left Image -->
+        </div>
+        <div class="flex flex-col w-1/2">
+          <img src="https://via.placeholder.com/300x300" alt="Right Image" class="h-full w-full object-cover"> <!-- Right Image -->
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- Two Rows of Four Divs Section -->
+<section class=" p-5">
+    <div class="container mx-auto">
+      <!-- First Row -->
+      <div class="flex flex-wrap mb-5">
+        <!-- Div 1: w-1/4 with background image -->
+        <div class="w-1/4 bg-cover bg-center rounded-full h-48" style="background-image: url('./assets/img/missionimage.png');"></div>
+        <!-- Div 2: w-3/4 with heading and paragraph -->
+        <div class="w-3/4 p-9 shadow-md border border-[#00AFCE] rounded-full">
+          <h3 class="text-xl font-semibold primaryfont text-[#00AFCE] mb-2">Mission</h3>
+          <p class="text-[#A7A8AC] secondaryfont">We are passionate, inspired, and driven 24/7 to conceptualize, create, and deliver world-class brand events and marketing campaigns. Our focus is on adding tangible value to our clients' commercial propositions, catalyzing business potential, enhancing brand awareness, and enriching their reputation.</p>
+        </div>
+      </div>
+  
+      <!-- Second Row -->
+      <div class="flex flex-wrap ">
+        <!-- Div 3: w-3/4 with heading and paragraph -->
+        <div class="w-3/4 p-9 rounded-full  border border-[#00AFCE] shadow-md">
+          <h3 class="text-xl font-semibold primaryfont text-[#00AFCE] mb-2">Vision</h3>
+          <p class="text-[#A7A8AC] secondaryfont">We continuously challenge ourselves to innovate and excite global audiences with engaging, purposeful content. As the go-to destination service for our ever-expanding international client portfolio, we work tirelessly to secure our position as an agile market leader in a transformative global economy.</p>
+        </div>
+        <!-- Div 4: w-1/4 with background image -->
+        <div class="w-1/4 bg-cover bg-center rounded-full h-48" style="background-image: url('./assets/img/visionimage.png');"></div>
+      </div>
+    </div>
+  </section>
+
+<!-- First Part of the Section -->
+<section class="p-5 space-y-5">
+    <div class="flex flex-col items-center md:flex-row md:space-x-4">
+        <!-- Left Image -->
+        <div class="mb-4 md:mb-0">
+          <img src="./assets/img/servicesectionleft.png" alt="Left Image" class="w-20 h-20 object-cover ">
+        </div>
+        <!-- Center Heading -->
+        <h1 class="primaryfont text-center text-white lg:text-6xl md:text-5xl text-2xl md:mx-4">
+            Comprehensive and Personalized Marketing, Promotional, and Event<br class="hidden sm:block"><span class="neon-text primaryfont font-bold text-[#00AFCE]">Services for Every Client </span>
+        </h1>
+        <!-- Right Image -->
+        <div class="mt-4 md:mt-0">
+          <img src="./assets/img/servicesectionright.png" alt="Right Image" class="w-20 h-20 object-cover ">
+        </div>
+      </div>
+  
+  
+    <!-- Three Paragraphs Below the Heading -->
+    <div class="text-center mt-5">
+      <p class="text-[#A7A8AC] secondaryfont mb-2">It’s the personal approach that has established Dynamic Motion as the go-to resource for a global portfolio of high-profile regional companies, multinationals and government entities.</p>
+      <p class="text-[#A7A8AC] secondaryfont mb-2">We don’t treat all clients the same. We understand that you have individual brand needs and objectives; and we take the time to get to know your business, your industry, and your specific marketing goals. </p>
+      <p class="text-[#A7A8AC] secondaryfont">We match each client with a dedicated account management team so that you have a guaranteed point of contact from day one and our menu of bespoke services runs the full spectrum of marketing, promotional and live event support.</p>
+      <p class="text-[#A7A8AC] secondaryfont">From initial discovery meeting through to post-event or campaign support we take your brief to heart and work alongside you to create value at every opportunity.</p>
+    
+    </div>
+
+
+    <div class="container mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <!-- Button 1 -->
+          <button class="flex items-center border border-[#00AFCE] text-[#00AFCE] rounded-full hover:bg-[#00AFCE] hover:text-white transition duration-300">
+            <img src="./assets/img/service1.png" alt="Icon 1" class="mr-2">
+            Concept and Design
+          </button>
+          <!-- Button 2 -->
+          <button class="flex items-center border border-[#00AFCE] text-[#00AFCE] rounded-full hover:bg-[#00AFCE] hover:text-white transition duration-300">
+            <img src="./assets/img/service3.png" alt="Icon 2" class="mr-2">
+            Exhibition Stands
+          </button>
+          <!-- Button 3 -->
+          <button class="flex items-center border border-[#00AFCE] text-[#00AFCE] rounded-full hover:bg-[#00AFCE] hover:text-white transition duration-300">
+            <img src="./assets/img/service3.png" alt="Icon 3" class="mr-2">
+            Event Management and Production
+          </button>
+          <!-- Button 4 -->
+          <button class="flex items-center border border-[#00AFCE] text-[#00AFCE] rounded-full hover:bg-[#00AFCE] hover:text-white transition duration-300">
+            <img src="./assets/img/service4.png" alt="Icon 4" class="mr-2">
+            Production
+          </button>
+          <!-- Button 5 -->
+          <button class="flex items-center border border-[#00AFCE] text-[#00AFCE] rounded-full hover:bg-[#00AFCE] hover:text-white transition duration-300">
+            <img src="./assets/img/service5.png" alt="Icon 5" class="mr-2">
+            Fit-outs and Interior Concepts
+          </button>
+          <!-- Button 6 -->
+          <button class="flex items-center border border-[#00AFCE] text-[#00AFCE] rounded-full hover:bg-[#00AFCE] hover:text-white transition duration-300">
+            <img src="./assets/img/service6.png" alt="Icon 6" class="mr-2">
+            Point of Sale and Shop-in-Shop Solutions
+          </button>
+        </div>
+      </div>
+
+      <div class="container mx-auto">
+        <img src="./assets/img/servicebg.png" alt="Full Width Image" class="w-full h-auto object-cover rounded-lg">
+      </div>
+  </section>
+  
+  
+  <!-- Contact Section -->
+<section class=" p-5">
+    <div class="container mx-auto flex flex-col md:flex-row">
+      <!-- Left Div -->
+      <div class="md:w-1/2 mb-4 md:mb-0">
+        <h1 class="primaryfont text-white lg:text-6xl md:text-5xl text-2xl"><span class="primaryfont font-bold text-[#00AFCE]">Get in Touch </span>for Inquiries and Feedback</h1>
+        <p class="text-gray-700 mb-4">Your Questions, Feedback, and Inquiries Matter! Use the Form to Share Your Thoughts, and Our Team Will Get Back to You Promptly. </p>
+        
+        <h2 class="text-xl text-[#00AFCE] font-semibold">ADDRESS</h2>
+        <p class="text-gray-700 mb-4">Plot IMPZ.C.46 Dubai Production City – Dubai – United Arab Emirates</p>
+        
+        <h2 class="text-xl text-[#00AFCE] font-semibold">TELEPHONE</h2>
+        <p class="text-gray-700">DUBAI: +9714 5762570 – FAX: +9714 5762571 / BEIRUT: +961 1 510560 / JEDDAH: +966 5 69137777 / CHINA: +862154257078</p>
+      </div>
+  
+      <!-- Right Div -->
+      <div class="md:w-1/2">
+        <form>
+          <!-- Input Field 1 -->
+          <div class="mb-4">
+            <label for="name" class="block text-[#00AFCE]">Name</label>
+            <input type="text" id="name" class="mt-1 p-2 border rounded w-full glow-input" placeholder="Enter your name">
+
+          </div>
+          
+          <!-- Input Field 2 -->
+          <div class="mb-4">
+            <label for="email" class="block text-[#00AFCE]">Email</label>
+            <input type="text" id="email" class="mt-1 p-2 border rounded w-full glow-input" placeholder="Enter your name">
+
+          </div>
+  
+          <!-- Label for Textarea -->
+          <label for="message" class="block text-[#00AFCE]">Message</label>
+          <textarea id="message" rows="4" class="mt-1 p-2 border rounded w-full glow-input" placeholder="Type your message here"></textarea>
+          
+          <!-- Submit Button -->
+          <button type="submit" class="mt-4 bg-blue-500 text-white p-3 rounded hover:bg-blue-600">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- Footer Section -->
+<footer class="bg-[#00AFCE] text-white p-5">
+    <div class="container mx-auto flex justify-between items-center">
+      <!-- Social Media Icons -->
+      <div class="flex space-x-4">
+        <a href="#" class="hover:text-gray-400">
+          <img src="./assets/img/facebook.png" alt="Facebook Icon">
+        </a>
+        <a href="#" class="hover:text-gray-400">
+          <img src="./assets/img/insta.png" alt="Twitter Icon">
+        </a>
+        <a href="#" class="hover:text-gray-400">
+          <img src="./assets/img/link.png" alt="Instagram Icon">
+        </a>
+      </div>
+      
+      <!-- Copyright Text -->
+      <div class="text-right">
+        &copy;Dynamic Motion. 2020
+      </div>
+    </div>
+  </footer>
+  
+  
+  <!-- Script to toggle the mobile menu -->
+  <script>
+    const btn = document.querySelector('button.mobile-menu-button');
+    const menu = document.querySelector('.mobile-menu');
+  
+    btn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
+  
+</body>
+</html>

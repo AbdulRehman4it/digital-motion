@@ -1,0 +1,245 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face{
+    font-family: trenda;
+    src: url(../fonts/Latinotype-Trenda-Regular.otf);
+}
+@font-face{
+    font-family: trendaheavy;
+    src: url(../fonts/LatinotypeTrendaHeavy.otf);
+}
+@font-face{
+    font-family: sofia;
+    src: url(../fonts/Sofia-Pro-Regula-Az.otf);
+}
+.blackcolourbg{
+    background-color: #004890;
+}
+.whitecolortext{
+    color: #EEEEEE;
+}
+.whitecolortext:hover{
+    color: #00AFCE;
+}
+.primarythemecolortext{
+    color: #00AFCE;
+}
+.primaryfont{
+    font-family: trenda;
+}
+.herofont{
+    font-family: trendaheavy;
+}
+.secondaryfont{
+    font-family: sofia;
+}
+.primary-bg{
+    background-color: #004890;
+}
+.primary-bg-2{
+    background-color: #a7a8ac;
+}
+.primary-color{
+    color: #004890 ;
+}
+.primary-color-2{
+    color: #a7a8ac;
+}
+
+.loginbg{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 3;
+}
+#sidebar {
+    transition: transform 0.3s ease;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); } /* Moves left by half the total width */
+  }
+  .marquee {
+    display: flex;
+    animation: marquee 20s linear infinite;
+  }
+
+  @keyframes typewriter {
+    0% {
+        clip-path: inset(0 100% 0 0); /* Start clipped on the right */
+    }
+    100% {
+        clip-path: inset(0 0 0 0); /* End fully visible */
+    }
+}
+
+@keyframes blink {
+    0%, 100% {
+        border-right-color: transparent;
+    }
+    50% {
+        border-right-color: rgba(255, 255, 255, 0.75);
+    }
+}
+
+.typewriter {
+    display: inline-block; /* Keeps the span inline */
+    overflow: hidden; /* Hides the overflowing text */
+    white-space: nowrap; /* Prevents text wrapping */
+    border-right: 4px solid rgba(255, 255, 255, 0.75); /* Creates the blinking cursor effect */
+    animation: typewriter 4s steps(30) forwards, blink 0.75s step-end infinite; /* Combines both animations */
+    position: relative; /* Needed for border positioning */
+    padding-right: 10px; /* Add some space for the cursor */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 640px) { /* Small screens */
+    .typewriter {
+        font-size: 1.5rem; /* Smaller font size for mobile */
+        padding-right: 5px; /* Adjust padding */
+        animation: typewriter 3s steps(20) forwards, blink 0.75s step-end infinite; /* Adjust animation duration */
+    }
+}
+
+@media (min-width: 640px) and (max-width: 768px) { /* Medium screens */
+    .typewriter {
+        font-size: 2rem; /* Slightly larger font size */
+        padding-right: 8px; /* Adjust padding */
+        animation: typewriter 3.5s steps(25) forwards, blink 0.75s step-end infinite; /* Adjust animation duration */
+    }
+}
+
+@media (min-width: 768px) { /* Large screens */
+    .typewriter {
+        font-size: 2.5rem; /* Default or larger font size for desktop */
+        padding-right: 10px; /* Standard padding */
+        animation: typewriter 4s steps(30) forwards, blink 0.75s step-end infinite; /* Default animation duration */
+    }
+}
+
+
+
+  .image-container {
+    perspective: 1000px; /* Creates a 3D space for the image */
+}
+
+/* Continuous rotation */
+.rotating-image {
+    width: 100%; /* Allow it to take the width of the container */
+    height: auto; /* Maintain aspect ratio */
+    animation: rotate 4s linear infinite; /* Continuous rotation animation */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Keyframes for continuous rotation */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg); /* Start at 0 degrees */
+    }
+    to {
+        transform: rotate(360deg); /* Rotate to 360 degrees */
+    }
+}
+
+/* Hover effect: bounce or zoom out */
+.image-container:hover .rotating-image {
+    transform: scale(1.1); /* Zoom in slightly */
+    animation: none; /* Stop the rotation during hover */
+}
+
+.carousel {
+    position: relative;
+    text-align: center;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    color: #004890;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+@media (max-width: 1024px) {
+    /* For md screens */
+    .w-540px {
+        width: 100%;
+        max-width: 400px; /* Adjust as necessary */
+    }
+    .h-540px {
+        height: 400px; /* Adjust as necessary */
+    }
+}
+
+@media (max-width: 640px) {
+    /* For sm screens */
+    .w-540px {
+        max-width: 100%; /* Full width */
+    }
+    .h-540px {
+        height: 300px; /* Adjust as necessary */
+    }
+}
+.perspective {
+    perspective: 1000px; /* Create a 3D perspective */
+}
+
+.flip-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Hide back face */
+}
+
+.flip-card-back {
+    transform: rotateY(180deg); /* Flip the back */
+}
+
+/* Hover effect */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg); /* Rotate on hover */
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+    .text-7xl {
+        font-size: 5rem; /* Adjust font size for tablets */
+    }
+    .text-lg {
+        font-size: 1.125rem; /* Adjust for tablets */
+    }
+    .text-xl {
+        font-size: 1.25rem; /* Adjust for tablets */
+    }
+  }
+  

@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.12"
+  },
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/assets/css/output.css --watch"
+  },
+  "author": "RISS",
+  "licenses": "RISS",
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.9",
+    "chart.js": "^4.4.4"
+  }
+}

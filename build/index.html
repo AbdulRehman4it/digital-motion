@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/output.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body class="">
+   
+    <!-- navbar start -->
+<nav class="shadow-lg bg-[#004890] py-6 md:py-4 px-12">
+  <div class="max-w-full">
+    <div class="flex justify-between items-center h-16">
+      <!-- Logo and Navigation -->
+      <div class="flex items-center space-x-6 md:space-x-4">
+        <!-- Logo -->
+        <div class="flex-shrink-0 md:w-[120px] lg:w-[120px]">
+          <a href="#">
+            <img src="./assets/img/Logo.png" alt="Company Logo" class="md:h-10 h-12 w-auto">
+          </a>
+        </div>
+        <!-- Navigation Links -->
+        <div>
+          <ul class="hidden md:flex space-x-6 md:space-x-4 items-center">
+            <li class="relative group">
+              <a href="#" class="secondaryfont text-white font-semibold text-xs md:text-xs lg:text-xl uppercase">Home</a>
+              <span class="block h-[2px] bg-white absolute bottom-0 left-0 w-0 group-hover:w-full transition-all duration-300 ease-in-out"></span>
+            </li>
+            <li class="relative group">
+              <a href="#" class="secondaryfont text-white font-semibold text-xs md:text-xs lg:text-xl uppercase">About</a>
+              <span class="block h-[2px] bg-white absolute bottom-0 left-0 w-0 group-hover:w-full transition-all duration-300 ease-in-out"></span>
+            </li>
+            <li class="relative group">
+              <a href="#" class="secondaryfont text-white font-semibold text-xs md:text-xs lg:text-xl uppercase">Services</a>
+              <span class="block h-[2px] bg-white absolute bottom-0 left-0 w-0 group-hover:w-full transition-all duration-300 ease-in-out"></span>
+            </li>
+            <li class="relative group">
+              <a href="#" class="secondaryfont text-white font-semibold text-xs md:text-xs lg:text-xl uppercase">Work</a>
+              <span class="block h-[2px] bg-white absolute bottom-0 left-0 w-0 group-hover:w-full transition-all duration-300 ease-in-out"></span>
+            </li>
+            <li class="relative group">
+              <a href="#" class="secondaryfont text-white font-semibold text-xs md:text-xs lg:text-xl uppercase">Blog</a>
+              <span class="block h-[2px] bg-white absolute bottom-0 left-0 w-0 group-hover:w-full transition-all duration-300 ease-in-out"></span>
+            </li>
+            <li class="relative group">
+              <a href="#" class="secondaryfont text-white font-semibold text-xs md:text-xs lg:text-xl uppercase">Contact</a>
+              <span class="block h-[2px] bg-white absolute bottom-0 left-0 w-0 group-hover:w-full transition-all duration-300 ease-in-out"></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Buttons and Social Icons -->
+      <div class="lg:flex items-center space-x-4 md:flex hidden">
+        <a href="#" class="hover:text-gray-400  md:w-4 lg:w-6">
+          <img src="./assets/img/facebook.png" alt="Facebook Icon" class="md:w-5 w-8">
+        </a>
+        <a href="#" class="hover:text-gray-400 md:w-4 lg:w-6">
+          <img src="./assets/img/insta.png" alt="Instagram Icon" class="md:w-5 w-8">
+        </a>
+        <a href="#" class="hover:text-gray-400 md:w-4 lg:w-6">
+          <img src="./assets/img/link.png" alt="LinkedIn Icon" class="md:w-5 w-8">
+        </a>
+        <button class="bg-white text-[#004890] md:px-3 lg:px-4 md:py-1 lg:py-2 secondaryfont rounded-xl font-bold flex items-center space-x-1 uppercase md:text-xs lg:text-base">
+          Make an Inquiry
+        </button>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <div class="lg:hidden md:hidden">
+        <button id="mobile-menu-button" class="text-white focus:outline-none">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="md:hidden hidden space-y-4" id="mobile-menu">
+    <ul class="space-y-4 px-4 pt-4 pb-3">
+      <li><a href="#" class="block secondaryfont text-white font-semibold text-sm uppercase">Home</a></li>
+      <li><a href="#" class="block secondaryfont text-white font-semibold text-sm uppercase">About</a></li>
+      <li><a href="#" class="block secondaryfont text-white font-semibold text-sm uppercase">Services</a></li>
+      <li><a href="#" class="block secondaryfont text-white font-semibold text-sm uppercase">Our Work</a></li>
+      <li><a href="#" class="block secondaryfont text-white font-semibold text-sm uppercase">Blog</a></li>
+      <li><a href="#" class="block secondaryfont text-white font-semibold text-sm uppercase">Contact</a></li>
+    </ul>
+    <button class="bg-white text-[#004890] px-4 py-2 secondaryfont rounded-xl font-bold flex items-center space-x-2 text-sm">
+      Make an Inquiry
+    </button>
+  </div>
+</nav>
+
+    <!-- navbar end -->
+
+ 
+<!-- hero start -->
+<section class="relative h-screen flex items-center lg:justify-start md:justify-center justify-center px-12" data-aos="fade-up">
+  <!-- Background Video -->
+  <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover">
+    <source src="./assets/img/video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Overlay to make text stand out -->
+  <div class="absolute inset-0 bg-black opacity-50"></div>
+
+  <!-- Text Content on Top of Video -->
+  <div class="relative z-10 text-left text-white lg:basis-3/4 basis-full flex flex-col items-center md:items-center lg:items-start" data-aos="fade-right">
+    <!-- Heading -->
+    <h1 class="text-4xl md:text-6xl lg:text-7xl herofont uppercase font-extrabold text-center lg:text-left leading-tight sm:leading-snug md:leading-normal lg:leading-normal">
+      Shaping Tomorrow's Technology Through
+    </h1>
+    
+    <!-- Spacing between heading and span -->
+    <span class="typewriter bg-[#004890] text-white px-4 py-2 rounded-lg text-4xl md:text-6xl lg:text-7xl herofont uppercase font-extrabold mt-4 lg:mt-6 text-center lg:text-left">
+      Dynamic Motion
+    </span>
+  </div>
+</section>
+
+ <!-- hero end -->
+  <!-- clientsection start  -->
+  <section class="py-12 px-12" >
+    <!-- Row 1 -->
+    <div class="flex flex-col items-center md:flex-row md:space-x-8 justify-between" >
+        <!-- Left Image -->
+        <div class="mb-4 md:mb-0 hidden sm:block image-container" data-aos="fade-right" >
+          <img src="./assets/img/heroleft.png" alt="Left Image" class="rotating-image w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 lg:mt-6 object-cover">
+      </div>
+      
+      
+        
+        <!-- Center Heading -->
+        <h1 class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-6xl md:text-4xl text-2xl md:mx-4" data-aos="fade-up">
+          OUR
+          <span class="herofont uppercase font-extrabold text-center bg-[#004890] text-white px-2 py-1 rounded-lg"> CLIENTS</span>
+      </h1>
+      
+        
+        <!-- Right Image -->
+        <div class="mt-4 md:mt-0 hidden sm:block image-container" data-aos="fade-left">
+            <img src="./assets/img/heroright.png" alt="Right Image" class="rotating-image w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 object-cover">
+        </div>
+    </div>
+  
+    <!-- Row 2 -->
+    <div class="my-12 text-center">
+        <p class="text-lg md:text-xl lg:text-2xl leading-relaxed text-[#444444] secondaryfont" data-aos="fade-up">
+            Over the last 20 years, Dynamic Motion has had the privilege to work with a high-profile community of market-leading local, regional, and international brands, including
+        </p>
+    </div>
+</section>
+
+  
+  <!-- Slider Start -->
+  <section class="py-12 hidden sm:block">
+    <!-- Row 3 -->
+    <div class=" overflow-hidden">
+      <!-- Slider Container with Marquee Effect -->
+      <div class="marquee animate-slide flex space-x-4">
+        <!-- Logo Items (6 logos, each taking equal width) -->
+        <img src="./assets/img/Mask group-1.png" alt="Company 1" class="h-20 flex-shrink-0 w-1/6 object-contain">
+        <img src="./assets/img/Mask group-2.png" alt="Company 2" class="h-20 flex-shrink-0 w-1/6 object-contain">
+        <img src="./assets/img/Mask group-3.png" alt="Company 3" class="h-20 flex-shrink-0 w-1/6 object-contain">
+        <img src="./assets/img/Mask group-4.png" alt="Company 4" class="h-20 flex-shrink-0 w-1/6 object-contain">
+        <img src="./assets/img/Mask group-5.png" alt="Company 5" class="h-20 flex-shrink-0 w-1/6 object-contain">
+        <img src="./assets/img/Mask group.png" alt="Company 6" class="h-20 flex-shrink-0 w-1/6 object-contain">
+        <!-- Duplicate the logos for continuous scrolling effect -->
+        <img src="./assets/img/Mask group-1.png" alt="Company 1" class="h-20 flex-shrink-0 w-1/6 object-contain">
+        <img src="./assets/img/Mask group-2.png" alt="Company 2" class="h-20 flex-shrink-0 w-1/6 object-contain">
+        <img src="./assets/img/Mask group-3.png" alt="Company 3" class="h-20 flex-shrink-0 w-1/6 object-contain">
+        <img src="./assets/img/Mask group-4.png" alt="Company 4" class="h-20 flex-shrink-0 w-1/6 object-contain">
+        <img src="./assets/img/Mask group-5.png" alt="Company 5" class="h-20 flex-shrink-0 w-1/6 object-contain">
+        <img src="./assets/img/Mask group.png" alt="Company 6" class="h-20 flex-shrink-0 w-1/6 object-contain">
+      </div>
+    </div>
+  </section>
+  <!-- Slider End -->
+
+  <!-- mobileslider -->
+  <section class="py-6 px-6">
+    <div class="carousel sm:hidden mx-3">
+        <div class="carousel-item">
+            <img src="./assets/img/Mask group.png" alt="Image 1" class="w-full h-40 object-contain mx-3">
+        </div>
+        <div class="carousel-item hidden">
+            <img src="./assets/img/Mask group-1.png" alt="Image 2" class="w-full h-40 object-contain mx-3">
+        </div>
+        <div class="carousel-item hidden">
+            <img src="./assets/img/Mask group-2.png" alt="Image 3" class="w-full h-40 object-contain mx-3">
+        </div>
+        <div class="carousel-item hidden">
+            <img src="./assets/img/Mask group-3.png" alt="Image 4" class="w-full h-40 object-contain mx-3">
+        </div>
+        <div class="carousel-item hidden">
+            <img src="./assets/img/Mask group-4.png" alt="Image 5" class="w-full h-40 object-contain mx-3">
+        </div>
+        <div class="carousel-item hidden">
+            <img src="./assets/img/Mask group-5.png" alt="Image 6" class="w-full h-40 object-contain mx-3">
+        </div>
+        <!-- Navigation Buttons -->
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+</section>
+  
+   <!-- clientsection end -->
+
+   <!-- service section start -->
+   <section class="bg-[#004890] py-10 lg:py-20 flex items-center" data-aos="fade-up">
+    <div class="container mx-auto flex flex-col md:flex-row h-full gap-8">
+        <!-- Div 1: Left Side -->
+        <div class="w-full lg:w-1/2 md:w-full p-4 flex flex-col justify-center text-center md:text-center lg:text-left" data-aos="fade-right">
+            <!-- Title Section with Span -->
+            <span class="bg-white text-[#004890] px-4 py-2 rounded-lg text-3xl md:text-4xl lg:text-6xl herofont uppercase font-extrabold mt-4 lg:mt-6 block mb-6">
+                Personalized
+            </span>
+
+            <!-- Main Heading -->
+            <h1 class="text-4xl md:text-4xl lg:text-6xl herofont uppercase font-extrabold leading-tight sm:leading-snug md:leading-normal lg:leading-normal text-white mb-8">
+                Marketing, Promo, and Event Services
+            </h1>
+
+            <!-- Paragraphs Section -->
+            <p class="secondaryfont text-white text-base md:text-lg lg:text-xl leading-relaxed lg:leading-[1.75] mb-6">
+                It’s the personal approach that has established Dynamic Motion as the go-to resource for a global portfolio of high-profile regional companies, multinationals, and government entities. We don’t treat all clients the same. We understand that you have individual brand needs and objectives; and we take the time to get to know your business, your industry, and your specific marketing goals.
+            </p>
+
+            <p class="secondaryfont text-white text-base md:text-lg lg:text-xl leading-relaxed lg:leading-[1.75] mb-6">
+                We match each client with a dedicated account management team so that you have a guaranteed point of contact from day one and our menu of bespoke services runs the full spectrum of marketing, promotional, and live event support. From initial discovery meeting through to post-event or campaign support, we take your brief to heart and work alongside you to create value at every opportunity.
+            </p>
+        </div>
+
+        <!-- Div 2: Right Side -->
+        <div class="hidden lg:grid md:w-1/2 grid-cols-2 gap-6" data-aos="fade-left">
+            <!-- Row 1 -->
+            <div class="h-48 md:h-56 lg:h-72 overflow-hidden perspective">
+              <div class="flip-card">
+                  <div class="flip-card-inner">
+                      <div class="flip-card-front h-full w-full">
+                          <img src="./assets/img/ser1.png" alt="Image 1" class="w-full h-full object-cover">
+                      </div>
+                      <div class="flip-card-back h-full w-full ">
+                        <img src="./assets/img/service1.png" alt="Image 1" class="w-full h-full object-cover">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="h-48 md:h-56 lg:h-72 overflow-hidden perspective">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front h-full w-full">
+                        <img src="./assets/img/ser2.png" alt="Image 1" class="w-full h-full object-cover">
+                    </div>
+                    <div class="flip-card-back h-full w-full ">
+                      <img src="./assets/img/service2.png" alt="Image 1" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!-- Row 2 -->
+            <div class="h-48 md:h-56 lg:h-72 overflow-hidden perspective">
+              <div class="flip-card">
+                  <div class="flip-card-inner">
+                      <div class="flip-card-front h-full w-full">
+                          <img src="./assets/img/ser3.png" alt="Image 1" class="w-full h-full object-cover">
+                      </div>
+                      <div class="flip-card-back h-full w-full ">
+                        <img src="./assets/img/service3.png" alt="Image 1" class="w-full h-full object-cover">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="h-48 md:h-56 lg:h-72 overflow-hidden perspective">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front h-full w-full">
+                        <img src="./assets/img/ser4.png" alt="Image 1" class="w-full h-full object-cover">
+                    </div>
+                    <div class="flip-card-back h-full w-full ">
+                      <img src="./assets/img/service4.png" alt="Image 1" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!-- Row 3 -->
+            <div class="h-48 md:h-56 lg:h-72 overflow-hidden perspective">
+              <div class="flip-card">
+                  <div class="flip-card-inner">
+                      <div class="flip-card-front h-full w-full">
+                          <img src="./assets/img/ser5.png" alt="Image 1" class="w-full h-full object-cover">
+                      </div>
+                      <div class="flip-card-back h-full w-full ">
+                        <img src="./assets/img/service5.png" alt="Image 1" class="w-full h-full object-cover">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="h-48 md:h-56 lg:h-72 overflow-hidden perspective">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front h-full w-full">
+                        <img src="./assets/img/ser6.png" alt="Image 1" class="w-full h-full object-cover">
+                    </div>
+                    <div class="flip-card-back h-full w-full ">
+                      <img src="./assets/img/service6.png" alt="Image 1" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Sliders for md and sm -->
+        <div class="md:hidden w-full">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./assets/img/ser1.png" alt="Image 1" class="w-full h-auto object-cover">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/ser2.png" alt="Image 2" class="w-full h-auto object-cover">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/ser3.png" alt="Image 3" class="w-full h-auto object-cover">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/ser4.png" alt="Image 4" class="w-full h-auto object-cover">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/ser5.png" alt="Image 5" class="w-full h-auto object-cover">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/img/ser6.png" alt="Image 6" class="w-full h-auto object-cover">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Include Swiper JS and CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper('.mySwiper', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
+
+    <!-- service section end -->
+     <!-- service 2 start -->
+     <section class="py-10 lg:py-20 " >
+      <div class="container mx-auto flex flex-col space-y-7">
+        <div class="flex flex-col items-center md:flex-row md:space-x-8 justify-between">
+          <!-- Left Image -->
+          <div class="mb-4 md:mb-0 hidden sm:block image-container" data-aos="fade-right">
+            <img src="./assets/img/shape3.png" alt="Left Image" class="rotating-image w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 lg:mt-6 object-cover">
+        </div>
+        
+        
+          
+          <!-- Center Heading -->
+          <h1 class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-6xl md:text-4xl text-2xl md:mx-4 px-2 py-1 leading-tight" data-aos="fade-up">
+            Innovative Work,
+            <br class="hidden sm:block">
+            <span class="typewriter lg:text-6xl md:text-4xl text-2xl  herofont uppercase font-extrabold text-center bg-[#004890] text-white px-2 py-1 rounded-lg block mt-2">Proven Impact</span>
+        </h1>
+        
+          
+          <!-- Right Image -->
+          <div class="mt-4 md:mt-0 hidden sm:block image-container" data-aos="fade-left">
+              <img src="./assets/img/shape4.png" alt="Right Image" class="rotating-image w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 object-cover">
+          </div>
+      </div>
+        <!-- Row 1 -->
+        <div class="flex justify-center mb-8">
+          <div class="flex flex-wrap justify-center gap-4">
+              <!-- Div 1 -->
+              <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center" style="background-image: url('./assets/img/p1.png');">
+                  
+                  <h2 class="text-white text-lg herofont uppercase font-extrabold mb-1">Production</h2>
+              
+              </div>
+
+              <!-- Div 2 -->
+              <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center" style="background-image: url('./assets/img/p2.png');">
+                 
+                  <h2 class="text-white text-lg herofont uppercase font-extrabold mb-1">Concept & Design</h2>
+                  
+              </div>
+
+              <!-- Div 3 -->
+              <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center" style="background-image: url('./assets/img/p3.png');">
+                  
+                  <h2 class="text-white text-lg herofont uppercase font-extrabold mb-1">Fit-out interiors</h2>
+                  
+              </div>
+          </div>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="flex justify-center">
+          <div class="flex flex-wrap justify-center gap-4">
+              <!-- Div 1 -->
+              <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center" style="background-image: url('./assets/img/p4.png');">
+                  
+                  <h2 class="text-white text-lg herofont uppercase font-extrabold mb-1">Events</h2>
+                  
+              </div>
+
+              <!-- Div 2 -->
+              <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center" style="background-image: url('./assets/img/p6.png');">
+                  
+                  <h2 class="text-white text-lg herofont uppercase font-extrabold mb-1">Exhibition stands</h2>
+                 
+              </div>
+
+              <!-- Div 3 -->
+              <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center" style="background-image: url('./assets/img/p5.png');">
+                  
+                  <h2 class="text-white text-lg herofont uppercase font-extrabold mb-1">Point of Sale & Shop n Shop</h2>
+                  
+              </div>
+          </div>
+          </div>
+  
+       
+      </div>
+  </section>
+  
+
+  
+      <!-- service 2 end -->
+
+      <!-- mission section start -->
+      <section class="py-10 lg:py-20 bg-contain bg-center" style="background-image: url('./assets/img/missinbg.png');" data-aos="fade-up">
+        <div class="container mx-auto flex flex-col md:flex-row gap-8  p-6 rounded-lg">
+            <!-- Left Div -->
+            <div class="flex flex-col w-full md:w-1/2" data-aos="fade-right">
+                <div class="flex items-center mb-4">
+                    <img src="./assets/img/i1.png" alt="Icon 1" class="w-8 h-8 mr-2"> <!-- Adjust icon size as needed -->
+                    <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-[#004890] primaryfont">Mission</h1>
+                </div>
+                <p class="text-base md:text-lg lg:text-xl text-[#444444] lg:leading-[46px] secondaryfont">
+                    We are passionate, inspired, and driven 24/7 to conceptualize, create, and deliver world-class brand events and marketing campaigns. Our focus is on adding tangible value to our clients' commercial propositions, catalyzing business potential, enhancing brand awareness, and enriching their reputation.
+                </p>
+            </div>
+    
+            <!-- Right Div -->
+            <div class="flex flex-col w-full md:w-1/2" data-aos="fade-left">
+                <div class="flex items-center mb-4">
+                    <img src="./assets/img/i2.png" alt="Icon 2" class="w-8 h-8 mr-2"> <!-- Adjust icon size as needed -->
+                    <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold text-[#004890] primaryfont">Vision</h1>
+                </div>
+                <p class="text-base md:text-lg lg:text-xl text-[#444444] lg:leading-[46px] secondaryfont">
+                    We continuously challenge ourselves to innovate and excite global audiences with engaging, purposeful content. As the go-to destination service for our ever-expanding international client portfolio, we work tirelessly to secure our position as an agile market leader in a transformative global economy.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    
+      <!-- mission section end -->
+
+
+
+      <!-- about sectionstart -->
+      <section class="h-screen flex flex-col md:flex-row lg:mt-28" data-aos="fade-up">
+        <!-- Left Div with Image -->
+        <div class="w-full md:w-1/2 h-full flex items-center justify-center p-6 lg:p-12" data-aos="fade-right">
+            <img src="./assets/img/aboutbg.png" alt="Description of the image" class="object-cover w-full h-full" />
+        </div>
+    
+        <!-- Right Div with Heading and Paragraphs -->
+        <div class="w-full md:w-1/2 flex flex-col justify-center p-6 lg:p-12 space-y-8" data-aos="fade-left">
+            <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl herofont uppercase font-extrabold text-[#004890] mb-4 lg:mb-6">UAE Beirut China KSA</h1>
+            <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-[#444444] leading-relaxed secondaryfont mb-4">
+                Fit-outs and Interior Concepts. Design visionaries. Event innovators. Production specialists. For more than two decades, Dynamic Motion has been helping world-leading brands and businesses successfully connect with their target audience.
+            </p>
+            <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-[#444444] leading-relaxed secondaryfont mb-4">
+                Whether it’s something as simple as an impactful premium through to turnkey exhibition presence, footfall-driving retail activations or large-scale headline making events, we have a 20-year-plus track record of delivering engaging, interactive experiences to complement your business goals.
+            </p>
+            <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-[#444444] leading-relaxed secondaryfont mb-4">
+                As dynamic as our name, our portfolio spans the globe with clients on four continents. Headquartered in Dubai, with offices and production facilities in the UAE, China, Lebanon and Saudi Arabia, our expert team has its finger on the pulse when it comes to putting your brand in the spotlight.
+            </p>
+        </div>
+    </section>
+    
+    
+       <!-- about section end -->
+<!-- counter start -->
+<section class="py-10 lg:py-20 bg-[#004890]" data-aos="fade-up">
+  <div class="flex flex-col items-center" data-aos="fade-up" >
+      <h2 class="text-3xl md:text-6xl lg:text-8xl text-white mb-8 herofont uppercase font-extrabold">Our Impact in Numbers</h2>
+      <div class="flex flex-wrap justify-center w-full"> <!-- Full width for all screens -->
+        
+          <!-- Counter 1 -->
+          <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up"> 
+              <span id="count1" class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white">0</span>
+              <span class="text-lg sm:text-xl secondaryfont text-white">Years of Experience</span>
+          </div>
+
+          <!-- Counter 2 -->
+          <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up"> 
+              <span id="count2" class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white">0</span>
+              <span class="text-lg sm:text-xl secondaryfont text-white">Successful Projects</span>
+          </div>
+
+          <!-- Counter 3 -->
+          <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up"> 
+              <span id="count3" class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white">0</span>
+              <span class="text-lg sm:text-xl secondaryfont text-white">Global Brands Served</span>
+          </div>
+
+          <!-- Counter 4 -->
+          <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up"> 
+              <span id="count4" class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white">0</span>
+              <span class="text-lg sm:text-xl secondaryfont text-white">Client Retention Rate</span>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-[#004890] text-white p-5 mt-3">
+  <div class="container mx-auto flex justify-between items-center">
+    <!-- Social Media Icons -->
+    <div class="flex space-x-4">
+      <a href="#" class="hover:text-gray-400">
+        <img src="./assets/img/facebook.png" alt="Facebook Icon">
+      </a>
+      <a href="#" class="hover:text-gray-400">
+        <img src="./assets/img/insta.png" alt="Twitter Icon">
+      </a>
+      <a href="#" class="hover:text-gray-400">
+        <img src="./assets/img/link.png" alt="Instagram Icon">
+      </a>
+    </div>
+    
+    <!-- Copyright Text -->
+    <div class="text-right secondaryfont text-white ">
+      &copy;Dynamic Motion. 2020
+    </div>
+  </div>
+</footer>
+
+
+
+<script>
+  // Function to animate counters
+  function animateCounter(id, endValue, duration) {
+      let startValue = 0;
+      const stepTime = Math.abs(Math.floor(duration / endValue));
+      const counterElement = document.getElementById(id);
+
+      const counter = setInterval(() => {
+          startValue += 1;
+          counterElement.textContent = startValue;
+          if (startValue === endValue) {
+              clearInterval(counter);
+          }
+      }, stepTime);
+  }
+
+  // Trigger counters on scroll
+  const counters = [
+      { id: "count1", endValue: 150, duration: 2000 },
+      { id: "count2", endValue: 100, duration: 2000 },
+      { id: "count3", endValue: 50, duration: 2000 },
+      { id: "count4", endValue: 20, duration: 2000 }
+  ];
+
+  let hasAnimated = false;
+
+  window.addEventListener("scroll", () => {
+      const section = document.querySelector("section");
+      const sectionTop = section.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+
+      if (!hasAnimated && sectionTop < windowHeight) {
+          counters.forEach(counter => {
+              animateCounter(counter.id, counter.endValue, counter.duration);
+          });
+          hasAnimated = true; // Prevents counter from animating multiple times
+      }
+  });
+</script>
+
+ <!-- counter end -->
+    
+
+
+
+    <script>
+      const mobileMenuButton = document.getElementById('mobile-menu-button');
+      const mobileMenu = document.getElementById('mobile-menu');
+  
+      mobileMenuButton.addEventListener('click', () => {
+          mobileMenu.classList.toggle('hidden');
+      });
+  </script>
+  <script>
+   let currentSlide = 0;
+
+    function showSlide(index) {
+        const slides = document.querySelectorAll('.carousel-item');
+        slides.forEach((slide, i) => {
+            slide.classList.toggle('hidden', i !== index);
+        });
+    }
+
+    function changeSlide(direction) {
+        const slides = document.querySelectorAll('.carousel-item');
+        currentSlide = (currentSlide + direction + slides.length) % slides.length;
+        showSlide(currentSlide);
+    }
+
+    // Show the first slide on load
+    showSlide(currentSlide);
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
