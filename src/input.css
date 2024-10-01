@@ -280,4 +280,24 @@
     animation: fadeZoomColor 2s ease-in-out forwards, shake 0.5s 2.5s ease-in-out;
   }
   
+  .puzzle-piece {
+    transition: transform 1s ease-in-out;
+  }
+  
+/* Hover effect for each piece */
+.puzzle-container:hover .piece1 {
+    transform: translate(calc(100% + 16px), calc(100% + 16px)); /* Move right and down, add gap */
+  }
+  
+  .puzzle-container:hover .piece2 {
+    transform: translate(calc(-100% - 16px), calc(100% + 16px)); /* Move left and down, add gap */
+  }
+  
+  .puzzle-container:hover .piece3 {
+    transform: translate(calc(100% + 16px), calc(-100% - 16px)); /* Move right and up, add gap */
+  }
+  
+  .puzzle-container:hover .piece4 {
+    transform: translate(calc(-100% - 16px), calc(-100% - 16px)); /* Move left and up, add gap */
+  }
   

@@ -933,6 +933,10 @@ select {
   display: none;
 }
 
+.h-1\/2 {
+  height: 50%;
+}
+
 .h-10 {
   height: 2.5rem;
 }
@@ -969,6 +973,10 @@ select {
   height: 15rem;
 }
 
+.h-72 {
+  height: 18rem;
+}
+
 .h-8 {
   height: 2rem;
 }
@@ -983,6 +991,10 @@ select {
 
 .h-\[300px\] {
   height: 300px;
+}
+
+.h-\[40\%\] {
+  height: 40%;
 }
 
 .h-auto {
@@ -1041,8 +1053,16 @@ select {
   width: 16rem;
 }
 
+.w-72 {
+  width: 18rem;
+}
+
 .w-8 {
   width: 2rem;
+}
+
+.w-\[40\%\] {
+  width: 40%;
 }
 
 .w-auto {
@@ -1285,6 +1305,26 @@ select {
 .bg-\[\#00AFCE\] {
   --tw-bg-opacity: 1;
   background-color: rgb(0 175 206 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#6B5B95\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 91 149 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#88B04B\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(136 176 75 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#F7CAC9\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 202 201 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#FF6F61\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 111 97 / var(--tw-bg-opacity));
 }
 
 .bg-black {
@@ -2089,6 +2129,32 @@ select {
   animation: fadeZoomColor 2s ease-in-out forwards, shake 0.5s 2.5s ease-in-out;
 }
 
+.puzzle-piece {
+  transition: transform 1s ease-in-out;
+}
+
+/* Hover effect for each piece */
+
+.puzzle-container:hover .piece1 {
+  transform: translate(calc(100% + 16px), calc(100% + 16px));
+  /* Move right and down, add gap */
+}
+
+.puzzle-container:hover .piece2 {
+  transform: translate(calc(-100% - 16px), calc(100% + 16px));
+  /* Move left and down, add gap */
+}
+
+.puzzle-container:hover .piece3 {
+  transform: translate(calc(100% + 16px), calc(-100% - 16px));
+  /* Move right and up, add gap */
+}
+
+.puzzle-container:hover .piece4 {
+  transform: translate(calc(-100% - 16px), calc(-100% - 16px));
+  /* Move left and up, add gap */
+}
+
 .placeholder\:text-gray-400::-moz-placeholder {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
@@ -2285,6 +2351,10 @@ select {
     margin-top: 0px;
   }
 
+  .md\:block {
+    display: block;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -2463,6 +2533,10 @@ select {
     margin-top: 1.5rem;
   }
 
+  .lg\:block {
+    display: block;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -2608,5 +2682,4 @@ select {
     line-height: 1.5;
   }
 }
-  
   
