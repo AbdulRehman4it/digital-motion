@@ -14,7 +14,7 @@
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </head>
-  <body class="overflow-x-hidden">
+  <body class="overflow-x-hidden ">
     <!-- navbar start -->
     <nav class="shadow-lg bg-[#004890] py-6 md:py-4 px-12">
       <div class="max-w-full">
@@ -46,7 +46,7 @@
                 </li>
                 <li class="relative group">
                   <a
-                    href="about.php"
+                    href="aboutus.php"
                     class="secondaryfont text-white font-semibold text-xs md:text-xs lg:text-xl uppercase"
                     >About</a
                   >
