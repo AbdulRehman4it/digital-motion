@@ -158,42 +158,42 @@
         <ul class="space-y-4 px-4 pt-4 pb-3">
           <li>
             <a
-              href="#"
+              href="index.php"
               class="block secondaryfont text-white font-semibold text-sm uppercase"
               >Home</a
             >
           </li>
           <li>
             <a
-              href="#"
+              href="aboutus.php"
               class="block secondaryfont text-white font-semibold text-sm uppercase"
               >About</a
             >
           </li>
           <li>
             <a
-              href="#"
+              href="service.php"
               class="block secondaryfont text-white font-semibold text-sm uppercase"
               >Services</a
             >
           </li>
           <li>
             <a
-              href="#"
+              href="acceeditations.php"
               class="block secondaryfont text-white font-semibold text-sm uppercase"
               >Our Work</a
             >
           </li>
           <li>
             <a
-              href="#"
+              href="blog.php"
               class="block secondaryfont text-white font-semibold text-sm uppercase"
               >Blog</a
             >
           </li>
           <li>
             <a
-              href="#"
+              href="contact.php"
               class="block secondaryfont text-white font-semibold text-sm uppercase"
               >Contact</a
             >
