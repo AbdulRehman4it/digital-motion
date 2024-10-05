@@ -73,6 +73,80 @@ require_once('./inc/top.php');
 </section>
 
  <!-- tean section main end -->
+   <!-- counter start -->
+   <section class="py-10 lg:py-20 bg-[#004890]" data-aos="fade-up">
+      <div class="flex flex-col items-center text-center" data-aos="fade-up">
+        <h2
+          class="text-3xl md:text-4xl lg:text-5xl text-white mb-8 herofont uppercase font-extrabold"
+        >
+          Our Impact in Numbers
+        </h2>
+        <div class="flex flex-wrap justify-center w-full">
+          <!-- Full width for all screens -->
+
+          <!-- Counter 1 -->
+          <div
+            class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4"
+            data-aos="fade-up"
+          >
+            <span
+              id="count1"
+              class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white"
+              >0</span
+            >
+            <span class="text-lg sm:text-xl secondaryfont text-white"
+              >Years of Experience</span
+            >
+          </div>
+
+          <!-- Counter 2 -->
+          <div
+            class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4"
+            data-aos="fade-up"
+          >
+            <span
+              id="count2"
+              class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white"
+              >0</span
+            >
+            <span class="text-lg sm:text-xl secondaryfont text-white"
+              >Successful Projects</span
+            >
+          </div>
+
+          <!-- Counter 3 -->
+          <div
+            class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4"
+            data-aos="fade-up"
+          >
+            <span
+              id="count3"
+              class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white"
+              >0</span
+            >
+            <span class="text-lg sm:text-xl secondaryfont text-white"
+              >Global Brands Served</span
+            >
+          </div>
+
+          <!-- Counter 4 -->
+          <div
+            class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4"
+            data-aos="fade-up"
+          >
+            <span
+              id="count4"
+              class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white"
+              >0</span
+            >
+            <span class="text-lg sm:text-xl secondaryfont text-white"
+              >Client Retention Rate</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+ 
 <!-- Image Cards Section -->
 <section class="lg:py-12 md:py-12 py-4 lg:px-12 md:px-12 px-1 space-y-9">
   <!-- Row 1: Meet Our Team Heading -->
