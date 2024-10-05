@@ -7,7 +7,7 @@
 </head>
 <body>
     <script>
-        // Redirect to a file within a folder
+        
         window.location.href = "./build/index.php"; // Relative path to the target file
     </script>
 </body>
