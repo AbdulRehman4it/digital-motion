@@ -727,7 +727,7 @@ require_once('./inc/top.php');
     </section>
  
     <!-- about sectionstart -->
-    <section class="flex flex-col md:flex-row lg:mt-28 " data-aos="fade-up">
+<section class="flex flex-col md:flex-row lg:mt-28 " data-aos="fade-up">
       <!-- Left Div with Image mobile -->
    <div
    class="w-full md:w-1/2 h-full flex items-center justify-center p-6 lg:p-12 md:hidden lg:hidden"
