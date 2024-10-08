@@ -24,45 +24,14 @@ require_once('./inc/top.php');
 
 <!-- Right Column (3x3 Flexbox of Images) -->
 <div class="w-full md:w-1/2 flex flex-col gap-4 unique-animation-container">
-  <!-- Row 1 -->
-  <div class="flex gap-4">
-    <div class="unique-image-wrapper">
-      <img src="./assets/img/t1.png" alt="Image 1" />
-    </div>
-    <div class="unique-image-wrapper">
-      <img src="./assets/img/t2.png" alt="Image 2" />
-    </div>
-    <div class="unique-image-wrapper">
-      <img src="./assets/img/t3.png" alt="Image 3" />
-    </div>
-  </div>
-
-  <!-- Row 2 -->
-  <div class="flex gap-4">
-    <div class="unique-image-wrapper">
-      <img src="./assets/img/t4.png" alt="Image 4" />
-    </div>
-    <div class="unique-image-wrapper">
-      <img src="./assets/img/t5.png" alt="Image 5" />
-    </div>
-    <div class="unique-image-wrapper">
-      <img src="./assets/img/t6.png" alt="Image 6" />
-    </div>
-  </div>
-
-  <!-- Row 3 -->
-  <div class="flex gap-4">
-    <div class="unique-image-wrapper">
-      <img src="./assets/img/t7.png" alt="Image 7" />
-    </div>
-    <div class="unique-image-wrapper">
-      <img src="./assets/img/t8.png" alt="Image 8" />
-    </div>
-    <div class="unique-image-wrapper">
-      <img src="./assets/img/t1.png" alt="Image 9" />
+  <!-- Video Section -->
+  <div class="flex justify-center">
+    <div class="unique-video-wrapper">
+      <video src="./assets/img/video.mp4" alt="Your Video" controls class="w-full h-auto rounded-md"></video>
     </div>
   </div>
 </div>
+
 
     
     </section>

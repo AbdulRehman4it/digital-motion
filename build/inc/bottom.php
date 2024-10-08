@@ -53,19 +53,24 @@
     { id: "count4", endValue: 20, duration: 2000 },
   ];
 
+  let countersAnimated = false; // Flag to track if counters have been animated
+
   window.addEventListener("scroll", () => {
     const section = document.querySelector("section");
     const sectionTop = section.getBoundingClientRect().top;
     const windowHeight = window.innerHeight;
 
-    if (sectionTop < windowHeight) {
+    // Check if the section is in the viewport and if counters have not been animated
+    if (sectionTop < windowHeight && !countersAnimated) {
       resetCounters(); // Reset counters before starting animation
       counters.forEach((counter) => {
         animateCounter(counter.id, counter.endValue, counter.duration);
       });
+      countersAnimated = true; // Set the flag to true after animating
     }
   });
 </script>
+
 
 
     

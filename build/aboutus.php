@@ -47,6 +47,9 @@ require_once('./inc/top.php');
 
 
 </section>
+
+
+
 <section class="lg:py-12 md:py-12 py-4 lg:px-12 md:px-12 px-1 bg-[#F5F8FB]">
       <!-- Row 3: Team Members -->
   <div class="flex flex-wrap justify-center ">
@@ -71,7 +74,28 @@ require_once('./inc/top.php');
     </div>
   </div>
 </section>
-
+<section class="py-16 mx-[100px] flex flex-col items-center">
+    <h2 class="uppercase font-extrabold text-[#004890] text-4xl md:text3xl lg:text-5xl text-center mb-8">Our Core Values</h2>
+    <div class="flex flex-col md:flex-row justify-center gap-6 md:gap-8">
+        <!-- Core Value 1 -->
+        <div class="flex-1 bg-white p-4 md:p-6 rounded-lg shadow-md text-center space-y-3">
+            <h3 class="uppercase font-extrabold text-[#004890] text-xl md:text-2xl lg:text-3xl">Integrity</h3>
+            <p class="text-base md:text-lg lg:text-xl text-[#444444] secondaryfont leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam soluta totam vel at quibusdam quas reiciendis dolores, libero nam quae, nulla dicta ipsum incidunt. Doloremque nulla soluta alias! Soluta, optio.</p>
+        </div>
+        
+        <!-- Core Value 2 -->
+        <div class="flex-1 bg-white p-4 md:p-6 rounded-lg shadow-md text-center space-y-3">
+            <h3 class="uppercase font-extrabold text-[#004890] text-xl md:text-2xl lg:text-3xl">Innovation</h3>
+            <p class="text-base md:text-lg lg:text-xl text-[#444444] secondaryfont leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam soluta totam vel at quibusdam quas reiciendis dolores, libero nam quae, nulla dicta ipsum incidunt. Doloremque nulla soluta alias! Soluta, optio.</p>
+        </div>
+        
+        <!-- Core Value 3 -->
+        <div class="flex-1 bg-white p-4 md:p-6 rounded-lg shadow-md text-center space-y-3">
+            <h3 class="uppercase font-extrabold text-[#004890] text-xl md:text-2xl lg:text-3xl">Customer Focus</h3>
+            <p class="text-base md:text-lg lg:text-xl text-[#444444] secondaryfont leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam soluta totam vel at quibusdam quas reiciendis dolores, libero nam quae, nulla dicta ipsum incidunt. Doloremque nulla soluta alias! Soluta, optio.</p>
+        </div>
+    </div>
+</section>
  <!-- tean section main end -->
    <!-- counter start -->
    <section class="py-10 lg:py-20 bg-[#004890]" data-aos="fade-up">
