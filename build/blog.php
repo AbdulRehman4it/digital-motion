@@ -13,7 +13,7 @@ $recent_blogs = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 
 <!-- Slider Section -->
-<section class="py-12 px-12">
+<section class="py-12 px-12" data-aos="flip-left">
   <div class="flex flex-col items-center md:flex-row md:space-x-8 justify-between">
     <!-- Left Image -->
     <div class="mb-4 md:mb-0 hidden sm:block image-container" data-aos="flip-left">
@@ -73,7 +73,7 @@ $stmt->execute();
 // Fetch all blogs in the specified category
 $blogs = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
-<section class="py-12 px-12">
+<section class="py-12 px-12" data-aos="flip-right">
     <div class="relative w-full max-w-full mb-8">
         <input 
             type="text" 

@@ -3,11 +3,11 @@ $webtitle='Services';
 require_once('./inc/top.php');
 ?>
     <!-- Hero Section Start -->
-    <section class="flex flex-wrap justify-between items-center py-6 md:py-12 lg:py-24 h-auto  px-6 lg:px-[100px]">
+    <section class="flex flex-wrap justify-between items-center py-6 md:py-12 lg:py-24 h-auto  px-6 lg:px-[100px]" data-aos="flip-left">
       <!-- Left Column (Heading and Paragraphs) -->
-      <div class="w-full md:w-1/2 space-y-6 lg:space-y-10 md:space-y-10">
+      <div class="w-full md:w-1/2 space-y-6 lg:space-y-10 md:space-y-10 lg:p-6 md:p-4 p-0">
         <!-- Heading -->
-        <h1 class="uppercase herofont font-extrabold text-[#004890] lg:text-6xl md:text-4xl text-2xl text-left">
+        <h1 class="uppercase font-extrabold text-[#004890] lg:text-6xl md:text-4xl text-2xl text-left">
           Concept and Design
         </h1>
 
@@ -22,23 +22,48 @@ require_once('./inc/top.php');
         </p>
       </div>
 
-      <!-- Right Column (3x3 Grid of Images) -->
-      <div class="w-full md:w-1/2 grid grid-cols-3 gap-4">
-        <!-- Row 1 Images -->
-        <img src="./assets/img/t1.png" alt="Image 1" class="w-full h-auto object-cover rounded-md" />
-        <img src="./assets/img/t2.png" alt="Image 2" class="w-full h-auto object-cover rounded-md" />
-        <img src="./assets/img/t3.png" alt="Image 3" class="w-full h-auto object-cover rounded-md" />
+<!-- Right Column (3x3 Flexbox of Images) -->
+<div class="w-full md:w-1/2 flex flex-col gap-4 unique-animation-container">
+  <!-- Row 1 -->
+  <div class="flex gap-4">
+    <div class="unique-image-wrapper">
+      <img src="./assets/img/t1.png" alt="Image 1" />
+    </div>
+    <div class="unique-image-wrapper">
+      <img src="./assets/img/t2.png" alt="Image 2" />
+    </div>
+    <div class="unique-image-wrapper">
+      <img src="./assets/img/t3.png" alt="Image 3" />
+    </div>
+  </div>
 
-        <!-- Row 2 Images -->
-        <img src="./assets/img/t4.png" alt="Image 4" class="w-full h-auto object-cover rounded-md" />
-        <img src="./assets/img/t5.png" alt="Image 5" class="w-full h-auto object-cover rounded-md" />
-        <img src="./assets/img/t6.png" alt="Image 6" class="w-full h-auto object-cover rounded-md" />
+  <!-- Row 2 -->
+  <div class="flex gap-4">
+    <div class="unique-image-wrapper">
+      <img src="./assets/img/t4.png" alt="Image 4" />
+    </div>
+    <div class="unique-image-wrapper">
+      <img src="./assets/img/t5.png" alt="Image 5" />
+    </div>
+    <div class="unique-image-wrapper">
+      <img src="./assets/img/t6.png" alt="Image 6" />
+    </div>
+  </div>
 
-        <!-- Row 3 Images -->
-        <img src="./assets/img/t7.png" alt="Image 7" class="w-full h-auto object-cover rounded-md" />
-        <img src="./assets/img/t8.png" alt="Image 8" class="w-full h-auto object-cover rounded-md" />
-        <img src="./assets/img/t1.png" alt="Image 9" class="w-full h-auto object-cover rounded-md" />
-      </div>
+  <!-- Row 3 -->
+  <div class="flex gap-4">
+    <div class="unique-image-wrapper">
+      <img src="./assets/img/t7.png" alt="Image 7" />
+    </div>
+    <div class="unique-image-wrapper">
+      <img src="./assets/img/t8.png" alt="Image 8" />
+    </div>
+    <div class="unique-image-wrapper">
+      <img src="./assets/img/t1.png" alt="Image 9" />
+    </div>
+  </div>
+</div>
+
     
     </section>
     <!-- Hero Section End -->

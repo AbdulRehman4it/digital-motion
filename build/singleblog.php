@@ -51,15 +51,15 @@ if ($stmt->rowCount() > 0) {
     <!-- Jumbotron Section -->
     <div class="relative bg-cover bg-center h-[600px]" style="background-image: url('<?php echo htmlspecialchars($coverImage); ?>');">
         <div class="absolute inset-0 bg-black opacity-30"></div>
-        <div class="relative z-10 text-white p-4">
+        <div class="relative z-10 text-white p-4" data-aos="flip-left">
             <h2 class="text-2xl">Welcome to Our Blog</h2>
         </div>
     </div>
     
-    <p class="text-lg md:text-xl mt-4">
+    <p class="text-lg md:text-xl mt-4" data-aos="flip-left">
         <?php echo nl2br(htmlspecialchars($blogContent)); ?>
     </p>
-    <p class="text-lg md:text-xl mt-4">
+    <p class="text-lg md:text-xl mt-4" data-aos="flip-left">
         <?php echo nl2br(htmlspecialchars($blogContent2)); ?>
     </p>
 </section>
@@ -75,7 +75,7 @@ if ($stmt->rowCount() > 0) {
         <h1 class="uppercase herofont font-extrabold text-[#004890] lg:text-6xl md:text-4xl text-2xl text-left mb-4">
             <?php echo htmlspecialchars($blogSecondTitle); ?>
         </h1>
-        <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-[#444444] leading-relaxed secondaryfont mb-4">
+        <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-[#444444] leading-relaxed secondaryfont mb-4" data-aos="flip-left">
             Fit-outs and Interior Concepts. Design visionaries. Event innovators. Production specialists. For more than two decades, Dynamic Motion has been helping world-leading brands and businesses successfully connect with their target audience.
         </p>
     </div>

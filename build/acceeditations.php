@@ -16,7 +16,7 @@ require_once('./inc/top.php');
           <img
             src="./assets/img/accedit1.png"
             alt="Left Image"
-            class="rotating-image w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 lg:mt-6 object-cover"
+            class="rotating-image w- h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 lg:mt-6 object-cover"
           />
         </div>
 

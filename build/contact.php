@@ -4,7 +4,7 @@ require_once('./inc/top.php');
 ?>
 
 
-      <section class="my-24 px-6 md:px-12 lg:px-24">
+      <section class="my-24 px-6 md:px-12 lg:px-24" data-aos="flip-right">
         <div class="bg-background p-8 flex flex-col items-center space-y-14">
             <div class="flex justify-between w-full">
                 <img src="./assets/img/c1.png" alt="Left Image" class="hidden md:inline-block w-20 h-20"> <!-- Small image on the left side -->
@@ -44,7 +44,7 @@ require_once('./inc/top.php');
     
     
     
-   <section class="mt-8 w-full py-8 bg-[#F5F8FB]">
+   <section class="mt-8 w-full py-8 bg-[#F5F8FB]" data-aos="flip-left">
     <div>
         
         <div class="flex flex-wrap justify-between">
