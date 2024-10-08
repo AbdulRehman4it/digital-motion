@@ -4,11 +4,17 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-// Database credentials
+// // Database credentials local
+// $servername = getenv('DB_HOST') ?: 'localhost';
+// $username = getenv('DB_USER') ?: 'root';
+// $password = getenv('DB_PASS') ?: '';
+// $dbname = getenv('DB_NAME') ?: 'blogadmin';
+
+// Database credentials server
 $servername = getenv('DB_HOST') ?: 'localhost';
-$username = getenv('DB_USER') ?: 'root';
-$password = getenv('DB_PASS') ?: '';
-$dbname = getenv('DB_NAME') ?: 'blogadmin';
+$username = getenv('DB_USER') ?: 'u927419660_Riss226721';
+$password = getenv('DB_PASS') ?: 'Riss226721@@';
+$dbname = getenv('DB_NAME') ?: 'u927419660_Riss226721';
 
 try {
     // Create a new PDO instance
