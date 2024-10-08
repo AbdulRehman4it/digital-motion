@@ -6,6 +6,7 @@ require_once('./inc/top.php');
     <section class="flex flex-wrap justify-between items-center py-6 md:py-12 lg:py-24 h-auto  px-6 lg:px-[100px]" data-aos="flip-left">
       <!-- Left Column (Heading and Paragraphs) -->
       <div class="w-full md:w-1/2 space-y-6 lg:space-y-10 md:space-y-10 lg:p-6 md:p-4 p-0">
+        
         <!-- Heading -->
         <h1 class="uppercase font-extrabold text-[#004890] lg:text-6xl md:text-4xl text-2xl text-left">
           Concept and Design

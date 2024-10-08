@@ -18,7 +18,7 @@
 
         <!-- Copyright Text -->
         <div class="text-right secondaryfont text-white">
-          &copy;Dynamic Motion. 2020
+          &copy;Dynamic Motion. 2024
         </div>
       </div>
     </footer>

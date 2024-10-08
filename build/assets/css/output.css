@@ -2744,6 +2744,10 @@ select {
     margin-top: 1.5rem;
   }
 
+  .lg\:ml-4 {
+    margin-left: 1rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -2790,6 +2794,10 @@ select {
 
   .lg\:w-\[120px\] {
     width: 120px;
+  }
+
+  .lg\:flex-shrink-0 {
+    flex-shrink: 0;
   }
 
   .lg\:basis-3\/4 {
