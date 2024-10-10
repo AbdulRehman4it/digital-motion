@@ -78,19 +78,19 @@ require_once('./inc/top.php');
     <h2 class="uppercase font-extrabold text-[#004890] text-4xl md:text3xl lg:text-5xl text-center mb-8">Our Core Values</h2>
     <div class="flex flex-col md:flex-row justify-center gap-6 md:gap-8">
         <!-- Core Value 1 -->
-        <div class="flex-1 bg-white p-4 md:p-6 rounded-lg shadow-md text-center space-y-3">
+        <div class="flex-1 bg-white p-4 md:p-6 rounded-lg shadow-md text-center space-y-12">
             <h3 class="uppercase font-extrabold text-[#004890] text-xl md:text-2xl lg:text-3xl">Integrity</h3>
             <p class="text-base md:text-lg lg:text-xl text-[#444444] secondaryfont leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam soluta totam vel at quibusdam quas reiciendis dolores, libero nam quae, nulla dicta ipsum incidunt. Doloremque nulla soluta alias! Soluta, optio.</p>
         </div>
         
         <!-- Core Value 2 -->
-        <div class="flex-1 bg-white p-4 md:p-6 rounded-lg shadow-md text-center space-y-3">
+        <div class="flex-1 bg-white p-4 md:p-6 rounded-lg shadow-md text-center space-y-12">
             <h3 class="uppercase font-extrabold text-[#004890] text-xl md:text-2xl lg:text-3xl">Innovation</h3>
             <p class="text-base md:text-lg lg:text-xl text-[#444444] secondaryfont leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam soluta totam vel at quibusdam quas reiciendis dolores, libero nam quae, nulla dicta ipsum incidunt. Doloremque nulla soluta alias! Soluta, optio.</p>
         </div>
         
         <!-- Core Value 3 -->
-        <div class="flex-1 bg-white p-4 md:p-6 rounded-lg shadow-md text-center space-y-3">
+        <div class="flex-1 bg-white p-4 md:p-6 rounded-lg shadow-md text-center space-y-12">
             <h3 class="uppercase font-extrabold text-[#004890] text-xl md:text-2xl lg:text-3xl">Customer Focus</h3>
             <p class="text-base md:text-lg lg:text-xl text-[#444444] secondaryfont leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam soluta totam vel at quibusdam quas reiciendis dolores, libero nam quae, nulla dicta ipsum incidunt. Doloremque nulla soluta alias! Soluta, optio.</p>
         </div>
@@ -98,78 +98,82 @@ require_once('./inc/top.php');
 </section>
  <!-- tean section main end -->
    <!-- counter start -->
-   <section class="py-10 lg:py-20 bg-[#004890]" data-aos="fade-up">
-      <div class="flex flex-col items-center text-center" data-aos="fade-up">
-        <h2
-          class="text-3xl md:text-4xl lg:text-5xl text-white mb-8 herofont uppercase font-extrabold"
-        >
-          Our Impact in Numbers
-        </h2>
-        <div class="flex flex-wrap justify-center w-full">
-          <!-- Full width for all screens -->
-
-          <!-- Counter 1 -->
-          <div
-            class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4"
-            data-aos="fade-up"
-          >
-            <span
-              id="count1"
-              class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white"
-              >0</span
-            >
-            <span class="text-lg sm:text-xl secondaryfont text-white"
-              >Years of Experience</span
-            >
-          </div>
-
-          <!-- Counter 2 -->
-          <div
-            class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4"
-            data-aos="fade-up"
-          >
-            <span
-              id="count2"
-              class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white"
-              >0</span
-            >
-            <span class="text-lg sm:text-xl secondaryfont text-white"
-              >Successful Projects</span
-            >
-          </div>
-
-          <!-- Counter 3 -->
-          <div
-            class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4"
-            data-aos="fade-up"
-          >
-            <span
-              id="count3"
-              class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white"
-              >0</span
-            >
-            <span class="text-lg sm:text-xl secondaryfont text-white"
-              >Global Brands Served</span
-            >
-          </div>
-
-          <!-- Counter 4 -->
-          <div
-            class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4"
-            data-aos="fade-up"
-          >
-            <span
-              id="count4"
-              class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white"
-              >0</span
-            >
-            <span class="text-lg sm:text-xl secondaryfont text-white"
-              >Client Retention Rate</span
-            >
-          </div>
-        </div>
+   <section class="py-10 lg:py-20 bg-[#004890]" data-aos="fade-up" id="impactSection">
+  <div class="flex flex-col items-center text-center" data-aos="fade-up">
+    <h2 class="text-3xl md:text-4xl lg:text-5xl text-white mb-8 herofont uppercase font-extrabold">
+      Our Impact in Numbers
+    </h2>
+    <div class="flex flex-wrap justify-center w-full">
+      <!-- Counter 1 -->
+      <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up">
+        <span id="count1" class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white">0</span>
+        <span class="text-lg sm:text-xl secondaryfont text-white">Years of Experience</span>
       </div>
-    </section>
+
+      <!-- Counter 2 -->
+      <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up">
+        <span id="count2" class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white">0</span>
+        <span class="text-lg sm:text-xl secondaryfont text-white">Successful Projects</span>
+      </div>
+
+      <!-- Counter 3 -->
+      <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up">
+        <span id="count3" class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white">0</span>
+        <span class="text-lg sm:text-xl secondaryfont text-white">Global Brands Served</span>
+      </div>
+
+      <!-- Counter 4 -->
+      <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up">
+        <span id="count4" class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white">0</span>
+        <span class="text-lg sm:text-xl secondaryfont text-white">Client Retention Rate</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Function to animate counters
+  function animateCounter(id, endValue, duration) {
+    let startValue = 0;
+    const stepTime = Math.abs(Math.floor(duration / endValue));
+    const counterElement = document.getElementById(id);
+
+    const counter = setInterval(() => {
+      startValue += 1;
+      counterElement.textContent = startValue;
+      if (startValue === endValue) {
+        clearInterval(counter);
+      }
+    }, stepTime);
+  }
+
+  // Trigger counters on scroll
+  const counters = [
+    { id: "count1", endValue: 150, duration: 2000 },
+    { id: "count2", endValue: 100, duration: 2000 },
+    { id: "count3", endValue: 50, duration: 2000 },
+    { id: "count4", endValue: 20, duration: 2000 },
+  ];
+
+  // Intersection Observer to detect when the section is in view
+  const section = document.getElementById("impactSection");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        // Reset counters to 0 before animating
+        counters.forEach((counter) => {
+          document.getElementById(counter.id).textContent = 0; // Reset to 0
+          animateCounter(counter.id, counter.endValue, counter.duration); // Animate the counter
+        });
+      }
+    });
+  });
+
+  // Start observing the section
+  observer.observe(section);
+</script>
+
  
 <!-- Image Cards Section -->
 <section class="lg:py-12 md:py-12 py-4 lg:px-12 md:px-12 px-1 space-y-9">

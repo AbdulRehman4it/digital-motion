@@ -7,9 +7,16 @@ require_once('./inc/top.php');
       <!-- Left Column (Heading and Paragraphs) -->
       <div class="w-full md:w-1/2 space-y-6 lg:space-y-10 md:space-y-10 lg:p-6 md:p-4 p-0">
         <!-- Heading -->
-        <h1 class="uppercase font-extrabold text-[#004890] lg:text-6xl md:text-4xl text-2xl text-left">
-          Concept and Design
-        </h1>
+        <div class="flex items-center justify-between">
+  <h1 class="uppercase font-extrabold text-[#004890] lg:text-6xl md:text-4xl text-2xl text-left">
+    Fillout interior
+  </h1>
+  <img
+    src="./assets/img/heroleft.png"
+    alt="Left Image"
+    class="hidden md:block rotating-image w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 lg:mt-6 object-cover"
+  />
+</div>
 
         <!-- Paragraph 1 -->
         <p class="text-left text-lg md:text-xl lg:text-2xl text-[#444444] secondaryfont leading-relaxed">

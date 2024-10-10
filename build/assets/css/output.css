@@ -891,10 +891,6 @@ select {
   margin-bottom: 2rem;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -1013,6 +1009,10 @@ select {
 
 .h-96 {
   height: 24rem;
+}
+
+.h-\[100\%\] {
+  height: 100%;
 }
 
 .h-\[2px\] {
@@ -1239,6 +1239,12 @@ select {
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
+.space-y-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
@@ -1269,10 +1275,10 @@ select {
   margin-bottom: calc(2.25rem * var(--tw-space-y-reverse));
 }
 
-.space-y-3 > :not([hidden]) ~ :not([hidden]) {
+.space-y-12 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
-  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3rem * var(--tw-space-y-reverse));
 }
 
 .overflow-hidden {
@@ -1964,8 +1970,6 @@ select {
   /* Hides the overflowing text */
   white-space: nowrap;
   /* Prevents text wrapping */
-  border-right: 4px solid rgba(255, 255, 255, 0.75);
-  /* Creates the blinking cursor effect */
   animation: typewriter 4s steps(30) forwards, blink 0.75s step-end infinite;
   /* Combines both animations */
   position: relative;
@@ -2635,12 +2639,12 @@ select {
     padding: 1rem;
   }
 
-  .md\:p-8 {
-    padding: 2rem;
-  }
-
   .md\:p-6 {
     padding: 1.5rem;
+  }
+
+  .md\:p-8 {
+    padding: 2rem;
   }
 
   .md\:px-12 {
@@ -2670,6 +2674,11 @@ select {
 
   .md\:text-center {
     text-align: center;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .md\:text-3xl {
@@ -2707,16 +2716,6 @@ select {
     line-height: 1rem;
   }
 
-  .md\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .md\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
-  }
-
   .md\:leading-normal {
     line-height: 1.5;
   }
@@ -2742,10 +2741,6 @@ select {
 
   .lg\:mt-6 {
     margin-top: 1.5rem;
-  }
-
-  .lg\:ml-4 {
-    margin-left: 1rem;
   }
 
   .lg\:block {
@@ -2794,10 +2789,6 @@ select {
 
   .lg\:w-\[120px\] {
     width: 120px;
-  }
-
-  .lg\:flex-shrink-0 {
-    flex-shrink: 0;
   }
 
   .lg\:basis-3\/4 {
@@ -2896,6 +2887,11 @@ select {
     line-height: 2rem;
   }
 
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -2924,11 +2920,6 @@ select {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 
   .lg\:leading-\[1\.75\] {

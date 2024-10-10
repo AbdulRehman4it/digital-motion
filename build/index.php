@@ -510,88 +510,75 @@ require_once('./inc/top.php');
             />
           </div>
         </div>
-        <!-- Row 1 -->
-        <div class="flex justify-center mb-8">
-          <div class="flex flex-wrap justify-center gap-4">
-            <!-- Div 1 -->
-            <div
-              class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center"
-              style="background-image: url('./assets/img/p1.png')"
-            >
-              <h2
-                class="text-white text-lg herofont uppercase font-extrabold mb-1"
-              >
-                Production
-              </h2>
-            </div>
+        <div class="flex flex-wrap justify-center gap-4">
+  <!-- Div 1 -->
+   <a href="./production.php">
+  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/p1.png')">
+    
+    <!-- Overlay -->
+    <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+      <span class="text-white text-center">More about Production</span>
+    </div>
+  </div>
+  </a>
+  <!-- Div 2 -->
+   <a href="./ConceptandDesign.php">
+  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/p2.png')">
+    
+    <!-- Overlay -->
+    <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+      <span class="text-white text-center">More about Concept & Design</span>
+    </div>
+  </div>
+  </a>
+  <!-- Div 3 -->
+   <a href="./FIlloutandinterior.php">
+  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/p3.png')">
+    
+    <!-- Overlay -->
+    <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+      <span class="text-white text-center">More about Fit-out Interiors</span>
+    </div>
+  </div>
+  </a>
+</div>
 
-            <!-- Div 2 -->
-            <div
-              class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center"
-              style="background-image: url('./assets/img/p2.png')"
-            >
-              <h2
-                class="text-white text-lg herofont uppercase font-extrabold mb-1"
-              >
-                Concept & Design
-              </h2>
-            </div>
-
-            <!-- Div 3 -->
-            <div
-              class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center"
-              style="background-image: url('./assets/img/p3.png')"
-            >
-              <h2
-                class="text-white text-lg herofont uppercase font-extrabold mb-1"
-              >
-                Fit-out interiors
-              </h2>
-            </div>
-          </div>
-        </div>
-
-        <!-- Row 2 -->
-        <div class="flex justify-center">
-          <div class="flex flex-wrap justify-center gap-4">
-            <!-- Div 1 -->
-            <div
-              class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center"
-              style="background-image: url('./assets/img/p4.png')"
-            >
-              <h2
-                class="text-white text-lg herofont uppercase font-extrabold mb-1"
-              >
-                Events
-              </h2>
-            </div>
-
-            <!-- Div 2 -->
-            <div
-              class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center"
-              style="background-image: url('./assets/img/p6.png')"
-            >
-              <h2
-                class="text-white text-lg herofont uppercase font-extrabold mb-1"
-              >
-                Exhibition stands
-              </h2>
-            </div>
-
-            <!-- Div 3 -->
-            <div
-              class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center"
-              style="background-image: url('./assets/img/p5.png')"
-            >
-              <h2
-                class="text-white text-lg herofont uppercase font-extrabold mb-1"
-              >
-                Point of Sale & Shop n Shop
-              </h2>
-            </div>
-          </div>
-        </div>
+<!-- Row 2 -->
+<div class="flex justify-center">
+  <div class="flex flex-wrap justify-center gap-4">
+    <!-- Div 1 -->
+     <a href="./Event Managment.php">
+    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/p4.png')">
+      
+      <!-- Overlay -->
+      <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+        <span class="text-white text-center">More about Events</span>
       </div>
+    </div>
+    </a>
+    <!-- Div 2 -->
+     <a href="./Exibition Stand.php">
+    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/p6.png')">
+      
+      <!-- Overlay -->
+      <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+        <span class="text-white text-center">More about Exhibition Stands</span>
+      </div>
+    </div>
+    </a>
+    <!-- Div 3 -->
+     <a href="./Pointofsale.php">
+    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/p5.png')">
+      
+      <!-- Overlay -->
+      <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+        <span class="text-white text-center">More about POS & Shop n Shop</span>
+      </div>
+    </div>
+    </a>
+  </div>
+</div>
+
     </section>
 
     <!-- service 2 end -->
@@ -653,79 +640,84 @@ require_once('./inc/top.php');
 
     <!-- mission section end -->
     <!-- counter start -->
-    <section class="py-10 lg:py-20 bg-[#004890]" data-aos="fade-up">
-      <div class="flex flex-col items-center text-center" data-aos="fade-up">
-        <h2
-          class="text-3xl md:text-4xl lg:text-5xl text-white mb-8 herofont uppercase font-extrabold"
-        >
-          Our Impact in Numbers
-        </h2>
-        <div class="flex flex-wrap justify-center w-full">
-          <!-- Full width for all screens -->
-
-          <!-- Counter 1 -->
-          <div
-            class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4"
-            data-aos="fade-up"
-          >
-            <span
-              id="count1"
-              class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white"
-              >0</span
-            >
-            <span class="text-lg sm:text-xl secondaryfont text-white"
-              >Years of Experience</span
-            >
-          </div>
-
-          <!-- Counter 2 -->
-          <div
-            class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4"
-            data-aos="fade-up"
-          >
-            <span
-              id="count2"
-              class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white"
-              >0</span
-            >
-            <span class="text-lg sm:text-xl secondaryfont text-white"
-              >Successful Projects</span
-            >
-          </div>
-
-          <!-- Counter 3 -->
-          <div
-            class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4"
-            data-aos="fade-up"
-          >
-            <span
-              id="count3"
-              class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white"
-              >0</span
-            >
-            <span class="text-lg sm:text-xl secondaryfont text-white"
-              >Global Brands Served</span
-            >
-          </div>
-
-          <!-- Counter 4 -->
-          <div
-            class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4"
-            data-aos="fade-up"
-          >
-            <span
-              id="count4"
-              class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white"
-              >0</span
-            >
-            <span class="text-lg sm:text-xl secondaryfont text-white"
-              >Client Retention Rate</span
-            >
-          </div>
-        </div>
+    <section class="py-10 lg:py-20 bg-[#004890]" data-aos="fade-up" id="impactSection">
+  <div class="flex flex-col items-center text-center" data-aos="fade-up">
+    <h2 class="text-3xl md:text-4xl lg:text-5xl text-white mb-8 herofont uppercase font-extrabold">
+      Our Impact in Numbers
+    </h2>
+    <div class="flex flex-wrap justify-center w-full">
+      <!-- Counter 1 -->
+      <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up">
+        <span id="count1" class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white">0</span>
+        <span class="text-lg sm:text-xl secondaryfont text-white">Years of Experience</span>
       </div>
-    </section>
- 
+
+      <!-- Counter 2 -->
+      <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up">
+        <span id="count2" class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white">0</span>
+        <span class="text-lg sm:text-xl secondaryfont text-white">Successful Projects</span>
+      </div>
+
+      <!-- Counter 3 -->
+      <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up">
+        <span id="count3" class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white">0</span>
+        <span class="text-lg sm:text-xl secondaryfont text-white">Global Brands Served</span>
+      </div>
+
+      <!-- Counter 4 -->
+      <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up">
+        <span id="count4" class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white">0</span>
+        <span class="text-lg sm:text-xl secondaryfont text-white">Client Retention Rate</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Function to animate counters
+  function animateCounter(id, endValue, duration) {
+    let startValue = 0;
+    const stepTime = Math.abs(Math.floor(duration / endValue));
+    const counterElement = document.getElementById(id);
+
+    const counter = setInterval(() => {
+      startValue += 1;
+      counterElement.textContent = startValue;
+      if (startValue === endValue) {
+        clearInterval(counter);
+      }
+    }, stepTime);
+  }
+
+  // Trigger counters on scroll
+  const counters = [
+    { id: "count1", endValue: 150, duration: 2000 },
+    { id: "count2", endValue: 100, duration: 2000 },
+    { id: "count3", endValue: 50, duration: 2000 },
+    { id: "count4", endValue: 20, duration: 2000 },
+  ];
+
+  // Intersection Observer to detect when the section is in view
+  const section = document.getElementById("impactSection");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        // Reset counters to 0 before animating
+        counters.forEach((counter) => {
+          document.getElementById(counter.id).textContent = 0; // Reset to 0
+          animateCounter(counter.id, counter.endValue, counter.duration); // Animate the counter
+        });
+      }
+    });
+  });
+
+  // Start observing the section
+  observer.observe(section);
+</script>
+
+
+
     <!-- about sectionstart -->
 <section class="flex flex-col md:flex-row lg:mt-28 " data-aos="fade-up">
       <!-- Left Div with Image mobile -->
@@ -776,6 +768,42 @@ require_once('./inc/top.php');
              </p>
          </div>
      </section>
+     <section class="my-24 px-6 md:px-12 lg:px-24" data-aos="flip-right">
+        <div class="bg-background p-8 flex flex-col items-center space-y-14">
+            <div class="flex justify-between w-full">
+                <img src="./assets/img/c1.png" alt="Left Image" class="hidden md:inline-block w-20 h-20"> <!-- Small image on the left side -->
+                <h1 class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-6xl md:text-4xl text-2xl leading-loose" data-aos="fade-up">
+                    <span class="herofont uppercase font-extrabold text-center bg-[#004890] text-white px-2 py-1 rounded-lg">Get in Touch</span>
+                    for Inquiries and Feedback
+                </h1>
+                <img src="./assets/img/c2.png" alt="Right Image" class="hidden md:inline-block w-20 h-20"> <!-- Small image on the right side -->
+            </div>
+            <p class="text-lg md:text-xl lg:text-2xl leading-relaxed text-[#444444] secondaryfont" data-aos="fade-up">
+                Your Questions, Feedback, and Inquiries Matter! Use the Form to Share Your Thoughts, and Our Team Will Get Back to You Promptly.
+            </p>
+            <form class="space-y-6 w-full mx-auto"> <!-- LG properties -->
+                <div class="flex flex-wrap -mx-2">
+                    <div class="w-full md:w-1/2 px-2 mb-4 md:mb-0"> <!-- LG properties -->
+                        <label class="block text-[#004890] font-bold mb-2" for="name">Name*</label>
+                        <input class="w-full p-4 border border-[#004890] rounded-full focus:outline-none focus:ring-2 focus:ring-[#004890] transition duration-200" type="text" id="name" placeholder="Enter your name here" required />
+                    </div>
+                    <div class="w-full md:w-1/2 px-2 mb-4 md:mb-0"> <!-- LG properties -->
+                        <label class="block text-[#004890] font-bold mb-2" for="email">Email*</label>
+                        <input class="w-full p-4 border border-[#004890] rounded-full focus:outline-none focus:ring-2 focus:ring-[#004890] transition duration-200" type="email" id="email" placeholder="Enter your email here" required />
+                    </div>
+                </div>
+                <div class="flex flex-wrap -mx-2 items-center"> 
+                    <div class="w-full md:w-3/4 px-2 mb-4 md:mb-0 mt-3"> <!-- LG properties -->
+                        <label class="block text-[#004890] font-bold mb-2" for="message">Message</label>
+                        <textarea class="w-full p-4 border border-[#004890] rounded-full focus:outline-none focus:ring-2 focus:ring-[#004890] transition duration-200 h-16 resize-none" id="message" placeholder="Type here..." required></textarea>
+                    </div>
+                    <div class="w-full md:w-1/4 px-2 flex items-center pt-9"> <!-- LG properties -->
+                        <button class="text-[#004890] hover:text-white bg-white hover:bg-[#004890] p-4 md:p-1 lg:p-4 font-bold border border-[#004890] rounded-full w-full h-16 transition duration-200" type="submit">Send Message</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
 
      <?php
 require_once('./inc/bottom.php');

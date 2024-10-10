@@ -87,7 +87,7 @@ $categories = $stmt->fetchAll(PDO::FETCH_ASSOC);
               </ul>
             </li>
             <li class="relative group">
-              <a href="acceeditations.php" class="secondaryfont text-white font-semibold text-xs md:text-xs lg:text-xl uppercase">Work</a>
+              <a href="ourwork.php" class="secondaryfont text-white font-semibold text-xs md:text-xs lg:text-xl uppercase">Work</a>
               <span class="block h-[2px] bg-white absolute bottom-0 left-0 w-0 group-hover:w-full transition-all duration-300 ease-in-out"></span>
             </li>
             <li class="relative group">

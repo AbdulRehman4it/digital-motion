@@ -88,7 +88,7 @@
     display: inline-block; /* Keeps the span inline */
     overflow: hidden; /* Hides the overflowing text */
     white-space: nowrap; /* Prevents text wrapping */
-    border-right: 4px solid rgba(255, 255, 255, 0.75); /* Creates the blinking cursor effect */
+   
     animation: typewriter 4s steps(30) forwards, blink 0.75s step-end infinite; /* Combines both animations */
     position: relative; /* Needed for border positioning */
     padding-right: 10px; /* Add some space for the cursor */
@@ -333,3 +333,14 @@
     }
   }
   
+  .tabs .tab {
+    background-color: transparent; /* Default background */
+    color: black; /* Default text color */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.tabs .tab.active {
+    background-color: #004890; /* Active background color */
+    color: black; /* Text color stays black */
+    font-weight: bold; /* Make text bold */
+}
