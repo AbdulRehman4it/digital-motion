@@ -24,14 +24,23 @@ require_once('./inc/top.php');
   </div>
 
   <!-- Gallery Section -->
-  <div class="my-12">
+<div class="mt-12">
     <div class="flex justify-center">
-      <div class="tabs flex space-x-4 mb-4">
-        <button class="tab active" data-target="gallery1">Project Alpha</button>
-        <button class="tab" data-target="gallery2">Project Beta</button>
-        <button class="tab" data-target="gallery3">Project Gamma</button>
-        <button class="tab" data-target="gallery4">Project Delta</button>
-      </div>
+    <div class="tabs flex space-x-4 mb-12 ">
+  <button class="tab active px-4 py-2 text-white bg-[#004890] herofont uppercase font-bold  border-2 border-[#004890] rounded-md shadow-md hover:bg-[#003366] transition duration-300 ease-in-out" data-target="gallery1">
+    Project Alpha
+  </button>
+  <button class="tab px-4 py-2 text-[#004890] bg-white herofont uppercase font-bold border-2 border-[#004890] rounded-md shadow-md hover:bg-[#004890] hover:text-white transition duration-300 ease-in-out" data-target="gallery2">
+    Project Beta
+  </button>
+  <button class="tab px-4 py-2 text-[#004890] bg-white herofont uppercase font-bold border-2 border-[#004890] rounded-md shadow-md hover:bg-[#004890] hover:text-white transition duration-300 ease-in-out" data-target="gallery3">
+    Project Gamma
+  </button>
+  <button class="tab px-4 py-2 text-[#004890] bg-white herofont uppercase font-bold border-2 border-[#004890] rounded-md shadow-md hover:bg-[#004890] hover:text-white transition duration-300 ease-in-out" data-target="gallery4">
+    Project Delta
+  </button>
+</div>
+
     </div>
 
     <!-- Image Galleries -->
@@ -108,7 +117,7 @@ require_once('./inc/bottom.php');
 
       // Remove active class from all tabs and add to the clicked tab
       tabs.forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
+      tab.classList.add('active',);
     });
   });
 </script>
