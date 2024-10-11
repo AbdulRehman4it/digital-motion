@@ -2,22 +2,9 @@
 $webtitle='About';
 require_once('./inc/top.php');
 ?>
-<section>
-<div class="relative h-screen bg-cover bg-center" style="background-image: url('./assets/img/aboutjumbo.png');">
-  <!-- Overlay -->
-  <div class="absolute inset-0 "></div>
-
-
-</div>
-
-
-</section>
-
-
-<!-- team section main -->
-<section class="lg:py-12 md:py-12 py-4 lg:px-12 md:px-12 px-1 flex flex-col items-center text-center">
-  <!-- Row 1: Meet Our Team Heading -->
-  <div class="flex flex-col items-center justify-center w-full">
+<section class="space-y-10 mt-10">
+    <!-- Row 1: Meet Our Team Heading -->
+    <div class="flex flex-col items-center justify-center w-full">
     <h1
       class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-6xl md:text-4xl text-3xl md:mx-4"
       data-aos="fade-up"
@@ -30,6 +17,20 @@ require_once('./inc/top.php');
       </span>
     </h1>
   </div>
+<div class="relative h-[500px] bg-cover bg-center" style="background-image: url('./assets/img/aboutjumbo.png');">
+  <!-- Overlay -->
+  <div class="absolute inset-0 "></div>
+
+
+</div>
+
+
+</section>
+
+
+<!-- team section main -->
+<section class="lg:py-12 md:py-12 py-4 lg:px-12 md:px-12 px-1 flex flex-col items-center text-center">
+
 
   <!-- Row 2: Introduction Text -->
   <div class="my-12 w-full">
@@ -51,10 +52,21 @@ require_once('./inc/top.php');
 
 
 <section class="lg:py-12 md:py-12 py-4 lg:px-12 md:px-12 px-1 bg-[#F5F8FB]">
-      <!-- Row 3: Team Members -->
-  <div class="flex flex-wrap justify-center ">
-    <!-- Team Member 1 -->
-    <div class="max-w-xs lg:mx-4 md:mx-4 mx-0 mb-8 text-center bg-white shadow-lg rounded-lg p-6 space-y-4" data-aos="fade-up">
+  <!-- Row 3: Team Members and Center Content -->
+  <div class="flex flex-col lg:flex-row justify-between items-center lg:items-start lg:space-x-8 space-y-8 lg:space-y-0">
+    
+    <!-- Center Heading and Paragraph (Move to Top on sm/md) -->
+    <div class="w-full lg:w-1/3 order-1 lg:order-2 text-center px-4 lg:px-0 py-0 md:py-0 lg:py-20" data-aos="fade-up">
+      <h1 class="text-3xl lg:text-4xl herofont uppercase font-extrabold text-[#004890] mb-4">
+        Meet Our Team
+      </h1>
+      <p class="text-lg lg:text-xl text-[#444444] secondaryfont">
+        We pride ourselves on a talented team that delivers top-notch services for our clients globally. Our team consists of experts in marketing, creativity, and innovation.
+      </p>
+    </div>
+
+    <!-- Team Member 1 (Left) (Move to Bottom on sm/md) -->
+    <div class="max-w-xs w-full lg:w-1/3 order-2 lg:order-1 text-center bg-white shadow-lg rounded-lg p-6 space-y-4 lg:mx-0 mb-8 lg:mb-0" data-aos="fade-up">
       <img class="rounded-lg" src="./assets/img/team1.png" alt="John Smith" />
       <h3 class="text-2xl herofont uppercase font-extrabold text-[#004890] mt-4">JOHN SMITH</h3>
       <p class="text-[#444444] secondaryfont">Chief Executive Officer</p>
@@ -63,8 +75,8 @@ require_once('./inc/top.php');
       </p>
     </div>
 
-    <!-- Team Member 2 -->
-    <div class="max-w-xs lg:mx-4 md:mx-4 mx-0 mb-8 text-center bg-white shadow-lg rounded-lg p-6 space-y-4" data-aos="fade-up">
+    <!-- Team Member 2 (Right) (Move to Bottom on sm/md) -->
+    <div class="max-w-xs w-full lg:w-1/3 order-3 text-center bg-white shadow-lg rounded-lg p-6 space-y-4 lg:mx-0" data-aos="fade-up">
       <img class="rounded-lg" src="./assets/img/team2.png" alt="Jane Doe" />
       <h3 class="text-2xl herofont uppercase font-extrabold text-[#004890] mt-4">JANE DOE</h3>
       <p class="text-[#444444] secondaryfont">Creative Director</p>
@@ -72,8 +84,11 @@ require_once('./inc/top.php');
         A visionary in design, Jane transforms concepts into visually stunning experiences, ensuring every project maintains a high standard of creativity and cohesion.
       </p>
     </div>
+
   </div>
 </section>
+
+
 <section class="py-16 mx-[100px] flex flex-col items-center">
     <h2 class="uppercase font-extrabold text-[#004890] text-4xl md:text3xl lg:text-5xl text-center mb-8">Our Core Values</h2>
     <div class="flex flex-col md:flex-row justify-center gap-6 md:gap-8">
@@ -149,10 +164,10 @@ require_once('./inc/top.php');
 
   // Trigger counters on scroll
   const counters = [
-    { id: "count1", endValue: 150, duration: 2000 },
-    { id: "count2", endValue: 100, duration: 2000 },
-    { id: "count3", endValue: 50, duration: 2000 },
-    { id: "count4", endValue: 20, duration: 2000 },
+    { id: "count1", endValue: 30, duration: 2000 },
+    { id: "count2", endValue: 1000, duration: 2000 },
+    { id: "count3", endValue: 300, duration: 2000 },
+    { id: "count4", endValue: 100, duration: 2000 },
   ];
 
   // Intersection Observer to detect when the section is in view

@@ -691,10 +691,10 @@ require_once('./inc/top.php');
 
   // Trigger counters on scroll
   const counters = [
-    { id: "count1", endValue: 150, duration: 2000 },
-    { id: "count2", endValue: 100, duration: 2000 },
-    { id: "count3", endValue: 50, duration: 2000 },
-    { id: "count4", endValue: 20, duration: 2000 },
+    { id: "count1", endValue: 30, duration: 2000 },
+    { id: "count2", endValue: 1000, duration: 2000 },
+    { id: "count3", endValue: 300, duration: 2000 },
+    { id: "count4", endValue: 100, duration: 2000 },
   ];
 
   // Intersection Observer to detect when the section is in view
