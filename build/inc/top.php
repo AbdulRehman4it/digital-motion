@@ -20,8 +20,7 @@
 
 
     <!-- navbar end -->
-
-    <nav class="shadow-lg bg-[#004890] py-6 md:py-4 px-12">
+<nav class="shadow-lg bg-[#004890] py-6 md:py-4 px-12">
   <div class="max-w-full">
     <div class="flex justify-between items-center h-16">
       <!-- Logo and Navigation -->
@@ -179,3 +178,4 @@ $categories = $stmt->fetchAll(PDO::FETCH_ASSOC);
     mobileMenu.classList.toggle('hidden');
   });
 </script>
+
