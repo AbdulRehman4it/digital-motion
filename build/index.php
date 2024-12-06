@@ -570,7 +570,7 @@ require_once('./inc/top.php');
   // Trigger counters on scroll
   const counters = [
     { id: "count1", endValue: 30, duration: 2000 },
-    { id: "count2", endValue: 10000, duration: 500 },
+    { id: "count2", endValue: 10000, duration: 2000 },
     { id: "count3", endValue: 300, duration: 2000 },
     { id: "count4", endValue: 100, duration: 2000 },
   ];

@@ -102,16 +102,16 @@ $categories = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
       <!-- Buttons and Social Icons -->
       <div class="lg:flex items-center space-x-4 md:flex hidden">
-        <a href="https://www.facebook.com/profile.php?id=100039447206044" class="hover:text-gray-400 md:w-4 lg:w-6">
+        <a href="https://www.facebook.com/profile.php?id=100039447206044" target="_blank" class="hover:text-gray-400 md:w-4 lg:w-6">
           <img src="./assets/img/facebook.png" alt="Facebook Icon" class="md:w-5 w-8" />
         </a>
-        <a href="https://www.instagram.com/dynamicmotion.mena" class="hover:text-gray-400 md:w-4 lg:w-6">
+        <a href="https://www.instagram.com/dynamicmotion.mena" target="_blank" class="hover:text-gray-400 md:w-4 lg:w-6">
           <img src="./assets/img/insta.png" alt="Instagram Icon" class="md:w-5 w-8" />
         </a>
-        <a href="https://www.linkedin.com/company/dynamic-motion-llc/" class="hover:text-gray-400 md:w-4 lg:w-6">
+        <a href="https://www.linkedin.com/company/dynamic-motion-llc/" target="_blank" class="hover:text-gray-400 md:w-4 lg:w-6">
           <img src="./assets/img/link.png" alt="LinkedIn Icon" class="md:w-5 w-8" />
         </a>
-        <a href="https://calendly.com/liyala/30min?back=1&month=2024-11">
+        <a href="https://calendly.com/liyala/30min?back=1&month=2024-11" target="_blank">
         <button class="bg-white text-[#004890] md:px-3 lg:px-4 md:py-1 lg:py-2 secondaryfont rounded-xl font-bold flex items-center space-x-1 uppercase md:text-xs lg:text-base">Make an Inquiry</button></a>
       </div>
 

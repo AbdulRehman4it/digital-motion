@@ -5,13 +5,13 @@
       <div class="container mx-auto flex justify-between items-center">
         <!-- Social Media Icons -->
         <div class="flex space-x-4">
-          <a href="https://www.facebook.com/profile.php?id=100039447206044" class="hover:text-gray-400">
+          <a href="https://www.facebook.com/profile.php?id=100039447206044" target="_blank" class="hover:text-gray-400">
             <img src="./assets/img/facebook.png" alt="Facebook Icon" class="w-6 h-6"/>
           </a>
-          <a href="https://www.instagram.com/dynamicmotion.mena" class="hover:text-gray-400">
+          <a href="https://www.instagram.com/dynamicmotion.mena" target="_blank" class="hover:text-gray-400">
             <img src="./assets/img/insta.png" alt="Twitter Icon" class="w-6 h-6" />
           </a>
-          <a href="https://www.linkedin.com/company/dynamic-motion-llc/" class="hover:text-gray-400">
+          <a href="https://www.linkedin.com/company/dynamic-motion-llc/" target="_blank" class="hover:text-gray-400">
             <img src="./assets/img/link.png" alt="Instagram Icon" class="w-6 h-6"/>
           </a>
         </div>
