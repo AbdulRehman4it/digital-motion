@@ -152,7 +152,7 @@ With a team of 200+ professionals, we collaborate with top brands to create unfo
       <!-- Counter 4 -->
       <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up">
         <span id="count4" class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white">0</span>
-        <span class="text-xl sm:text-xl secondaryfont text-white capitalize">Client Retention Rate</span>
+        <span class="text-xl sm:text-xl secondaryfont text-white capitalize">Client Retention Rates</span>
       </div>
     </div>
   </div>
