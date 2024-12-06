@@ -594,6 +594,93 @@ require_once('./inc/top.php');
   observer.observe(section);
 </script>
 
+<section class="py-10 px-5 lg:px-20 bg-white">
+  <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+    <!-- Column 1 -->
+    <div class="flex flex-col items-center space-y-4" data-aos="fade-up">
+      <!-- Video Div -->
+      <div class="w-full h-40 bg-gray-200">
+        <video class="w-full h-full object-cover" autoplay muted loop>
+          <source src="./assets/img/v1.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <!-- Text Div -->
+      <div class="text-center">
+      <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl herofont uppercase font-extrabold text-[#004890] mb-4 lg:mb-6">
+             CHINA
+             </h1>
+             <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-[#444444] leading-relaxed secondaryfont mb-4">
+                 Fit-outs and Interior Concepts. Design Visionaries. Event Innovators. Production Specialists. For over two decades, Dynamic Motion has helped world-leading brands and businesses connect meaningfully with their audiences.
+
+             </p>
+      </div>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="flex flex-col items-center space-y-4" data-aos="fade-up">
+      <!-- Video Div -->
+      <div class="w-full h-40 bg-gray-200">
+        <video class="w-full h-full object-cover" autoplay muted loop>
+          <source src="./assets/img/v2.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <!-- Text Div -->
+      <div class="text-center">
+      <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl herofont uppercase font-extrabold text-[#004890] mb-4 lg:mb-6">
+             EGYPT
+             </h1>
+             <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-[#444444] leading-relaxed secondaryfont mb-4">
+                 Fit-outs and Interior Concepts. Design Visionaries. Event Innovators. Production Specialists. For over two decades, Dynamic Motion has helped world-leading brands and businesses connect meaningfully with their audiences.
+
+             </p>
+      </div>
+    </div>
+
+    <!-- Column 3 -->
+    <div class="flex flex-col items-center space-y-4" data-aos="fade-up">
+      <!-- Video Div -->
+      <div class="w-full h-40 bg-gray-200">
+        <video class="w-full h-full object-cover" autoplay muted loop>
+          <source src="./assets/img/v3.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <!-- Text Div -->
+      <div class="text-center">
+      <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl herofont uppercase font-extrabold text-[#004890] mb-4 lg:mb-6">
+             KSA
+             </h1>
+             <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-[#444444] leading-relaxed secondaryfont mb-4">
+                 Fit-outs and Interior Concepts. Design Visionaries. Event Innovators. Production Specialists. For over two decades, Dynamic Motion has helped world-leading brands and businesses connect meaningfully with their audiences.
+
+             </p>
+      </div>
+    </div>
+
+    <!-- Column 4 -->
+    <div class="flex flex-col items-center space-y-4" data-aos="fade-up">
+      <!-- Video Div -->
+      <div class="w-full h-40 bg-gray-200">
+        <video class="w-full h-full object-cover" autoplay muted loop>
+          <source src="./assets/img/v4.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <!-- Text Div -->
+      <div class="text-center">
+      <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl herofont uppercase font-extrabold text-[#004890] mb-4 lg:mb-6">
+             UAE
+             </h1>
+             <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-[#444444] leading-relaxed secondaryfont mb-4">
+                 Fit-outs and Interior Concepts. Design Visionaries. Event Innovators. Production Specialists. For over two decades, Dynamic Motion has helped world-leading brands and businesses connect meaningfully with their audiences.
+
+             </p>
+      </div>
+    </div>
+  </div>
+</section>
 
 
     <!-- about sectionstart -->
