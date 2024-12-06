@@ -20,7 +20,7 @@ require_once('./inc/top.php');
       </video>
 
       <!-- Overlay to make text stand out -->
-      <div class="absolute inset-0 bg-black opacity-50"></div>
+      <div class="absolute inset-0 bg-transparent opacity-50"></div>
 
       <!-- Text Content on Top of Video -->
       <div
