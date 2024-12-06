@@ -610,10 +610,7 @@ require_once('./inc/top.php');
       <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl herofont uppercase font-extrabold text-[#004890] mb-4 lg:mb-6">
              CHINA
              </h1>
-             <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-[#444444] leading-relaxed secondaryfont mb-4">
-                 Fit-outs and Interior Concepts. Design Visionaries. Event Innovators. Production Specialists. For over two decades, Dynamic Motion has helped world-leading brands and businesses connect meaningfully with their audiences.
-
-             </p>
+             
       </div>
     </div>
 
@@ -631,10 +628,7 @@ require_once('./inc/top.php');
       <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl herofont uppercase font-extrabold text-[#004890] mb-4 lg:mb-6">
              EGYPT
              </h1>
-             <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-[#444444] leading-relaxed secondaryfont mb-4">
-                 Fit-outs and Interior Concepts. Design Visionaries. Event Innovators. Production Specialists. For over two decades, Dynamic Motion has helped world-leading brands and businesses connect meaningfully with their audiences.
-
-             </p>
+             
       </div>
     </div>
 
@@ -652,10 +646,7 @@ require_once('./inc/top.php');
       <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl herofont uppercase font-extrabold text-[#004890] mb-4 lg:mb-6">
              KSA
              </h1>
-             <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-[#444444] leading-relaxed secondaryfont mb-4">
-                 Fit-outs and Interior Concepts. Design Visionaries. Event Innovators. Production Specialists. For over two decades, Dynamic Motion has helped world-leading brands and businesses connect meaningfully with their audiences.
-
-             </p>
+             
       </div>
     </div>
 
@@ -673,10 +664,7 @@ require_once('./inc/top.php');
       <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl herofont uppercase font-extrabold text-[#004890] mb-4 lg:mb-6">
              UAE
              </h1>
-             <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-[#444444] leading-relaxed secondaryfont mb-4">
-                 Fit-outs and Interior Concepts. Design Visionaries. Event Innovators. Production Specialists. For over two decades, Dynamic Motion has helped world-leading brands and businesses connect meaningfully with their audiences.
-
-             </p>
+            
       </div>
     </div>
   </div>
