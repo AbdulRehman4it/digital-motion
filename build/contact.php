@@ -4,18 +4,22 @@ require_once('./inc/top.php');
 ?>
 
 
-      <section class="my-24 px-6 md:px-12 lg:px-24" data-aos="flip-right">
-        <div class="bg-background p-8 flex flex-col items-center space-y-14">
+<section class="my-24 px-6 md:px-12 lg:px-24" data-aos="flip-right">
+<div class="bg-background p-8 flex flex-col items-center space-y-14">
             <div class="flex justify-between w-full">
                 <img src="./assets/img/c1.png" alt="Left Image" class="hidden md:inline-block w-20 h-20"> <!-- Small image on the left side -->
-                <h1 class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-6xl md:text-4xl text-2xl leading-loose" data-aos="fade-up">
-                    <span class="herofont uppercase font-extrabold text-center bg-[#004890] text-white px-2 py-1 rounded-lg">Get in Touch</span>
-                    for Inquiries and Feedback
+                <h1 class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-4xl md:text-2xl text-2xl leading-[40px] md:leading-[75px] lg:leading-[100px]" data-aos="fade-up">
+                    <span class="herofont uppercase font-extrabold text-center bg-[#004890] text-white lg:text-5xl md:text-4xl text-2xl px-2 py-1 rounded-lg">Ready to Bring Your Vision to Life?
+                    </span>
+                    <br>
+                    Reach Out for Inquiries and Collaboration
                 </h1>
                 <img src="./assets/img/c2.png" alt="Right Image" class="hidden md:inline-block w-20 h-20"> <!-- Small image on the right side -->
             </div>
             <p class="text-lg md:text-xl lg:text-2xl leading-relaxed text-[#444444] secondaryfont" data-aos="fade-up">
-                Your Questions, Feedback, and Inquiries Matter! Use the Form to Share Your Thoughts, and Our Team Will Get Back to You Promptly.
+            Connect with us to discuss your ideas and explore how we can create something exceptional together. Use the form to reach out, and our team will respond promptly to get started.
+
+
             </p>
             <form class="space-y-6 w-full mx-auto"> <!-- LG properties -->
                 <div class="flex flex-wrap -mx-2">
@@ -40,7 +44,6 @@ require_once('./inc/top.php');
             </form>
         </div>
     </section>
-    
     
     
     

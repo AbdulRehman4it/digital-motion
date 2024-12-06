@@ -43,8 +43,11 @@
             <li class="relative group">
               <a href="#" class="secondaryfont text-white font-semibold text-xs md:text-xs lg:text-xl uppercase">About</a>
               <ul class="hidden group-hover:block absolute bg-[#004890] text-white min-w-[200px]  p-2 rounded-lg shadow-lg z-10 transition ease-in-out duration-300">
-                <li>
-                  <a href="aboutus.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Company Overview</a>
+              <li>
+                  <a href="newabout.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Company Overview</a>
+                </li>  
+              <li>
+                  <a href="aboutus.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Team</a>
                 </li>
                 <li>
                   <a href="acceeditations.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Acceeditations</a>
@@ -55,14 +58,14 @@
 
             <!-- Services Dropdown -->
             <li class="relative group">
-              <a href="#" class="secondaryfont text-white font-semibold text-xs md:text-xs lg:text-xl uppercase">Services</a>
+              <a href="service.php" class="secondaryfont text-white font-semibold text-xs md:text-xs lg:text-xl uppercase">Services</a>
               <ul class="hidden group-hover:block absolute bg-[#004890] text-white min-w-[220px] p-3 rounded-lg shadow-lg z-10 transition ease-in-out duration-300">
-                <li><a href="ConceptandDesign.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Concept and Design</a></li>
-                <li><a href="Exibition Stand.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Exibition Stands</a></li>
-                <li><a href="Event Managment.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Event Managment</a></li>
-                <li><a href="production.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Production</a></li>
+                <li><a href="Event Turnkey.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Event Turnkey</a></li>
+                <li><a href="BUILT-UP STRUCTURES.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Built-Up Structures</a></li>
+                <li><a href="POSM.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">POSM</a></li>
+                <!-- <li><a href="production.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Production</a></li>
                 <li><a href="FIlloutandinterior.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">FIllout and interior</a></li>
-                <li><a href="Pointofsale.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Point of sale</a></li>
+                <li><a href="Pointofsale.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Point of sale</a></li> -->
               </ul>
               <span class="block h-[2px] bg-white absolute bottom-0 left-0 w-0 group-hover:w-full transition-all duration-300 ease-in-out"></span>
             </li>
@@ -132,21 +135,23 @@ $categories = $stmt->fetchAll(PDO::FETCH_ASSOC);
       <li class="relative group">
         <a href="#" class="block secondaryfont text-white font-semibold text-sm uppercase">About</a>
         <ul class="pl-4 space-y-2 mt-2 hidden group-hover:block">
-          <li><a href="aboutus.php" class="block text-white">Company Overview</a></li>
+        <li><a href="aboutus.php" class="block text-white">Company Overview</a></li>
+        <li><a href="newabout.php" class="block text-white">Team</a></li>
           <li><a href="acceeditations.php" class="block text-white">Acceeditations</a></li>
         </ul>
       </li>
 
       <!-- Services Dropdown -->
       <li class="relative group">
-        <a href="#" class="block secondaryfont text-white font-semibold text-sm uppercase">Services</a>
+        <a href="service.php" class="block secondaryfont text-white font-semibold text-sm uppercase">Services</a>
         <ul class="pl-4 space-y-2 mt-2 hidden group-hover:block">
-          <li><a href="ConceptandDesign.php" class="block text-white">Concept and Design</a></li>
-          <li><a href="Exibition Stand.php" class="block text-white">Exibition Stands</a></li>
-          <li><a href="Event Managment.php" class="block text-white">Event Managment</a></li>
-          <li><a href="production.php" class="block text-white">Production</a></li>
+        <li><a href="Event Turnkey.php" class="block text-white">Event Turnkey</a></li>
+                <li><a href="BUILT-UP STRUCTURES.php" class="block text-white">Built-Up Structures</a></li>
+                <li><a href="POSM.php" class="block text-white">POSM</a></li>
+          
+          <!-- <li><a href="production.php" class="block text-white">Production</a></li>
           <li><a href="FIlloutandinterior.php" class="block text-white">FIllout and interior</a></li>
-          <li><a href="Pointofsale.php" class="block text-white">Point of sale</a></li>
+          <li><a href="Pointofsale.php" class="block text-white">Point of sale</a></li> -->
         </ul>
       </li>
 

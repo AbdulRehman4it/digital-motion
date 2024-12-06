@@ -16,7 +16,7 @@ require_once('./inc/top.php');
         class="absolute inset-0 w-full h-full object-cover"
       >
         <source src="./assets/img/video.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
+       
       </video>
 
       <!-- Overlay to make text stand out -->
@@ -29,23 +29,255 @@ require_once('./inc/top.php');
       >
         <!-- Heading -->
         <h1
-          class="text-4xl md:text-6xl lg:text-7xl herofont uppercase font-extrabold text-center lg:text-left leading-tight sm:leading-snug md:leading-normal lg:leading-normal"
+          class="text-5xl  herofont uppercase font-extrabold text-center lg:text-left leading-tight sm:leading-snug md:leading-normal lg:leading-normal"
         >
-          Shaping Tomorrow's Technology Through
+        Step into a world where visions take shape. <br>
+         At Dynamic Motion, we bring 
         </h1>
 
         <!-- Spacing between heading and span -->
         <span
-          class="typewriter bg-[#004890] text-white px-4 py-2 rounded-lg text-4xl md:text-6xl lg:text-7xl herofont uppercase font-extrabold mt-4 lg:mt-6 text-center lg:text-left"
+          class="typewriter bg-[#004890] text-white px-4 py-2 rounded-lg text-3xl md:text-5xl lg:text-6xl herofont uppercase font-extrabold mt-4 lg:mt-6 text-center lg:text-left"
         >
-          Dynamic Motion
+        imagination to life.
         </span>
       </div>
     </section>
 
     <!-- hero end -->
-    <!-- clientsection start  -->
-    <section class="py-12 px-12">
+ 
+
+    <!-- mobileslider -->
+    <!-- <section class="py-6 px-6">
+      <div class="carousel sm:hidden mx-3">
+        <div class="carousel-item">
+          <img
+            src="./assets/img/Mask group.png"
+            alt="Image 1"
+            class="w-full h-40 object-contain mx-3"
+          />
+        </div>
+        <div class="carousel-item hidden">
+          <img
+            src="./assets/img/Mask group-1.png"
+            alt="Image 2"
+            class="w-full h-40 object-contain mx-3"
+          />
+        </div>
+        <div class="carousel-item hidden">
+          <img
+            src="./assets/img/Mask group-2.png"
+            alt="Image 3"
+            class="w-full h-40 object-contain mx-3"
+          />
+        </div>
+        <div class="carousel-item hidden">
+          <img
+            src="./assets/img/Mask group-3.png"
+            alt="Image 4"
+            class="w-full h-40 object-contain mx-3"
+          />
+        </div>
+        <div class="carousel-item hidden">
+          <img
+            src="./assets/img/Mask group-4.png"
+            alt="Image 5"
+            class="w-full h-40 object-contain mx-3"
+          />
+        </div>
+        <div class="carousel-item hidden">
+          <img
+            src="./assets/img/Mask group-5.png"
+            alt="Image 6"
+            class="w-full h-40 object-contain mx-3"
+          />
+        </div>
+      
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+      </div>
+    </section> -->
+
+    <!-- clientsection end -->
+
+    <!-- service section start -->
+    <section
+      class="bg-[#004890] py-10 lg:py-20 flex items-center"
+      data-aos="fade-up"
+    >
+      <div class="container mx-auto flex flex-col md:flex-row h-full gap-8">
+        <!-- Div 1: Left Side -->
+        <div
+          class="w-full lg:w-1/2 md:w-full p-4 flex flex-col justify-center text-center md:text-center lg:text-left"
+          data-aos="flip-left"
+        >
+          <!-- Title Section with Span -->
+          <span
+            class="bg-white text-[#004890] px-4 py-2 rounded-lg text-2xl md:text-3xl lg:text-5xl herofont uppercase font-extrabold mt-4 lg:mt-6 block mb-6"
+          >
+          From Vision to Reality: 
+          </span>
+
+          <!-- Main Heading -->
+          <h1
+            class="text-3xl md:text-3xl lg:text-5xl herofont uppercase font-extrabold leading-tight sm:leading-snug md:leading-normal lg:leading-normal text-white mb-8"
+          >
+          Tailored Solutions in Marketing, Promotion, and Exceptional Spaces.
+
+          </h1>
+
+          <!-- Paragraphs Section -->
+          <p
+            class="secondaryfont text-white text-base md:text-lg lg:text-xl leading-relaxed lg:leading-[1.75] mb-6 combined-animation"
+          >
+          Dynamic Motion is your trusted partner for Event Turnkey Construction, Structure Buildups, POSM, Fit-Outs, and Exhibitions. With cutting-edge production plants in Dubai and Riyadh, we deliver exceptional quality across the MENA and GCC regions. Our strategic locations and regional offices ensure seamless execution and on-time delivery for both regional and global clients.  
+
+          </p>
+
+          <p
+            class="secondaryfont text-white text-base md:text-lg lg:text-xl leading-relaxed lg:leading-[1.75] mb-6 combined-animation"
+          >
+          We stand out with our personalized approach, crafting unique solutions that align with your brand’s goals. Trusted by leading brands, multinationals, and government entities, we take your vision from concept to reality—delivering impactful, results-driven experiences every time.
+
+          </p>
+          <p
+            class="secondaryfont text-white text-base md:text-lg lg:text-xl leading-relaxed lg:leading-[1.75] mb-6 combined-animation"
+          >
+          Our tailored services span the complete spectrum of marketing, promotional, and live event support. From the initial discovery meeting through to post-event or campaign follow-up, we take your brief to heart, working closely with you to create meaningful value at every step.
+
+          </p>
+        </div>
+
+        <!-- Div 2: Right Side -->
+        <div
+          class=" lg:grid md:w-1/2 grid-cols-2 gap-6"
+          data-aos="flip-right"
+        >
+          <!-- Row 1 -->
+   <!-- Div 1 -->
+   <a href="./Event Turnkey.php">
+  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s1.webp')">
+    
+    <!-- Overlay -->
+    <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+      <span class="text-white text-center"> Event Turnkey Construction 
+      </span>
+    </div>
+  </div>
+  </a>
+  <!-- Div 2 -->
+   <a href="./BUILT-UP STRUCTURES.php">
+  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s2.JPEG')">
+    
+    <!-- Overlay -->
+    <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+      <span class="text-white text-center">Structure Build-Up</span>
+    </div>
+  </div>
+  </a>
+  <!-- Div 3 -->
+   <a href="./FIlloutandinterior.php">
+  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s3.JPG')">
+    
+    <!-- Overlay -->
+    <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+      <span class="text-white text-center">POSM</span>
+    </div>
+  </div>
+  </a>
+
+          <!-- Row 2 -->
+      <!-- Div 1 -->
+      <a href="./Event Managment.php">
+    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s4.webp')">
+      
+      <!-- Overlay -->
+      <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+        <span class="text-white text-center">Fit-Outs</span>
+      </div>
+    </div>
+    </a>
+    <!-- Div 2 -->
+     <a href="./Exibition Stand.php">
+    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s5.png')">
+      
+      <!-- Overlay -->
+      <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+        <span class="text-white text-center">Concept and Design</span>
+      </div>
+    </div>
+    </a>
+    <!-- Div 3 -->
+     <a href="./Pointofsale.php">
+    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s6.png')">
+      
+      <!-- Overlay -->
+      <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+        <span class="text-white text-center">Exhibitions</span>
+      </div>
+    </div>
+    </a>
+
+
+
+        <!-- Sliders for md and sm -->
+        <!-- <div class="md:hidden w-full">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="./assets/img/ser1.png"
+                  alt="Image 1"
+                  class="w-full h-auto object-cover"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./assets/img/ser2.png"
+                  alt="Image 2"
+                  class="w-full h-auto object-cover"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./assets/img/ser3.png"
+                  alt="Image 3"
+                  class="w-full h-auto object-cover"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./assets/img/ser4.png"
+                  alt="Image 4"
+                  class="w-full h-auto object-cover"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./assets/img/ser5.png"
+                  alt="Image 5"
+                  class="w-full h-auto object-cover"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./assets/img/ser6.png"
+                  alt="Image 6"
+                  class="w-full h-auto object-cover"
+                />
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+
+   <!-- clientsection start  -->
+   <section class="py-12 px-12">
       <!-- Row 1 -->
       <div
         class="flex flex-col items-center md:flex-row md:space-x-8 justify-between"
@@ -102,369 +334,68 @@ require_once('./inc/top.php');
     </section>
 
     <!-- Slider Start -->
-    <section class="py-12 hidden sm:block">
+    <section class="py-12 ">
       <!-- Row 3 -->
       <div class="overflow-hidden">
         <!-- Slider Container with Marquee Effect -->
         <div class="marquee animate-slide flex space-x-4">
           <!-- Logo Items (6 logos, each taking equal width) -->
           <img
-            src="./assets/img/Mask group-1.png"
+            src="./assets/img/client1.png"
             alt="Company 1"
             class="h-20 flex-shrink-0 w-1/6 object-contain"
           />
           <img
-            src="./assets/img/Mask group-2.png"
+            src="./assets/img/client2.webp"
             alt="Company 2"
             class="h-20 flex-shrink-0 w-1/6 object-contain"
           />
           <img
-            src="./assets/img/Mask group-3.png"
+            src="./assets/img/client3.jpg"
             alt="Company 3"
             class="h-20 flex-shrink-0 w-1/6 object-contain"
           />
           <img
-            src="./assets/img/Mask group-4.png"
+            src="./assets/img/client4.png"
             alt="Company 4"
             class="h-20 flex-shrink-0 w-1/6 object-contain"
           />
           <img
-            src="./assets/img/Mask group-5.png"
+            src="./assets/img/client5.svg"
             alt="Company 5"
             class="h-20 flex-shrink-0 w-1/6 object-contain"
           />
-          <img
-            src="./assets/img/Mask group.png"
-            alt="Company 6"
-            class="h-20 flex-shrink-0 w-1/6 object-contain"
-          />
+         
           <!-- Duplicate the logos for continuous scrolling effect -->
-          <img
-            src="./assets/img/Mask group-1.png"
+            <img
+            src="./assets/img/client1.png"
             alt="Company 1"
             class="h-20 flex-shrink-0 w-1/6 object-contain"
           />
           <img
-            src="./assets/img/Mask group-2.png"
+            src="./assets/img/client2.webp"
             alt="Company 2"
             class="h-20 flex-shrink-0 w-1/6 object-contain"
           />
           <img
-            src="./assets/img/Mask group-3.png"
+            src="./assets/img/client3.jpg"
             alt="Company 3"
             class="h-20 flex-shrink-0 w-1/6 object-contain"
           />
           <img
-            src="./assets/img/Mask group-4.png"
+            src="./assets/img/client4.png"
             alt="Company 4"
             class="h-20 flex-shrink-0 w-1/6 object-contain"
           />
           <img
-            src="./assets/img/Mask group-5.png"
+            src="./assets/img/client5.svg"
             alt="Company 5"
-            class="h-20 flex-shrink-0 w-1/6 object-contain"
-          />
-          <img
-            src="./assets/img/Mask group.png"
-            alt="Company 6"
             class="h-20 flex-shrink-0 w-1/6 object-contain"
           />
         </div>
       </div>
     </section>
     <!-- Slider End -->
-
-    <!-- mobileslider -->
-    <section class="py-6 px-6">
-      <div class="carousel sm:hidden mx-3">
-        <div class="carousel-item">
-          <img
-            src="./assets/img/Mask group.png"
-            alt="Image 1"
-            class="w-full h-40 object-contain mx-3"
-          />
-        </div>
-        <div class="carousel-item hidden">
-          <img
-            src="./assets/img/Mask group-1.png"
-            alt="Image 2"
-            class="w-full h-40 object-contain mx-3"
-          />
-        </div>
-        <div class="carousel-item hidden">
-          <img
-            src="./assets/img/Mask group-2.png"
-            alt="Image 3"
-            class="w-full h-40 object-contain mx-3"
-          />
-        </div>
-        <div class="carousel-item hidden">
-          <img
-            src="./assets/img/Mask group-3.png"
-            alt="Image 4"
-            class="w-full h-40 object-contain mx-3"
-          />
-        </div>
-        <div class="carousel-item hidden">
-          <img
-            src="./assets/img/Mask group-4.png"
-            alt="Image 5"
-            class="w-full h-40 object-contain mx-3"
-          />
-        </div>
-        <div class="carousel-item hidden">
-          <img
-            src="./assets/img/Mask group-5.png"
-            alt="Image 6"
-            class="w-full h-40 object-contain mx-3"
-          />
-        </div>
-        <!-- Navigation Buttons -->
-        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
-        <button class="next" onclick="changeSlide(1)">&#10095;</button>
-      </div>
-    </section>
-
-    <!-- clientsection end -->
-
-    <!-- service section start -->
-    <section
-      class="bg-[#004890] py-10 lg:py-20 flex items-center"
-      data-aos="fade-up"
-    >
-      <div class="container mx-auto flex flex-col md:flex-row h-full gap-8">
-        <!-- Div 1: Left Side -->
-        <div
-          class="w-full lg:w-1/2 md:w-full p-4 flex flex-col justify-center text-center md:text-center lg:text-left"
-          data-aos="flip-left"
-        >
-          <!-- Title Section with Span -->
-          <span
-            class="bg-white text-[#004890] px-4 py-2 rounded-lg text-3xl md:text-4xl lg:text-6xl herofont uppercase font-extrabold mt-4 lg:mt-6 block mb-6"
-          >
-            Personalized
-          </span>
-
-          <!-- Main Heading -->
-          <h1
-            class="text-4xl md:text-4xl lg:text-6xl herofont uppercase font-extrabold leading-tight sm:leading-snug md:leading-normal lg:leading-normal text-white mb-8"
-          >
-            Marketing, Promo, and Event Services
-          </h1>
-
-          <!-- Paragraphs Section -->
-          <p
-            class="secondaryfont text-white text-base md:text-lg lg:text-xl leading-relaxed lg:leading-[1.75] mb-6 combined-animation"
-          >
-            It’s the personal approach that has established Dynamic Motion as
-            the go-to resource for a global portfolio of high-profile regional
-            companies, multinationals, and government entities. We don’t treat
-            all clients the same. We understand that you have individual brand
-            needs and objectives; and we take the time to get to know your
-            business, your industry, and your specific marketing goals.
-          </p>
-
-          <p
-            class="secondaryfont text-white text-base md:text-lg lg:text-xl leading-relaxed lg:leading-[1.75] mb-6 combined-animation"
-          >
-            We match each client with a dedicated account management team so
-            that you have a guaranteed point of contact from day one and our
-            menu of bespoke services runs the full spectrum of marketing,
-            promotional, and live event support. From initial discovery meeting
-            through to post-event or campaign support, we take your brief to
-            heart and work alongside you to create value at every opportunity.
-          </p>
-        </div>
-
-        <!-- Div 2: Right Side -->
-        <div
-          class="hidden lg:grid md:w-1/2 grid-cols-2 gap-6"
-          data-aos="flip-right"
-        >
-          <!-- Row 1 -->
-          <div class="h-48 md:h-56 lg:h-72 overflow-hidden perspective">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front h-full w-full">
-                  <img
-                    src="./assets/img/ser1.png"
-                    alt="Image 1"
-                    class="w-full h-full object-cover"
-                  />
-                </div>
-                <div class="flip-card-back h-full w-full">
-                  <img
-                    src="./assets/img/service1.png"
-                    alt="Image 1"
-                    class="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="h-48 md:h-56 lg:h-72 overflow-hidden perspective">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front h-full w-full">
-                  <img
-                    src="./assets/img/ser2.png"
-                    alt="Image 1"
-                    class="w-full h-full object-cover"
-                  />
-                </div>
-                <div class="flip-card-back h-full w-full">
-                  <img
-                    src="./assets/img/service2.png"
-                    alt="Image 1"
-                    class="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Row 2 -->
-          <div class="h-48 md:h-56 lg:h-72 overflow-hidden perspective">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front h-full w-full">
-                  <img
-                    src="./assets/img/ser3.png"
-                    alt="Image 1"
-                    class="w-full h-full object-cover"
-                  />
-                </div>
-                <div class="flip-card-back h-full w-full">
-                  <img
-                    src="./assets/img/service3.png"
-                    alt="Image 1"
-                    class="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="h-48 md:h-56 lg:h-72 overflow-hidden perspective">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front h-full w-full">
-                  <img
-                    src="./assets/img/ser4.png"
-                    alt="Image 1"
-                    class="w-full h-full object-cover"
-                  />
-                </div>
-                <div class="flip-card-back h-full w-full">
-                  <img
-                    src="./assets/img/service4.png"
-                    alt="Image 1"
-                    class="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Row 3 -->
-          <div class="h-48 md:h-56 lg:h-72 overflow-hidden perspective">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front h-full w-full">
-                  <img
-                    src="./assets/img/ser5.png"
-                    alt="Image 1"
-                    class="w-full h-full object-cover"
-                  />
-                </div>
-                <div class="flip-card-back h-full w-full">
-                  <img
-                    src="./assets/img/service5.png"
-                    alt="Image 1"
-                    class="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="h-48 md:h-56 lg:h-72 overflow-hidden perspective">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front h-full w-full">
-                  <img
-                    src="./assets/img/ser6.png"
-                    alt="Image 1"
-                    class="w-full h-full object-cover"
-                  />
-                </div>
-                <div class="flip-card-back h-full w-full">
-                  <img
-                    src="./assets/img/service6.png"
-                    alt="Image 1"
-                    class="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Sliders for md and sm -->
-        <div class="md:hidden w-full">
-          <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img
-                  src="./assets/img/ser1.png"
-                  alt="Image 1"
-                  class="w-full h-auto object-cover"
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="./assets/img/ser2.png"
-                  alt="Image 2"
-                  class="w-full h-auto object-cover"
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="./assets/img/ser3.png"
-                  alt="Image 3"
-                  class="w-full h-auto object-cover"
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="./assets/img/ser4.png"
-                  alt="Image 4"
-                  class="w-full h-auto object-cover"
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="./assets/img/ser5.png"
-                  alt="Image 5"
-                  class="w-full h-auto object-cover"
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="./assets/img/ser6.png"
-                  alt="Image 6"
-                  class="w-full h-auto object-cover"
-                />
-              </div>
-            </div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-
 
     <!-- service section end -->
     <!-- service 2 start -->
@@ -490,11 +421,12 @@ require_once('./inc/top.php');
             class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-6xl md:text-4xl text-2xl md:mx-4 px-2 py-1 leading-tight"
             data-aos="fade-up"
           >
-            Innovative Work,
+          where vision 
+
             <br class="hidden sm:block" />
             <span
               class="typewriter lg:text-6xl md:text-4xl text-2xl herofont uppercase font-extrabold text-center bg-[#004890] text-white px-2 py-1 rounded-lg block mt-2"
-              >Proven Impact</span
+              >meets precision</span
             >
           </h1>
 
@@ -512,32 +444,33 @@ require_once('./inc/top.php');
         </div>
         <div class="flex flex-wrap justify-center gap-4">
   <!-- Div 1 -->
-   <a href="./production.php">
-  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/p1.png')">
+   <a href="./Event Turnkey.php">
+  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s1.webp')">
     
     <!-- Overlay -->
     <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-      <span class="text-white text-center">More about Production</span>
+      <span class="text-white text-center"> Event Turnkey Construction 
+      </span>
     </div>
   </div>
   </a>
   <!-- Div 2 -->
-   <a href="./ConceptandDesign.php">
-  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/p2.png')">
+   <a href="./BUILT-UP STRUCTURES.php">
+  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s2.JPEG')">
     
     <!-- Overlay -->
     <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-      <span class="text-white text-center">More about Concept & Design</span>
+      <span class="text-white text-center">Structure Build-Up</span>
     </div>
   </div>
   </a>
   <!-- Div 3 -->
    <a href="./FIlloutandinterior.php">
-  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/p3.png')">
+  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s3.JPG')">
     
     <!-- Overlay -->
     <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-      <span class="text-white text-center">More about Fit-out Interiors</span>
+      <span class="text-white text-center">POSM</span>
     </div>
   </div>
   </a>
@@ -548,31 +481,31 @@ require_once('./inc/top.php');
   <div class="flex flex-wrap justify-center gap-4">
     <!-- Div 1 -->
      <a href="./Event Managment.php">
-    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/p4.png')">
+    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s4.webp')">
       
       <!-- Overlay -->
       <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-        <span class="text-white text-center">More about Events</span>
+        <span class="text-white text-center">Fit-Outs</span>
       </div>
     </div>
     </a>
     <!-- Div 2 -->
      <a href="./Exibition Stand.php">
-    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/p6.png')">
+    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s5.png')">
       
       <!-- Overlay -->
       <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-        <span class="text-white text-center">More about Exhibition Stands</span>
+        <span class="text-white text-center">Concept and Design</span>
       </div>
     </div>
     </a>
     <!-- Div 3 -->
      <a href="./Pointofsale.php">
-    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/p5.png')">
+    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s6.png')">
       
       <!-- Overlay -->
       <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-        <span class="text-white text-center">More about POS & Shop n Shop</span>
+        <span class="text-white text-center">Exhibitions</span>
       </div>
     </div>
     </a>
@@ -584,63 +517,9 @@ require_once('./inc/top.php');
     <!-- service 2 end -->
 
     <!-- mission section start -->
-    <section
-      class="py-10 lg:py-20 bg-contain bg-center"
-      style="background-image: url('./assets/img/missinbg.png')"
-      data-aos="fade-up"
-    >
-      <div
-        class="container mx-auto flex flex-col md:flex-row gap-8 p-6 rounded-lg"
-      >
-        <!-- Left Div -->
-        <div class="flex flex-col w-full md:w-1/2" data-aos="flip-left">
-          <div class="flex items-center mb-4">
-            <img src="./assets/img/i1.png" alt="Icon 1" class="w-8 h-8 mr-2" />
-            <!-- Adjust icon size as needed -->
-            <h1
-              class="text-2xl md:text-3xl lg:text-4xl font-bold text-[#004890] primaryfont"
-            >
-              Mission
-            </h1>
-          </div>
-          <p
-            class="text-base md:text-lg lg:text-xl text-[#444444] lg:leading-[46px] secondaryfont"
-          >
-            We are passionate, inspired, and driven 24/7 to conceptualize,
-            create, and deliver world-class brand events and marketing
-            campaigns. Our focus is on adding tangible value to our clients'
-            commercial propositions, catalyzing business potential, enhancing
-            brand awareness, and enriching their reputation.
-          </p>
-        </div>
-
-        <!-- Right Div -->
-        <div class="flex flex-col w-full md:w-1/2" data-aos="flip-right">
-          <div class="flex items-center mb-4">
-            <img src="./assets/img/i2.png" alt="Icon 2" class="w-8 h-8 mr-2" />
-            <!-- Adjust icon size as needed -->
-            <h1
-              class="text-2xl md:text-3xl lg:text-4xl font-bold text-[#004890] primaryfont"
-            >
-              Vision
-            </h1>
-          </div>
-          <p
-            class="text-base md:text-lg lg:text-xl text-[#444444] lg:leading-[46px] secondaryfont"
-          >
-            We continuously challenge ourselves to innovate and excite global
-            audiences with engaging, purposeful content. As the go-to
-            destination service for our ever-expanding international client
-            portfolio, we work tirelessly to secure our position as an agile
-            market leader in a transformative global economy.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- mission section end -->
+    
     <!-- counter start -->
-    <section class="py-10 lg:py-20 bg-[#004890]" data-aos="fade-up" id="impactSection">
+    <section class="py-10 lg:py-20 bg-[url('../img/counterbg.png')]" data-aos="fade-up" id="impactSection">
   <div class="flex flex-col items-center text-center" data-aos="fade-up">
     <h2 class="text-3xl md:text-4xl lg:text-5xl text-white mb-8 herofont uppercase font-extrabold">
       Our Impact in Numbers
@@ -692,7 +571,7 @@ require_once('./inc/top.php');
   // Trigger counters on scroll
   const counters = [
     { id: "count1", endValue: 30, duration: 2000 },
-    { id: "count2", endValue: 10000, duration: 2000 },
+    { id: "count2", endValue: 1000, duration: 2000 },
     { id: "count3", endValue: 300, duration: 2000 },
     { id: "count4", endValue: 100, duration: 2000 },
   ];
@@ -737,16 +616,16 @@ require_once('./inc/top.php');
      <!-- Puzzle Animation Div -->
      <div class="puzzle-container w-full h-full flex flex-wrap relative gap-4">
          <div class="puzzle-piece piece1 w-[40%] h-[40%]">
-             <img src="./assets/img/pz4.png" alt="Puzzle Image 1" class="object-cover w-full h-full" />
+             <img src="./assets/img/pz4.png" alt="Puzzle Image 1" class="object-cover w-[300px] h-[300px]" />
          </div>
          <div class="puzzle-piece piece2 w-[40%] h-[40%]">
-             <img src="./assets/img/pz3.png" alt="Puzzle Image 2" class="object-cover w-full h-full" />
+             <img src="./assets/img/pz3.png" alt="Puzzle Image 2" class="object-cover w-[300px] h-[300px]" />
          </div>
          <div class="puzzle-piece piece3 w-[40%] h-[40%]">
-             <img src="./assets/img/pz2.png" alt="Puzzle Image 3" class="object-cover w-full h-full" />
+             <img src="./assets/img/pz2.webp" alt="Puzzle Image 3" class="object-cover w-[300px] h-[300px]" />
          </div>
          <div class="puzzle-piece piece4 w-[40%] h-[40%]">
-             <img src="./assets/img/pz1.png" alt="Puzzle Image 4" class="object-cover w-full h-full" />
+             <img src="./assets/img/pz1.jpeg" alt="Puzzle Image 4" class="object-cover w-[300px] h-[300px]" />
          </div>
      </div>
    </div>
@@ -755,16 +634,18 @@ require_once('./inc/top.php');
          <!-- Right Div with Heading and Paragraphs -->
          <div class="w-full md:w-1/2 flex flex-col justify-center p-6 lg:p-12 space-y-8" data-aos="flip-right">
              <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl herofont uppercase font-extrabold text-[#004890] mb-4 lg:mb-6">
-                 UAE Beirut China KSA
+             UAE KSA EGYPT CHINA
              </h1>
              <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-[#444444] leading-relaxed secondaryfont mb-4">
-                 Fit-outs and Interior Concepts. Design visionaries. Event innovators. Production specialists. For more than two decades, Dynamic Motion has been helping world-leading brands and businesses successfully connect with their target audience.
+                 Fit-outs and Interior Concepts. Design Visionaries. Event Innovators. Production Specialists. For over two decades, Dynamic Motion has helped world-leading brands and businesses connect meaningfully with their audiences.
+
              </p>
              <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-[#444444] leading-relaxed secondaryfont mb-4">
-                 Whether it’s something as simple as an impactful premium through to turnkey exhibition presence, footfall-driving retail activations or large-scale headline making events, we have a 20-year-plus track record of delivering engaging, interactive experiences to complement your business goals.
+                 From impactful premium displays and turnkey exhibition setups to footfall-driving retail activations and large-scale, headline-making events, we have a proven track record of delivering engaging, interactive experiences aligned with our clients' goals.
              </p>
              <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-[#444444] leading-relaxed secondaryfont mb-4">
-                 As dynamic as our name, our portfolio spans the globe with clients on four continents. Headquartered in Dubai, with offices and production facilities in the UAE, China, Lebanon and Saudi Arabia, our expert team has its finger on the pulse when it comes to putting your brand in the spotlight.
+                 As dynamic as our name, our portfolio spans diverse markets, with clients across the Middle East and beyond. Headquartered in Saudi Arabia and the UAE, with offices in Egypt and China and production facilities in the UAE and KSA, our expert team is in tune with the latest trends to ensure your brand shines in the spotlight.
+
              </p>
          </div>
      </section>
@@ -772,14 +653,18 @@ require_once('./inc/top.php');
         <div class="bg-background p-8 flex flex-col items-center space-y-14">
             <div class="flex justify-between w-full">
                 <img src="./assets/img/c1.png" alt="Left Image" class="hidden md:inline-block w-20 h-20"> <!-- Small image on the left side -->
-                <h1 class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-6xl md:text-4xl text-2xl leading-loose" data-aos="fade-up">
-                    <span class="herofont uppercase font-extrabold text-center bg-[#004890] text-white px-2 py-1 rounded-lg">Get in Touch</span>
-                    for Inquiries and Feedback
+                <h1 class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-4xl md:text-2xl text-2xl leading-[40px] md:leading-[75px] lg:leading-[100px]" data-aos="fade-up">
+                    <span class="herofont uppercase font-extrabold text-center bg-[#004890] text-white lg:text-5xl md:text-4xl text-2xl px-2 py-1 rounded-lg">Ready to Bring Your Vision to Life?
+                    </span>
+                    <br>
+                    Reach Out for Inquiries and Collaboration
                 </h1>
                 <img src="./assets/img/c2.png" alt="Right Image" class="hidden md:inline-block w-20 h-20"> <!-- Small image on the right side -->
             </div>
             <p class="text-lg md:text-xl lg:text-2xl leading-relaxed text-[#444444] secondaryfont" data-aos="fade-up">
-                Your Questions, Feedback, and Inquiries Matter! Use the Form to Share Your Thoughts, and Our Team Will Get Back to You Promptly.
+            Connect with us to discuss your ideas and explore how we can create something exceptional together. Use the form to reach out, and our team will respond promptly to get started.
+
+
             </p>
             <form class="space-y-6 w-full mx-auto"> <!-- LG properties -->
                 <div class="flex flex-wrap -mx-2">
@@ -804,7 +689,20 @@ require_once('./inc/top.php');
             </form>
         </div>
     </section>
-
+    <!-- counter start -->
+    <section class="py-10 lg:py-20 bg-[url('../img/counterbg.png')]" data-aos="fade-up" id="impactSection">
+  <div class="flex flex-col items-center text-center" data-aos="fade-up">
+  <iframe 
+    src="https://www.instagram.com/dynamicmotion.mena?igsh=MXE0OHFmcWo5aHd1YQ==" 
+    width="100%" 
+    height="500" 
+    frameborder="0" 
+    scrolling="no" 
+    allowtransparency="true"
+    allow="encrypted-media">
+  </iframe>
+</div>
+</section>
      <?php
 require_once('./inc/bottom.php');
 ?>

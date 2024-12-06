@@ -33,40 +33,40 @@ require_once('./inc/top.php');
 <div class="w-full md:w-1/2 flex flex-col gap-4 unique-animation-container">
   <!-- Row 1 -->
   <div class="flex gap-4">
-    <div class="unique-image-wrapper">
-      <img src="./assets/img/t1.png" alt="Image 1" />
+    <div class="w-[40%] h-[40%]">
+      <img src="./assets/img/t1.png" alt="Image 1" class="object-cover w-[300px] h-[300px]" />
     </div>
-    <div class="unique-image-wrapper">
-      <img src="./assets/img/t2.png" alt="Image 2" />
+    <div class="w-[40%] h-[40%]">
+      <img src="./assets/img/t2.png" alt="Image 2" class="object-cover w-[300px] h-[300px]" />
     </div>
-    <div class="unique-image-wrapper">
-      <img src="./assets/img/t3.png" alt="Image 3" />
+    <div class="w-[40%] h-[40%]">
+      <img src="./assets/img/t3.png" alt="Image 3" class="object-cover w-[300px] h-[300px]" />
     </div>
   </div>
 
   <!-- Row 2 -->
   <div class="flex gap-4">
-    <div class="unique-image-wrapper">
-      <img src="./assets/img/t4.png" alt="Image 4" />
+    <div class="w-[40%] h-[40%]">
+      <img src="./assets/img/t4.png" alt="Image 4" class="object-cover w-[300px] h-[300px]" />
     </div>
-    <div class="unique-image-wrapper">
-      <img src="./assets/img/t5.png" alt="Image 5" />
+    <div class="w-[40%] h-[40%]">
+      <img src="./assets/img/t5.png" alt="Image 5" class="object-cover w-[300px] h-[300px]" />
     </div>
-    <div class="unique-image-wrapper">
-      <img src="./assets/img/t6.png" alt="Image 6" />
+    <div class="w-[40%] h-[40%]">
+      <img src="./assets/img/t6.png" alt="Image 6" class="object-cover w-[300px] h-[300px]" />
     </div>
   </div>
 
   <!-- Row 3 -->
   <div class="flex gap-4">
-    <div class="unique-image-wrapper">
-      <img src="./assets/img/t7.png" alt="Image 7" />
+    <div class="w-[40%] h-[40%]">
+      <img src="./assets/img/t7.png" alt="Image 7" class="object-cover w-[300px] h-[300px]" />
     </div>
-    <div class="unique-image-wrapper">
-      <img src="./assets/img/t8.png" alt="Image 8" />
+    <div class="w-[40%] h-[40%]">
+      <img src="./assets/img/t8.png" alt="Image 8" class="object-cover w-[300px] h-[300px]" />
     </div>
-    <div class="unique-image-wrapper">
-      <img src="./assets/img/t1.png" alt="Image 9" />
+    <div class="w-[40%] h-[40%]">
+      <img src="./assets/img/t1.png" alt="Image 9" class="object-cover w-[300px] h-[300px]" />
     </div>
   </div>
 </div>
