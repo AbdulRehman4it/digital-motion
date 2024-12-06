@@ -25,7 +25,7 @@ require_once('./inc/top.php');
           class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-6xl md:text-4xl text-2xl md:mx-4"
           data-aos="fade-up"
         >
-        Acceeditations
+        Accreditation
          
         </h1>
 

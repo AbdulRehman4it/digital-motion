@@ -50,7 +50,7 @@
                   <a href="aboutus.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Team</a>
                 </li>
                 <li>
-                  <a href="acceeditations.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Acceeditations</a>
+                  <a href="acceeditations.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Accreditation</a>
                 </li>
               </ul>
               <span class="block h-[2px] bg-white absolute bottom-0 left-0 w-0 group-hover:w-full transition-all duration-300 ease-in-out"></span>
@@ -138,7 +138,7 @@ $categories = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <ul class="pl-4 space-y-2 mt-2 hidden group-hover:block">
         <li><a href="aboutus.php" class="block text-white">Company Overview</a></li>
         <li><a href="newabout.php" class="block text-white">Team</a></li>
-          <li><a href="acceeditations.php" class="block text-white">Acceeditations</a></li>
+          <li><a href="acceeditations.php" class="block text-white">Accreditation</a></li>
         </ul>
       </li>
 
