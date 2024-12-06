@@ -448,8 +448,7 @@ require_once('./inc/top.php');
     
     <!-- Overlay -->
     <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-      <span class="text-white text-center"> Event Turnkey Construction 
-      </span>
+      
     </div>
   </div>
   
@@ -459,7 +458,7 @@ require_once('./inc/top.php');
     
     <!-- Overlay -->
     <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-      <span class="text-white text-center">Structure Build-Up</span>
+     
     </div>
   </div>
  
@@ -469,7 +468,7 @@ require_once('./inc/top.php');
     
     <!-- Overlay -->
     <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-      <span class="text-white text-center">POSM</span>
+      
     </div>
   </div>
   
@@ -478,13 +477,20 @@ require_once('./inc/top.php');
 <!-- Row 2 -->
 <div class="flex justify-center">
   <div class="flex flex-wrap justify-center gap-4">
+  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/j4.JPG')">
+      
+      <!-- Overlay -->
+      <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+        
+      </div>
+    </div>
     <!-- Div 1 -->
     
     <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/j4.JPG')">
       
       <!-- Overlay -->
       <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-        <span class="text-white text-center">Fit-Outs</span>
+        
       </div>
     </div>
    
@@ -494,7 +500,7 @@ require_once('./inc/top.php');
       
       <!-- Overlay -->
       <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-        <span class="text-white text-center">Concept and Design</span>
+        
       </div>
     </div>
     
@@ -504,10 +510,16 @@ require_once('./inc/top.php');
       
       <!-- Overlay -->
       <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-        <span class="text-white text-center">Exhibitions</span>
+        
       </div>
     </div>
-   
+    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/j6.JPG')">
+      
+      <!-- Overlay -->
+      <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+        
+      </div>
+    </div>
   </div>
 </div>
 
