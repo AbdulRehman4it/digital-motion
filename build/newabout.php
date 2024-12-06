@@ -102,23 +102,23 @@ With a team of 200+ professionals, we collaborate with top brands to create unfo
     <h2 class="uppercase font-extrabold text-[#004890] text-4xl md:text3xl lg:text-5xl text-center mb-8">Our Core Values</h2>
     <div class="flex flex-col md:flex-row justify-center gap-6 md:gap-8">
         <!-- Core Value 1 -->
-        <div class="flex-1 bg-white p-4 md:p-6 rounded-lg shadow-md text-center space-y-12">
-            <h3 class="uppercase font-extrabold text-[#004890] text-xl md:text-2xl lg:text-3xl">Integrity</h3>
-            <p class="text-base md:text-lg lg:text-xl text-[#444444] secondaryfont leading-relaxed">We believe in transparency and accountability in all our actions. At Dynamic Motion, integrity guides every decision we make, building trust with clients, partners, and our team. By upholding the highest ethical standards, we ensure that our relationships are strong, lasting, and built on mutual respect.
+        <div class="flex-1 bg-[#004890] p-4 md:p-6 rounded-lg shadow-md text-center space-y-12">
+            <h3 class="uppercase font-extrabold text-white text-xl md:text-2xl lg:text-3xl">Integrity</h3>
+            <p class="text-base md:text-lg lg:text-xl text-white secondaryfont leading-relaxed">We believe in transparency and accountability in all our actions. At Dynamic Motion, integrity guides every decision we make, building trust with clients, partners, and our team. By upholding the highest ethical standards, we ensure that our relationships are strong, lasting, and built on mutual respect.
             </p>
         </div>
         
         <!-- Core Value 2 -->
-        <div class="flex-1 bg-white p-4 md:p-6 rounded-lg shadow-md text-center space-y-12">
-            <h3 class="uppercase font-extrabold text-[#004890] text-xl md:text-2xl lg:text-3xl">Innovation</h3>
-            <p class="text-base md:text-lg lg:text-xl text-[#444444] secondaryfont leading-relaxed">We’re dedicated to understanding each client’s vision and goals, delivering impactful solutions that align with their needs. From concept to execution, we approach every project as a true partnership, blending client insights with our expertise in a collaborative, give-and-take process. Our clients' success is our success, and we’re here to achieve it together.
+        <div class="flex-1 bg-[#004890] p-4 md:p-6 rounded-lg shadow-md text-center space-y-12">
+            <h3 class="uppercase font-extrabold text-white text-xl md:text-2xl lg:text-3xl">Innovation</h3>
+            <p class="text-base md:text-lg lg:text-xl text-white secondaryfont leading-relaxed">We’re dedicated to understanding each client’s vision and goals, delivering impactful solutions that align with their needs. From concept to execution, we approach every project as a true partnership, blending client insights with our expertise in a collaborative, give-and-take process. Our clients' success is our success, and we’re here to achieve it together.
             </p>
         </div>
         
         <!-- Core Value 3 -->
-        <div class="flex-1 bg-white p-4 md:p-6 rounded-lg shadow-md text-center space-y-12">
-            <h3 class="uppercase font-extrabold text-[#004890] text-xl md:text-2xl lg:text-3xl">Customer Focus</h3>
-            <p class="text-base md:text-lg lg:text-xl text-[#444444] secondaryfont leading-relaxed">At Dynamic Motion, we’re focused on delivering solutions that not only meet but exceed our clients’ expectations. Every project is approached with precision and a commitment to measurable impact, ensuring that each outcome aligns with our clients’ goals. Our dedication to quality and reliability makes us a trusted partner, delivering consistently excellent results that clients can count on.
+        <div class="flex-1 bg-[#004890] p-4 md:p-6 rounded-lg shadow-md text-center space-y-12">
+            <h3 class="uppercase font-extrabold text-white text-xl md:text-2xl lg:text-3xl">Customer Focus</h3>
+            <p class="text-base md:text-lg lg:text-xl text-white secondaryfont leading-relaxed">At Dynamic Motion, we’re focused on delivering solutions that not only meet but exceed our clients’ expectations. Every project is approached with precision and a commitment to measurable impact, ensuring that each outcome aligns with our clients’ goals. Our dedication to quality and reliability makes us a trusted partner, delivering consistently excellent results that clients can count on.
             </p>
         </div>
     </div>
