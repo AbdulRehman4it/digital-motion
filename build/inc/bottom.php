@@ -28,9 +28,7 @@
 
 
     <!-- counter end -->
-    <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/POST_ID/" data-instgrm-version="14" style="max-width: 500px; margin: auto;">
-</blockquote>
-<script async src="//www.instagram.com/embed.js"></script>
+    
     <script>
       const mobileMenuButton = document.getElementById("mobile-menu-button");
       const mobileMenu = document.getElementById("mobile-menu");
