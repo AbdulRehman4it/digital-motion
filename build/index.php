@@ -599,7 +599,7 @@ require_once('./inc/top.php');
     <!-- Column 1 -->
     <div class="flex flex-col items-center space-y-4" data-aos="fade-up">
       <!-- Video Div -->
-      <div class="w-full h-40 bg-gray-200">
+      <div class="w-full h-full bg-gray-200">
         <video class="w-full h-full object-cover" autoplay muted loop>
           <source src="./assets/img/v1.mp4" type="video/mp4" />
           Your browser does not support the video tag.
@@ -620,7 +620,7 @@ require_once('./inc/top.php');
     <!-- Column 2 -->
     <div class="flex flex-col items-center space-y-4" data-aos="fade-up">
       <!-- Video Div -->
-      <div class="w-full h-40 bg-gray-200">
+      <div class="w-full h-full bg-gray-200">
         <video class="w-full h-full object-cover" autoplay muted loop>
           <source src="./assets/img/v2.mp4" type="video/mp4" />
           Your browser does not support the video tag.
@@ -641,7 +641,7 @@ require_once('./inc/top.php');
     <!-- Column 3 -->
     <div class="flex flex-col items-center space-y-4" data-aos="fade-up">
       <!-- Video Div -->
-      <div class="w-full h-40 bg-gray-200">
+      <div class="w-full h-full bg-gray-200">
         <video class="w-full h-full object-cover" autoplay muted loop>
           <source src="./assets/img/v3.mp4" type="video/mp4" />
           Your browser does not support the video tag.
@@ -662,7 +662,7 @@ require_once('./inc/top.php');
     <!-- Column 4 -->
     <div class="flex flex-col items-center space-y-4" data-aos="fade-up">
       <!-- Video Div -->
-      <div class="w-full h-40 bg-gray-200">
+      <div class="w-full h-full bg-gray-200">
         <video class="w-full h-full object-cover" autoplay muted loop>
           <source src="./assets/img/v4.mp4" type="video/mp4" />
           Your browser does not support the video tag.
