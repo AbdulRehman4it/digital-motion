@@ -111,7 +111,8 @@ $categories = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <a href="#" class="hover:text-gray-400 md:w-4 lg:w-6">
           <img src="./assets/img/link.png" alt="LinkedIn Icon" class="md:w-5 w-8" />
         </a>
-        <button class="bg-white text-[#004890] md:px-3 lg:px-4 md:py-1 lg:py-2 secondaryfont rounded-xl font-bold flex items-center space-x-1 uppercase md:text-xs lg:text-base">Make an Inquiry</button>
+        <a href="https://calendly.com/liyala/30min?back=1&month=2024-11">
+        <button class="bg-white text-[#004890] md:px-3 lg:px-4 md:py-1 lg:py-2 secondaryfont rounded-xl font-bold flex items-center space-x-1 uppercase md:text-xs lg:text-base">Make an Inquiry</button></a>
       </div>
 
       <!-- Mobile Menu Button -->
