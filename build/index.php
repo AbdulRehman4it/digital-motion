@@ -443,8 +443,8 @@ require_once('./inc/top.php');
         </div>
         <div class="flex flex-wrap justify-center gap-4">
   <!-- Div 1 -->
-   <a href="./Event Turnkey.php">
-  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s1.webp')">
+  
+  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/j1.jpg')">
     
     <!-- Overlay -->
     <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -452,62 +452,62 @@ require_once('./inc/top.php');
       </span>
     </div>
   </div>
-  </a>
+  
   <!-- Div 2 -->
-   <a href="./BUILT-UP STRUCTURES.php">
-  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s2.JPEG')">
+  
+  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/j2.jpg')">
     
     <!-- Overlay -->
     <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
       <span class="text-white text-center">Structure Build-Up</span>
     </div>
   </div>
-  </a>
+ 
   <!-- Div 3 -->
-   <a href="./FIlloutandinterior.php">
-  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s3.JPG')">
+
+  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/j3.JPG')">
     
     <!-- Overlay -->
     <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
       <span class="text-white text-center">POSM</span>
     </div>
   </div>
-  </a>
+  
 </div>
 
 <!-- Row 2 -->
 <div class="flex justify-center">
   <div class="flex flex-wrap justify-center gap-4">
     <!-- Div 1 -->
-     <a href="./Event Managment.php">
-    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s4.webp')">
+    
+    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/j4.JPG')">
       
       <!-- Overlay -->
       <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
         <span class="text-white text-center">Fit-Outs</span>
       </div>
     </div>
-    </a>
+   
     <!-- Div 2 -->
-     <a href="./Exibition Stand.php">
-    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s5.png')">
+   
+    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/j5.JPG')">
       
       <!-- Overlay -->
       <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
         <span class="text-white text-center">Concept and Design</span>
       </div>
     </div>
-    </a>
+    
     <!-- Div 3 -->
-     <a href="./Pointofsale.php">
-    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s6.png')">
+     
+    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/j6.JPG')">
       
       <!-- Overlay -->
       <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
         <span class="text-white text-center">Exhibitions</span>
       </div>
     </div>
-    </a>
+   
   </div>
 </div>
 
