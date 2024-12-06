@@ -129,7 +129,7 @@ require_once('./inc/top.php');
           <p
             class="secondaryfont text-white text-base md:text-lg lg:text-xl leading-relaxed lg:leading-[1.75] mb-6 combined-animation"
           >
-          Dynamic Motion is your trusted partner for Event Turnkey Construction, Structure Buildups, POSM, Fit-Outs, and Exhibitions. With cutting-edge production plants in Dubai and Riyadh, we deliver exceptional quality across the MENA and GCC regions. Our strategic locations and regional offices ensure seamless execution and on-time delivery for both regional and global clients.  
+          Dynamic Motion is your trusted partner for Event Turnkey Construction, Structure Buildups, POSM, Fit-Outs, and Exhibitions. With cutting-edge production plants in Dubai and Riyadh, we deliver exceptional quality across the MENA and GCC regions. Our strategic locations and offices ensure seamless execution and on-time delivery for both regional and global clients.  
 
           </p>
 
@@ -166,7 +166,7 @@ require_once('./inc/top.php');
   </a>
   <!-- Div 2 -->
    <a href="./BUILT-UP STRUCTURES.php">
-  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s2.JPEG')">
+  <div class="relative w-full sm:w-[300px] md:w-[350px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s2.JPEG')">
     
     <!-- Overlay -->
     <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -176,7 +176,7 @@ require_once('./inc/top.php');
   </a>
   <!-- Div 3 -->
    <a href="./FIlloutandinterior.php">
-  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s3.JPG')">
+  <div class="relative w-full sm:w-[300px] md:w-[350px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s3.JPG')">
     
     <!-- Overlay -->
     <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -188,7 +188,7 @@ require_once('./inc/top.php');
           <!-- Row 2 -->
       <!-- Div 1 -->
       <a href="./Event Managment.php">
-    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s4.webp')">
+    <div class="relative w-full sm:w-[300px] md:w-[350px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s4.webp')">
       
       <!-- Overlay -->
       <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -198,7 +198,7 @@ require_once('./inc/top.php');
     </a>
     <!-- Div 2 -->
      <a href="./Exibition Stand.php">
-    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s5.png')">
+    <div class="relative w-full sm:w-[300px] md:w-[350px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s5.png')">
       
       <!-- Overlay -->
       <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -208,7 +208,7 @@ require_once('./inc/top.php');
     </a>
     <!-- Div 3 -->
      <a href="./Pointofsale.php">
-    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s6.png')">
+    <div class="relative w-full sm:w-[300px] md:w-[350px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s6.png')">
       
       <!-- Overlay -->
       <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -570,7 +570,7 @@ require_once('./inc/top.php');
   // Trigger counters on scroll
   const counters = [
     { id: "count1", endValue: 30, duration: 2000 },
-    { id: "count2", endValue: 10000, duration: 2000 },
+    { id: "count2", endValue: 1000, duration: 2000 },
     { id: "count3", endValue: 300, duration: 2000 },
     { id: "count4", endValue: 100, duration: 2000 },
   ];
