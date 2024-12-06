@@ -691,7 +691,7 @@ require_once('./inc/top.php');
     <!-- counter start -->
     <section class="py-10 lg:py-20 bg-[url('../img/counterbg.png')]" data-aos="fade-up" id="impactSection">
   <div class="flex flex-col items-center text-center" data-aos="fade-up">
-  <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/dynamicmotion.mena" data-instgrm-version="14" style="max-width: 100%; margin: auto;">
+  <blockquote class="instagram-media w-full" data-instgrm-permalink="https://www.instagram.com/dynamicmotion.mena" data-instgrm-version="14" style="max-width: 1000px; margin: auto;">
 </blockquote>
 <script async src="//www.instagram.com/embed.js"></script>
 </div>
