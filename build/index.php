@@ -31,8 +31,7 @@ require_once('./inc/top.php');
         <h1
           class="text-5xl  herofont uppercase font-extrabold text-center lg:text-left leading-tight sm:leading-snug md:leading-normal lg:leading-normal"
         >
-        Step into a world where visions take shape. <br>
-         At Dynamic Motion, we bring 
+        Step into a world where visions take shape. At Dynamic Motion, we bring 
         </h1>
 
         <!-- Spacing between heading and span -->
