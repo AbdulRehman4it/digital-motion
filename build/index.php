@@ -28,18 +28,18 @@ require_once('./inc/top.php');
         data-aos="flip-left"
       >
         <!-- Heading -->
-        <h1
+        <!-- <h1
           class="text-5xl  herofont uppercase font-extrabold text-center lg:text-left leading-tight sm:leading-snug md:leading-normal lg:leading-normal"
         >
         Step into a world where visions take shape. At Dynamic Motion, we bring 
-        </h1>
+        </h1> -->
 
         <!-- Spacing between heading and span -->
-        <span
+        <!-- <span
           class="typewriter bg-[#004890] text-white px-4 py-2 rounded-lg text-3xl md:text-5xl lg:text-6xl herofont uppercase font-extrabold mt-4 lg:mt-6 text-center lg:text-left"
         >
         imagination to life.
-        </span>
+        </span> -->
       </div>
     </section>
 
