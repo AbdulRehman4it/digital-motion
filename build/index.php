@@ -8,7 +8,7 @@ require_once('./inc/top.php');
       class="relative h-screen flex items-center lg:justify-start md:justify-center justify-center px-12"
       data-aos="fade-up"
     >
-      <!-- Background Video -->
+     
       <video
         autoplay
         muted
