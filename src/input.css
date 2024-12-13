@@ -344,3 +344,22 @@
     color: black; /* Text color stays black */
     font-weight: bold; /* Make text bold */
 }
+
+/* Sidebar */
+.sidenav {
+    position: fixed; /* Keep it fixed on the side */
+    top: 0;
+    left: 0;
+    width: 250px; /* Adjust width as needed */
+    height: 100vh; /* Full height */
+    background-color: #333; /* Sidebar background */
+    z-index: 10; /* Ensure it's above the content */
+}
+
+
+/* Main content */
+.main-content {
+    margin-left: 250px; /* Make sure this matches sidebar width */
+    padding: 0 20px; /* Remove top padding, add horizontal padding */
+    margin-top: 20px; /* Adjust the top margin if needed */
+}

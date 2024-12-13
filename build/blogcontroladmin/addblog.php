@@ -1,13 +1,81 @@
-
 <?php
+require_once('./inc/db.php');
 require_once('./inc/authentication.php');
-$web_title = "Add Blogs";
-require_once('./sidenav.php');?>  
+$web_title = "Add Blog";
+ require_once('./inc/top.php'); 
+ if (isset($_SESSION['message'])) {
+    // Display the message using JavaScript alert
+    echo "<script>alert('".$_SESSION['message']."');</script>";
 
-  <!-- Main content -->
-  <div class="flex-1 min-h-screen  p-10">
-        <!-- Content -->
-        <div id="main-content">
+    // Clear the session message after it's displayed
+    unset($_SESSION['message']);
+}
+?>  
+<!-- Sidebar -->
+<div class="sidenav bg-gray-800 text-white">
+<div class="flex">
+    <!-- Toggle Button -->
+    <button id="menu-btn" class="lg:hidden w-20 p-2 bg-gray-900 text-white focus:outline-none">
+        ☰
+    </button>
+
+    <!-- Sidebar -->
+    <div id="sidebar" class="fixed inset-y-0 left-0 w-64 bg-gray-900 text-white transform -translate-x-full z-40 transition-transform duration-300 lg:translate-x-0 lg:w-64">
+        <div class="flex items-center justify-between h-16 border-b border-gray-700 px-4">
+            <h1 class="text-lg font-bold">Blog Control Panel</h1>
+            <button id="close-btn" class="text-white p-2 focus:outline-none lg:hidden">×</button>
+        </div>
+        <ul class="mt-4">
+            <li class="px-6 py-3 hover:bg-gray-700 transition-colors">
+                <a href="index.php">Home</a>
+            </li>
+            <li class="px-6 py-3 hover:bg-gray-700 transition-colors">
+                <a href="addblog.php">Add Blog</a>
+            </li>
+            <li class="px-6 py-3 hover:bg-gray-700 transition-colors">
+                <a href="allblogs.php">All Blogs</a>
+            </li>
+            <li class="border-t border-gray-700 my-2"></li>
+            <li class="px-6 py-3 hover:bg-gray-700 transition-colors">
+                <a href="logout.php">Logout</a>
+            </li>
+            <li class="border-t border-gray-700 my-2"></li>
+            <li class="px-6 py-3"><strong>© Digital Motion</strong></li>
+        </ul>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="flex-1 min-h-screen p-10">
+        <!-- Your main content goes here -->
+    </div>
+
+</div>
+
+<script>
+    const sidebar = document.getElementById('sidebar');
+    const menuBtn = document.getElementById('menu-btn');
+    const closeBtn = document.getElementById('close-btn');
+
+    // Open sidebar
+    menuBtn.addEventListener('click', () => {
+        sidebar.classList.remove('-translate-x-full');
+    });
+
+    // Close sidebar
+    closeBtn.addEventListener('click', () => {
+        sidebar.classList.add('-translate-x-full');
+    });
+</script>
+</div>
+
+<!-- Main content -->
+<div class="main-content flex-1 min-h-screen p-10 ml-[250px]">
+    <div id="main-content">
+    
+
+
+
+
 
 
         <div class="container mx-auto mt-10">
@@ -26,98 +94,34 @@ require_once('./sidenav.php');?>
                        
 
                         <div class="container mx-auto p-4">
-                            <form action="../all-in-one-php.php" class="form-horizontal" method="post" enctype="multipart/form-data">
-
-                                <input type="hidden" name="categories" value="<?php echo $category_name; ?>">
-
-                                <div class="mb-4">
-                                    <label class="block text-lg font-semibold" for="date">Date</label>
-                                    <input class="mt-2 block w-full border rounded-md p-2" type="date" name="date" id="date" placeholder="Enter Date" value="<?php if (isset($date)) { echo $date; } ?>">
-                                </div>
-
-                                <div class="grid grid-cols-3 gap-4">
-                                    <div>
-                                        <label class="block text-lg font-semibold" for="first_title">First Title</label>
-                                        <input class="mt-2 block w-full border rounded-md p-2" type="text" name="first_title" id="first_title" value="<?php if (isset($first_title)) { echo $first_title; } ?>" placeholder="Enter Title">
-                                    </div>
-                                    <div>
-                                        <label class="block text-lg font-semibold" for="second_title">Second Title</label>
-                                        <input class="mt-2 block w-full border rounded-md p-2" type="text" name="second_title" id="second_title" value="<?php if (isset($second_title)) { echo $second_title; } ?>" placeholder="Enter Title">
-                                    </div>
-                                    <div>
-                                        <label class="block text-lg font-semibold" for="third_title">Third Title</label>
-                                        <input class="mt-2 block w-full border rounded-md p-2" type="text" name="third_title" id="third_title" value="<?php if (isset($third_title)) { echo $third_title; } ?>" placeholder="Enter Title">
-                                    </div>
-                                </div>
-
-                                <div class="mb-4">
-                                    <label class="block text-lg font-semibold" for="author">Author</label>
-                                    <input class="mt-2 block w-full border rounded-md p-2" type="text" name="author" id="author" value="<?php if (isset($author)) { echo $author; } ?>" placeholder="Author">
-                                </div>
-
-                                <div class="grid grid-cols-1 gap-4">
-                                    <?php for ($i = 1; $i <= 5; $i++): ?>
-                                    <div class="mb-4">
-                                        <label class="block text-lg font-semibold" for="image<?php echo $i; ?>">Blog_Image<?php echo $i; ?></label>
-                                        <input class="mt-2 block w-full border rounded-md p-2" type="file" name="image<?php echo $i; ?>" id="image<?php echo $i; ?>" required>
-                                    </div>
-                                    <?php endfor; ?>
-                                </div>
-
-                                <div class="mb-4">
-    <label class="block text-lg font-semibold" for="categories">Categories</label>
-    <select class="mt-2 block w-full border rounded-md p-2" name="categories" id="categories" required>
-        <?php
-        // Fetch categories from database using PDO
-        $query = "SELECT * FROM categories";
-        $stmt = $conn->prepare($query);
-        $stmt->execute();
-        $categories = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
-        if ($categories) {
-            foreach ($categories as $category) {
-                $category_id = $category['id'];
-                $category_name = $category['category'];
-                echo "<option value='$category_id|$category_name'>$category_name</option>";
-            }
-        } else {
-            echo "<option>No categories found</option>";
-        }
-        ?>
-    </select>
-</div>
-
-
-                                <div class="mb-4">
-                                    <label class="block text-lg font-semibold" for="video">Blog Video</label>
-                                    <input class="mt-2 block w-full border rounded-md p-2" type="file" name="video" id="video" required>
-                                </div>
-
-                                <div class="mb-4">
-                                    <label class="block text-lg font-semibold" for="blog_data">Blog Data</label>
-                                    <textarea name="blog_data" id="blog_data" class="tinymce mt-2 block w-full border rounded-md p-2" placeholder="data here"><?php if (isset($blog_data)) { echo $blog_data; } ?></textarea>
-                                </div>
-
-                                <div class="mb-4">
-                                    <label class="block text-lg font-semibold" for="blog_data2">Blog Data2</label>
-                                    <textarea name="blog_data2" id="blog_data2" class="tinymce mt-2 block w-full border rounded-md p-2" placeholder="data here"><?php if (isset($blog_data2)) { echo $blog_data2; } ?></textarea>
-                                </div>
-
-                                <div class="flex justify-end">
-                                    <input type="submit" value="Post" name="add-blog" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 mt-3">
-                                    <a href="view_posts.php" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 mt-3 ml-2">View All Posts</a>
-
-                                    <?php
-                                    if (isset($error_msg)) {
-                                        echo "<span class='text-red-500 ml-2'>{$error_msg}</span>";
-                                    }
-                                    if (isset($msg)) {
-                                        echo "<span class='text-green-500 ml-2'>{$msg}</span>";
-                                    }
-                                    ?>
-                                </div>
-                            </form>
-                        </div>
+                        <form action="add_blog.php" method="POST" enctype="multipart/form-data">
+            <!-- Image Field -->
+            <div class="mb-4">
+                <label for="image" class="block text-sm font-medium text-gray-700">Image</label>
+                <input type="file" id="image" name="image" class="mt-1 block w-full text-gray-700" required>
+            </div>
+            <!-- Title Field -->
+            <div class="mb-4">
+                <label for="first_title" class="block text-sm font-medium text-gray-700">Blog Title</label>
+                <input type="text" id="first_title" name="first_title" class="mt-1 block w-full text-gray-700" required>
+            </div>
+            <!-- Blog Content Field -->
+            <div class="mb-4">
+                <label for="blog_data" class="block text-sm font-medium text-gray-700">Blog Content</label>
+                <textarea id="blog_data" name="blog_data" class="mt-1 block w-full text-gray-700" required></textarea>
+            </div>
+            <!-- Date Field -->
+            <div class="mb-4">
+                <label for="date" class="block text-sm font-medium text-gray-700">Date</label>
+                <input type="datetime-local" id="date" name="date" class="mt-1 block w-full text-gray-700" required>
+            </div>
+            <button type="submit" class="w-full bg-blue-600 text-white py-2 px-4 rounded">Submit</button>
+        </form>
+        <script>
+        // Initialize CKEditor for the 'blog_data' textarea
+        CKEDITOR.replace('blog_data');
+    </script>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -130,6 +134,17 @@ require_once('./sidenav.php');?>
 
 
 
-        </div>
+
+
+
+
+
+    
     </div>
-    <?php require_once('./inc/foot.php');?>
+
+</div>
+</div>
+
+<?php require_once('./inc/foot.php'); ?>
+
+

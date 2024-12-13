@@ -77,16 +77,7 @@ $categories = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
             <!-- Blog Dropdown -->
             <li class="relative group">
-              <a href="#" class="secondaryfont text-white font-semibold text-xs md:text-xs lg:text-xl uppercase">Blog</a>
-              <ul class="hidden group-hover:block absolute bg-[#004890] text-white min-w-[220px] p-3 rounded-lg shadow-lg z-10 transition ease-in-out duration-300">
-                <?php foreach($categories as $row) { ?>
-                  <li>
-                    <a href="blog.php?id=<?= $row['id']; ?>&name=<?= urlencode($row['category']); ?>" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">
-                      <?= htmlspecialchars($row['category']); ?>
-                    </a>
-                  </li>
-                <?php } ?>
-              </ul>
+              <a href="blog.php" class="secondaryfont text-white font-semibold text-xs md:text-xs lg:text-xl uppercase">Blog</a>
             </li>
             <li class="relative group">
               <a href="ourwork.php" class="secondaryfont text-white font-semibold text-xs md:text-xs lg:text-xl uppercase">Work</a>

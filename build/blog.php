@@ -5,7 +5,7 @@ require_once('./inc/top.php');
 // Assume you already have a PDO connection established as $pdo
 
 // Fetch the most recent blogs
-$query = "SELECT `id`, `image`, `first_title`, `second_title`, `author` FROM `blogs` ORDER BY `date` DESC LIMIT 6";
+$query = "SELECT `id`, `image`, `first_title`, `blog_data`, `date` FROM `blogs` ORDER BY `date` DESC LIMIT 6";
 $stmt = $conn->prepare($query);
 $stmt->execute();
 $recent_blogs = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -44,16 +44,20 @@ $recent_blogs = $stmt->fetchAll(PDO::FETCH_ASSOC);
   <div class="swiper-wrapper flex items-center h-full">
     <?php foreach ($recent_blogs as $blog): ?>
       <div class="swiper-slide">
-        <a href="singleblog.php?id=<?= $blog['id']; ?>&title=<?= urlencode($blog['first_title']); ?>" class="relative overflow-hidden rounded-lg shadow-lg h-full flex flex-col">
-          <img class="w-full h-full object-cover" src="<?= $blog['image']; ?>" alt="<?= htmlspecialchars($blog['first_title']); ?>" />
-          <div class="absolute inset-0 bg-[#004890] bg-opacity-50 flex items-end justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+    <a href="singleblog.php?id=<?= $blog['id']; ?>&title=<?= urlencode($blog['first_title']); ?>" class="relative overflow-hidden rounded-lg shadow-lg h-full flex flex-col">
+        <!-- Image source updated to use the `image` column from the `blogs` table -->
+        <img class="w-full h-full object-cover" src="<?= $blog['image']; ?>" alt="<?= htmlspecialchars($blog['first_title']); ?>" />
+        <div class="absolute inset-0 bg-[#004890] bg-opacity-50 flex items-end justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
             <div class="text-white text-center p-4">
-              <h3 class="text-lg font-semibold"><?= htmlspecialchars($blog['first_title']); ?></h3>
-              <p class="text-sm"><?= htmlspecialchars($blog['author']); ?></p>
+                <!-- First title and author displayed as per your database structure -->
+                <h3 class="text-lg font-semibold"><?= htmlspecialchars($blog['first_title']); ?></h3>
+                <h3 class="text-lg font-semibold"><?= htmlspecialchars($blog['date']); ?></h3>
+               
             </div>
-          </div>
-        </a>
-      </div>
+        </div>
+    </a>
+</div>
+
     <?php endforeach; ?>
   </div>
 </div>
@@ -65,9 +69,7 @@ $recent_blogs = $stmt->fetchAll(PDO::FETCH_ASSOC);
 // Get category name from URL
 $category_name = isset($_GET['name']) ? $_GET['name'] : '';
 
-// Prepare and execute the SQL statement
-$stmt = $conn->prepare("SELECT `id`, `image`, `first_title`, `blog_data`, `date` FROM `blogs` WHERE `categories` = :category_name");
-$stmt->bindParam(':category_name', $category_name);
+$stmt = $conn->prepare("SELECT `id`, `image`, `first_title`, `blog_data`, `date` FROM `blogs` ORDER BY `date` DESC");
 $stmt->execute();
 
 // Fetch all blogs in the specified category
@@ -118,7 +120,7 @@ $blogs = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <img src="${blog.image}" alt="Card ${blog.id}" class="h-40 sm:h-48 md:h-56 lg:h-64 w-full object-cover">
                     <div class="p-4 flex-grow flex flex-col space-y-4">
                        <a href="singleblog.php?id=${blog.id}&title=${encodeURIComponent(blog.first_title)}" class=""> <h3 class="text-lg herofont uppercase font-extrabold text-center text-[#004890]">${blog.first_title}</h3></a>
-                        <p class="text-center text-[#444444] secondaryfont">${blog.blog_data}</p>
+                        
                         <span class="mt-auto text-right text-sm text-gray-500">Date: ${blog.date}</span>
                     </div>
                 </div>
@@ -151,105 +153,6 @@ $blogs = $stmt->fetchAll(PDO::FETCH_ASSOC);
     // Display all blogs on page load
     displayBlogs(blogs);
 </script>
-
-
-
-
-
-
-
-
-
-<!-- <section class="py-12 px-12">
-  <div class="relative w-full max-w-full mb-8">
- 
-    <input type="text" placeholder="Search..." class="w-full p-4 pl-12 border border-gray-300 rounded-lg shadow-lg focus:outline-none focus:ring-2 focus:ring-[#004890]">
-    
-    <img src="./assets/img/serach.png" alt="Search" class="absolute top-1/2 left-3 transform -translate-y-1/2 h-6 w-6">
-  </div>
-
-
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-   
-    <div class="bg-[#F5F8FB] rounded-lg shadow-lg overflow-hidden flex flex-col">
-      <img src="./assets/img/b1.png" alt="Card 1" class="h-40 sm:h-48 md:h-56 lg:h-64 w-full object-cover">
-      <div class="p-4 flex-grow flex flex-col space-y-4">
-        <h3 class="text-lg herofont uppercase font-extrabold text-center text-[#004890]">Elevating Brands Through Immersive Events</h3>
-        <p class="text-center text-[#444444] secondaryfont">Our custom events engage audiences and boost brand success globally.</p>
-        <span class="mt-auto text-right text-sm text-gray-500">Date: 2024-10-05</span>
-      </div>
-    </div>
-
-   
-    <div class="bg-[#F5F8FB] rounded-lg shadow-lg overflow-hidden flex flex-col">
-      <img src="./assets/img/b2.png" alt="Card 2" class="h-40 sm:h-48 md:h-56 lg:h-64 w-full object-cover">
-      <div class="p-4 flex-grow flex flex-col space-y-4">
-        <h3 class="text-lg herofont uppercase font-extrabold text-center text-[#004890]">Elevating Brands Through Immersive Events</h3>
-        <p class="text-center text-[#444444] secondaryfont">Our custom events engage audiences and boost brand success globally.</p>
-        <span class="mt-auto text-right text-sm text-gray-500">Date: 2024-10-05</span>
-      </div>
-    </div>
-
-   
-    <div class="bg-[#F5F8FB] rounded-lg shadow-lg overflow-hidden flex flex-col">
-      <img src="./assets/img/b3.png" alt="Card 3" class="h-40 sm:h-48 md:h-56 lg:h-64 w-full object-cover">
-      <div class="p-4 flex-grow flex flex-col space-y-4">
-        <h3 class="text-lg herofont uppercase font-extrabold text-center text-[#004890]">Elevating Brands Through Immersive Events</h3>
-        <p class="text-center text-[#444444] secondaryfont">Our custom events engage audiences and boost brand success globally.</p>
-        <span class="mt-auto text-right text-sm text-gray-500">Date: 2024-10-05</span>
-      </div>
-    </div>
-
-   
-    <div class="bg-[#F5F8FB] rounded-lg shadow-lg overflow-hidden flex flex-col">
-      <img src="./assets/img/b4.png" alt="Card 4" class="h-40 sm:h-48 md:h-56 lg:h-64 w-full object-cover">
-      <div class="p-4 flex-grow flex flex-col space-y-4">
-        <h3 class="text-lg herofont uppercase font-extrabold text-center text-[#004890]">Elevating Brands Through Immersive Events</h3>
-        <p class="text-center text-[#444444] secondaryfont">Our custom events engage audiences and boost brand success globally.</p>
-        <span class="mt-auto text-right text-sm text-gray-500">Date: 2024-10-05</span>
-      </div>
-    </div>
-
-  
-    <div class="bg-[#F5F8FB] rounded-lg shadow-lg overflow-hidden flex flex-col">
-      <img src="./assets/img/b5.png" alt="Card 5" class="h-40 sm:h-48 md:h-56 lg:h-64 w-full object-cover">
-      <div class="p-4 flex-grow flex flex-col space-y-4">
-        <h3 class="text-lg herofont uppercase font-extrabold text-center text-[#004890]">Elevating Brands Through Immersive Events</h3>
-        <p class="text-center text-[#444444] secondaryfont">Our custom events engage audiences and boost brand success globally.</p>
-        <span class="mt-auto text-right text-sm text-gray-500">Date: 2024-10-05</span>
-      </div>
-    </div>
-
-    <div class="bg-[#F5F8FB] rounded-lg shadow-lg overflow-hidden flex flex-col space-y-4">
-      <img src="./assets/img/b6.png" alt="Card 6" class="h-40 sm:h-48 md:h-56 lg:h-64 w-full object-cover">
-      <div class="p-4 flex-grow flex flex-col  space-y-4">
-        <h3 class="text-lg herofont uppercase font-extrabold text-center text-[#004890]">Elevating Brands Through Immersive Events</h3>
-        <p class="text-center text-[#444444] secondaryfont">Our custom events engage audiences and boost brand success globally.</p>
-        <span class="mt-auto text-right text-sm text-gray-500">Date: 2024-10-05</span>
-      </div>
-    </div>
-
-    <div class="bg-[#F5F8FB] rounded-lg shadow-lg overflow-hidden flex flex-col">
-      <img src="./assets/img/b7.png" alt="Card 7" class="h-40 sm:h-48 md:h-56 lg:h-64 w-full object-cover">
-      <div class="p-4 flex-grow flex flex-col space-y-4">
-        <h3 class="text-lg herofont uppercase font-extrabold text-center text-[#004890]">Elevating Brands Through Immersive Events</h3>
-        <p class="text-center text-[#444444] secondaryfont">Our custom events engage audiences and boost brand success globally.</p>
-        <span class="mt-auto text-right text-sm text-gray-500">Date: 2024-10-05</span>
-      </div>
-    </div>
-
-    <div class="bg-[#F5F8FB] rounded-lg shadow-lg overflow-hidden flex flex-col">
-      <img src="./assets/img/b8.png" alt="Card 8" class="h-40 sm:h-48 md:h-56 lg:h-64 w-full object-cover">
-      <div class="p-4 flex-grow flex flex-col space-y-4">
-        <h3 class="text-lg herofont uppercase font-extrabold text-center text-[#004890]">Elevating Brands Through Immersive Events</h3>
-        <p class="text-center text-[#444444] secondaryfont">Our custom events engage audiences and boost brand success globally.</p>
-        <span class="mt-auto text-right text-sm text-gray-500">Date: 2024-10-05</span>
-      </div>
-    </div>
-  </div>
-</section> -->
-
-
 
 
 
