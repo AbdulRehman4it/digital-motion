@@ -2653,6 +2653,10 @@ select {
     width: 100%;
   }
 
+  .sm\:w-1\/6 {
+    width: 16.666667%;
+  }
+
   .sm\:max-w-sm {
     max-width: 24rem;
   }
