@@ -13,11 +13,11 @@ require_once('./inc/top.php');
       class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-6xl md:text-4xl text-3xl md:mx-4"
       data-aos="fade-up"
     >
-      Meet our
+     Company
       <span
         class="herofont uppercase font-extrabold text-center bg-[#004890] text-white px-2 py-1 rounded-lg"
       >
-        Team
+       Overview
       </span>
     </h1>
   </div>
