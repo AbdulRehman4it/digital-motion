@@ -824,10 +824,6 @@ select {
   left: 0.75rem;
 }
 
-.left-4 {
-  left: 1rem;
-}
-
 .top-1\/2 {
   top: 50%;
 }
@@ -2671,9 +2667,9 @@ select {
     line-height: 2.25rem;
   }
 
-  .sm\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .sm\:text-base {
@@ -2689,11 +2685,6 @@ select {
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
-  }
-
-  .sm\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 
   .sm\:leading-6 {
@@ -2795,10 +2786,6 @@ select {
     width: 300px;
   }
 
-  .md\:w-\[350px\] {
-    width: 350px;
-  }
-
   .md\:w-\[40\%\] {
     width: 40%;
   }
@@ -2843,6 +2830,12 @@ select {
     margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+
   .md\:space-y-10 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -2880,14 +2873,14 @@ select {
     padding-bottom: 0px;
   }
 
-  .md\:py-1 {
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-  }
-
   .md\:py-12 {
     padding-top: 3rem;
     padding-bottom: 3rem;
+  }
+
+  .md\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .md\:py-4 {
@@ -2916,11 +2909,6 @@ select {
 
   .md\:text-5xl {
     font-size: 3rem;
-    line-height: 1;
-  }
-
-  .md\:text-9xl {
-    font-size: 8rem;
     line-height: 1;
   }
 
@@ -3006,6 +2994,10 @@ select {
     height: 16rem;
   }
 
+  .lg\:h-\[300px\] {
+    height: 300px;
+  }
+
   .lg\:w-1\/2 {
     width: 50%;
   }
@@ -3034,6 +3026,14 @@ select {
     width: 120px;
   }
 
+  .lg\:w-\[220px\] {
+    width: 220px;
+  }
+
+  .lg\:w-\[350px\] {
+    width: 350px;
+  }
+
   .lg\:basis-3\/4 {
     flex-basis: 75%;
   }
@@ -3057,6 +3057,12 @@ select {
 
   .lg\:justify-start {
     justify-content: flex-start;
+  }
+
+  .lg\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1rem * var(--tw-space-x-reverse));
+    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
@@ -3196,5 +3202,75 @@ select {
 
   .lg\:leading-normal {
     line-height: 1.5;
+  }
+
+  .lg\:leading-\[80px\] {
+    line-height: 80px;
+  }
+
+  .lg\:leading-\[70px\] {
+    line-height: 70px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:w-\[350px\] {
+    width: 350px;
+  }
+
+  .xl\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .xl\:px-\[100px\] {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .xl\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .xl\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
+  }
+
+  .xl\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .xl\:leading-\[100px\] {
+    line-height: 100px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .\32xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }

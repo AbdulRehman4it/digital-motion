@@ -137,26 +137,26 @@ With a team of 200+ professionals, we collaborate with top brands to create unfo
     <div class="flex flex-wrap justify-center w-full">
       <!-- Counter 1 -->
       <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up">
-        <span id="count1" class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white">0</span>
-        <span class="text-xl sm:text-xl secondaryfont text-white uppercase">Years of Experience</span>
+        <span id="count1" class="text-7xl sm:text-4xl lg:text-6xl xl:text-9xl herofont uppercase font-extrabold text-white">0</span>
+        <span class="text-xl sm:text-base lg:text-xl secondaryfont text-white uppercase">Years of Experience</span>
       </div>
 
       <!-- Counter 2 -->
       <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up">
-        <span id="count2" class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white">0</span>
-        <span class="text-xl sm:text-xl secondaryfont text-white uppercase">Successful Projects</span>
+        <span id="count2" class="text-7xl sm:text-4xl lg:text-6xl xl:text-9xl herofont uppercase font-extrabold text-white">0</span>
+        <span class="text-xl sm:text-base lg:text-xl secondaryfont text-white uppercase">Successful Projects</span>
       </div>
 
       <!-- Counter 3 -->
       <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up">
-        <span id="count3" class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white">0</span>
-        <span class="text-xl sm:text-xl secondaryfont text-white uppercase" >Global Brands Served</span>
+        <span id="count3" class="text-7xl sm:text-4xl lg:text-6xl xl:text-9xl herofont uppercase font-extrabold text-white">0</span>
+        <span class="text-xl sm:text-base lg:text-xl secondaryfont text-white uppercase" >Global Brands Served</span>
       </div>
 
       <!-- Counter 4 -->
       <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up">
-        <span id="count4" class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white">0</span>
-        <span class="text-xl sm:text-xl secondaryfont text-white uppercase">Client Retention Rates</span>
+        <span id="count4" class="text-7xl sm:text-4xl lg:text-6xl xl:text-9xl herofont uppercase font-extrabold text-white">0</span>
+        <span class="text-xl sm:text-base lg:text-xl secondaryfont text-white uppercase">Client Retention Rates</span>
       </div>
     </div>
   </div>

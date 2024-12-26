@@ -18,7 +18,7 @@ require_once('./inc/top.php');
 <!-- service1 -->
   <div class="relative w-full h-[100vh] bg-cover bg-center" style="background-image: url('./assets/img/s1.webp');">
     <!-- Inner Div: Centered Vertically and Left-Aligned -->
-    <div class="absolute top-2/3 left-4 md:left-8 lg:left-16 transform -translate-y-2/3 flex flex-col items-start md:w-[40%] w-[100%]  space-y-4 px-4 py-6  bg-[#004890] text-white rounded-lg">
+    <div class="absolute top-2/3  md:left-8 lg:left-16 transform -translate-y-2/3 flex flex-col items-start md:w-[40%] w-[100%]  space-y-4 px-4 py-6  bg-[#004890] text-white rounded-lg">
       <!-- Inner Heading -->
       <h3 class="text-xl sm:text-2xl md:text-3xl font-semibold">
       Event Turnkey Construction 
@@ -34,7 +34,7 @@ require_once('./inc/top.php');
   <!-- service2 -->
   <div class="relative w-full h-[100vh] bg-cover bg-center" style="background-image: url('./assets/img/s2.JPEG');">
     <!-- Inner Div: Centered Vertically and Left-Aligned -->
-    <div class="absolute top-2/3 left-4 md:left-8 lg:left-16 transform -translate-y-2/3 flex flex-col items-start md:w-[40%] w-[100%] space-y-4 px-4 py-6  bg-[#004890] text-white rounded-lg">
+    <div class="absolute top-2/3  md:left-8 lg:left-16 transform -translate-y-2/3 flex flex-col items-start md:w-[40%] w-[100%] space-y-4 px-4 py-6  bg-[#004890] text-white rounded-lg">
       <!-- Inner Heading -->
       <h3 class="text-xl sm:text-2xl md:text-3xl font-semibold">
       BUILT-UP STRUCTURES
@@ -50,7 +50,7 @@ require_once('./inc/top.php');
   <!-- service3 -->
   <div class="relative w-full h-[100vh] bg-cover bg-center" style="background-image: url('./assets/img/s3.JPG');">
     <!-- Inner Div: Centered Vertically and Left-Aligned -->
-    <div class="absolute top-2/3 left-4 md:left-8 lg:left-16 transform -translate-y-2/3 flex flex-col items-start md:w-[40%] w-[100%] space-y-4 px-4 py-6  bg-[#004890] text-white rounded-lg">
+    <div class="absolute top-2/3  md:left-8 lg:left-16 transform -translate-y-2/3 flex flex-col items-start md:w-[40%] w-[100%] space-y-4 px-4 py-6  bg-[#004890] text-white rounded-lg">
       <!-- Inner Heading -->
       <h3 class="text-xl sm:text-2xl md:text-3xl font-semibold">
       POSM 
@@ -67,7 +67,7 @@ require_once('./inc/top.php');
   <!-- service4 -->
   <div class="relative w-full h-[100vh] bg-cover bg-center" style="background-image: url('./assets/img/f1.png');">
     <!-- Inner Div: Centered Vertically and Left-Aligned -->
-    <div class="absolute top-2/3 left-4 md:left-8 lg:left-16 transform -translate-y-2/3 flex flex-col items-start md:w-[40%] w-[100%] space-y-4 px-4 py-6  bg-[#004890] text-white rounded-lg">
+    <div class="absolute top-2/3  md:left-8 lg:left-16 transform -translate-y-2/3 flex flex-col items-start md:w-[40%] w-[100%] space-y-4 px-4 py-6  bg-[#004890] text-white rounded-lg">
       <!-- Inner Heading -->
       <h3 class="text-xl sm:text-2xl md:text-3xl font-semibold">
       FIT OUTS
@@ -85,7 +85,7 @@ require_once('./inc/top.php');
   <!-- service5 -->
   <div class="relative w-full h-[100vh] bg-cover bg-center" style="background-image: url('./assets/img/f2.png');">
     <!-- Inner Div: Centered Vertically and Left-Aligned -->
-    <div class="absolute top-2/3 left-4 md:left-8 lg:left-16 transform -translate-y-2/3 flex flex-col items-start md:w-[40%] w-[100%] space-y-4 px-4 py-6  bg-[#004890] text-white rounded-lg">
+    <div class="absolute top-2/3  md:left-8 lg:left-16 transform -translate-y-2/3 flex flex-col items-start md:w-[40%] w-[100%] space-y-4 px-4 py-6  bg-[#004890] text-white rounded-lg">
       <!-- Inner Heading -->
       <h3 class="text-xl sm:text-2xl md:text-3xl font-semibold">
       EXHIBITIONS
@@ -103,7 +103,7 @@ require_once('./inc/top.php');
   <!-- service6 -->
   <div class="relative w-full h-[100vh] bg-cover bg-center" style="background-image: url('./assets/img/f3.png');">
     <!-- Inner Div: Centered Vertically and Left-Aligned -->
-    <div class="absolute top-2/3 left-4 md:left-8 lg:left-16 transform -translate-y-2/3 flex flex-col items-start md:w-[40%] w-[100%] space-y-4 px-4 py-6  bg-[#004890] text-white rounded-lg">
+    <div class="absolute top-2/3  md:left-8 lg:left-16 transform -translate-y-2/3 flex flex-col items-start md:w-[40%] w-[100%] space-y-4 px-4 py-6  bg-[#004890] text-white rounded-lg">
       <!-- Inner Heading -->
       <h3 class="text-xl sm:text-2xl md:text-3xl font-semibold">
       CONCEPT AND DESIGN

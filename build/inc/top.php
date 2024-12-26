@@ -20,11 +20,11 @@
 
 
     <!-- navbar end -->
-<nav class="shadow-lg bg-[#004890] py-6 md:py-4 px-12">
+<nav class="shadow-lg bg-[#004890] py-6 md:py-4 lg:px-12 px-6">
   <div class="max-w-full">
     <div class="flex justify-between items-center h-16">
       <!-- Logo and Navigation -->
-      <div class="flex items-center space-x-6 md:space-x-4">
+      <div class="flex items-center  lg:space-x-4">
         <!-- Logo -->
         <div class="flex-shrink-0 md:w-[120px] lg:w-[120px]">
           <a href="#">
@@ -35,20 +35,20 @@
         <div>
           <ul class="hidden md:flex space-x-6 md:space-x-4 items-center">
             <li class="relative group">
-              <a href="index.php" class="secondaryfont text-white font-semibold text-xs md:text-xs lg:text-xl uppercase">Home</a>
+              <a href="index.php" class="secondaryfont text-white font-semibold text-xs lg:text-base xl:text-xl uppercase">Home</a>
               <span class="block h-[2px] bg-white absolute bottom-0 left-0 w-0 group-hover:w-full transition-all duration-300 ease-in-out"></span>
             </li>
             
             <!-- About Dropdown -->
             <li class="relative group">
-              <a href="#" class="secondaryfont text-white font-semibold text-xs md:text-xs lg:text-xl uppercase">About</a>
+              <a href="#" class="secondaryfont text-white font-semibold text-xs lg:text-base xl:text-xl uppercase">About</a>
               <ul class="hidden group-hover:block absolute bg-[#004890] text-white min-w-[200px]  p-2 rounded-lg shadow-lg z-10 transition ease-in-out duration-300">
               <li>
                   <a href="newabout.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Company Overview</a>
                 </li>  
-              <li>
+              <!-- <li>
                   <a href="aboutus.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Team</a>
-                </li>
+                </li> -->
                 <li>
                   <a href="acceeditations.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Accreditation</a>
                 </li>
@@ -58,7 +58,7 @@
 
             <!-- Services Dropdown -->
             <li class="relative group">
-              <a href="service.php" class="secondaryfont text-white font-semibold text-xs md:text-xs lg:text-xl uppercase">Services</a>
+              <a href="service.php" class="secondaryfont text-white font-semibold text-xs lg:text-base xl:text-xl uppercase">Services</a>
               <ul class="hidden group-hover:block absolute bg-[#004890] text-white min-w-[220px] p-3 rounded-lg shadow-lg z-10 transition ease-in-out duration-300">
                 <li><a href="Event Turnkey.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Event Turnkey</a></li>
                 <li><a href="BUILT-UP STRUCTURES.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Built-Up Structures</a></li>
@@ -77,14 +77,14 @@ $categories = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
             <!-- Blog Dropdown -->
             <li class="relative group">
-              <a href="blog.php" class="secondaryfont text-white font-semibold text-xs md:text-xs lg:text-xl uppercase">Blog</a>
+              <a href="blog.php" class="secondaryfont text-white font-semibold text-xs lg:text-base xl:text-xl uppercase">Blog</a>
             </li>
             <li class="relative group">
-              <a href="ourwork.php" class="secondaryfont text-white font-semibold text-xs md:text-xs lg:text-xl uppercase">Work</a>
+              <a href="ourwork.php" class="secondaryfont text-white font-semibold text-xs lg:text-base xl:text-xl uppercase">Work</a>
               <span class="block h-[2px] bg-white absolute bottom-0 left-0 w-0 group-hover:w-full transition-all duration-300 ease-in-out"></span>
             </li>
             <li class="relative group">
-              <a href="contact.php" class="secondaryfont text-white font-semibold text-xs md:text-xs lg:text-xl uppercase">Contact</a>
+              <a href="contact.php" class="secondaryfont text-white font-semibold text-xs lg:text-base xl:text-xl uppercase">Contact</a>
               <span class="block h-[2px] bg-white absolute bottom-0 left-0 w-0 group-hover:w-full transition-all duration-300 ease-in-out"></span>
             </li>
           </ul>
@@ -103,7 +103,7 @@ $categories = $stmt->fetchAll(PDO::FETCH_ASSOC);
           <img src="./assets/img/link.png" alt="LinkedIn Icon" class="md:w-5 w-8" />
         </a>
         <a href="https://calendly.com/liyala/30min?back=1&month=2024-11" target="_blank">
-        <button class="bg-white text-[#004890] md:px-3 lg:px-4 md:py-1 lg:py-2 secondaryfont rounded-xl font-bold flex items-center space-x-1 uppercase md:text-xs lg:text-base">Make an Inquiry</button></a>
+        <button class="bg-white text-[#004890] md:px-3 lg:px-4 md:py-2 lg:py-2 secondaryfont rounded-xl font-bold flex items-center space-x-1 uppercase md:text-xs lg:text-base">Make an Inquiry</button></a>
       </div>
 
       <!-- Mobile Menu Button -->

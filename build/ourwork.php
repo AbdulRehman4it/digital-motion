@@ -29,13 +29,13 @@ require_once('./inc/top.php');
   <!-- Gallery Section -->
 <div class="mt-12">
     <div class="flex justify-center">
-    <div class="tabs flex space-x-4 mb-12 ">
+    <div class="tabs flex md:flex-row flex-col space-x-4 mb-12 space-y-4 md:space-y-0">
   <button class="tab active px-4 py-2 text-white bg-[#004890] herofont uppercase font-bold  border-2 border-[#004890] rounded-md shadow-md hover:bg-[#003366] transition duration-300 ease-in-out" data-target="gallery1">
     Project Alpha
   </button>
-  <button class="tab px-4 py-2 text-[#004890] bg-white herofont uppercase font-bold border-2 border-[#004890] rounded-md shadow-md hover:bg-[#004890] hover:text-white transition duration-300 ease-in-out" data-target="gallery2">
+  <button class="tab px-4 py-2  text-[#004890] bg-white herofont uppercase font-bold border-2 border-[#004890] rounded-md shadow-md hover:bg-[#004890] hover:text-white transition duration-300 ease-in-out" data-target="gallery2">
     Project Beta
-  </button>
+  </button> 
   <button class="tab px-4 py-2 text-[#004890] bg-white herofont uppercase font-bold border-2 border-[#004890] rounded-md shadow-md hover:bg-[#004890] hover:text-white transition duration-300 ease-in-out" data-target="gallery3">
     Project Gamma
   </button>

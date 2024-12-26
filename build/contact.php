@@ -11,8 +11,8 @@ require_once('./inc/top.php');
 <div class="bg-background p-8 flex flex-col items-center space-y-14">
             <div class="flex justify-between w-full">
                 <img src="./assets/img/c1.png" alt="Left Image" class="hidden md:inline-block w-20 h-20"> <!-- Small image on the left side -->
-                <h1 class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-4xl md:text-2xl text-2xl leading-[40px] md:leading-[75px] lg:leading-[100px]" data-aos="fade-up">
-                    <span class="herofont uppercase font-extrabold text-center bg-[#004890] text-white lg:text-5xl md:text-4xl text-2xl px-2 py-1 rounded-lg">Ready to Bring Your Vision to Life?
+                <h1 class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-4xl md:text-2xl text-2xl leading-[40px] md:leading-[75px] lg:leading-[70px] xl:leading-[100px]" data-aos="fade-up">
+                    <span class="herofont uppercase font-extrabold text-center bg-[#004890] text-white lg:text-5xl md:text-4xl text-2xl px-2 py-1 rounded-lg lg:leading-[100px]">Ready to Bring Your Vision to Life?
                     </span>
                     <br>
                     Reach Out for Inquiries and Collaboration
@@ -55,41 +55,41 @@ require_once('./inc/top.php');
         
         <div class="flex flex-wrap justify-between">
             <div class="w-full md:w-1/2 lg:w-1/4 mt-4 space-y-6">
-                <h3 class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-4xl md:text-3xl text-2xl md:mx-4">DUBAI - UAE</h3>
-                <p class="text-lg md:text-xl lg:text-2xl leading-relaxed text-[#444444] secondaryfont text-center">
+                <h3 class="herofont uppercase font-extrabold text-center text-[#004890] 2xl:text-4xl lg:text-2xl md:text-3xl text-2xl md:mx-4">DUBAI - UAE</h3>
+                <p class="text-lg 2xl:text-2xl leading-relaxed text-[#444444] secondaryfont text-center">
                     Warehouse No. 5, 14 & 15 Plot 364 - 453,<br />
                     Al Marabea Rd. Al Quoz Industrial 1
                 </p>
-                <p class="text-lg md:text-xl lg:text-2xl leading-relaxed text-[#444444] secondaryfont text-center">
+                <p class="text-lg 2xl:text-2xl leading-relaxed text-[#444444] secondaryfont text-center">
                    P.O. Box 212423
                 </p>
-                <p class="text-lg md:text-xl lg:text-2xl leading-relaxed text-[#444444] secondaryfont text-center">
+                <p class="text-lg 2xl:text-2xl leading-relaxed text-[#444444] secondaryfont text-center">
                   Tel: +971 4 3804048<br />Fax: +971 4 3805023
                 </p>
             </div>
             <div class="w-full md:w-1/2 lg:w-1/4 mt-4 space-y-6">
-                <h3 class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-4xl md:text-3xl text-2xl md:mx-4">BEIRUT - LEBANON</h3>
-                <p class="text-lg md:text-xl lg:text-2xl leading-relaxed text-[#444444] secondaryfont text-center">
+                <h3 class="herofont uppercase font-extrabold text-center text-[#004890] 2xl:text-4xl lg:text-2xl md:text-3xl text-2xl md:mx-4">BEIRUT - LEBANON</h3>
+                <p class="text-lg 2xl:text-2xl leading-relaxed text-[#444444] secondaryfont text-center">
                     Beirut Central District,<br />
                     Al Markaziak Bldg. 6th Floor
                 </p>
-                <p class="text-lg md:text-xl lg:text-2xl leading-relaxed text-[#444444] secondaryfont text-center">
+                <p class="text-lg 2xl:text-2xl leading-relaxed text-[#444444] secondaryfont text-center">
                  P.O. Box 146667
                 </p>
-                <p class="text-lg md:text-xl lg:text-2xl leading-relaxed text-[#444444] secondaryfont text-center">
+                <p class="text-lg 2xl:text-2xl leading-relaxed text-[#444444] secondaryfont text-center">
                     Tel: +961 1 510560<br />Direct: +961 3 750275<br />Fax: +961 1 480211
                 </p>
             </div>
             <div class="w-full md:w-1/2 lg:w-1/4 mt-4 space-y-6">
-                <h3 class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-4xl md:text-3xl text-2xl md:mx-4">ABU DHABI - UAE</h3>
-                <p class="text-lg md:text-xl lg:text-2xl leading-relaxed text-[#444444] secondaryfont text-center">Mariam Al Meharibi bldg Office#301</p>
-                <p class="text-lg md:text-xl lg:text-2xl leading-relaxed text-[#444444] secondaryfont text-center">P.O. Box 93564</p>
-                <p class="text-lg md:text-xl lg:text-2xl leading-relaxed text-[#444444] secondaryfont text-center">Tel: +971 2 6317133<br />Direct: +971 50 5511957</p>
+                <h3 class="herofont uppercase font-extrabold text-center text-[#004890] 2xl:text-4xl lg:text-2xl md:text-3xl text-2xl md:mx-4">ABU DHABI - UAE</h3>
+                <p class="text-lg 2xl:text-2xl leading-relaxed text-[#444444] secondaryfont text-center">Mariam Al Meharibi bldg Office#301</p>
+                <p class="text-lg 2xl:text-2xl leading-relaxed text-[#444444] secondaryfont text-center">P.O. Box 93564</p>
+                <p class="text-lg 2xl:text-2xl leading-relaxed text-[#444444] secondaryfont text-center">Tel: +971 2 6317133<br />Direct: +971 50 5511957</p>
             </div>
             <div class="w-full md:w-1/2 lg:w-1/4 mt-4 space-y-6">
-                <h3 class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-4xl md:text-3xl text-2xl md:mx-4">RIYADH - KSA</h3>
-                <p class="text-lg md:text-xl lg:text-2xl leading-relaxed text-[#444444] secondaryfont text-center">Warehouse No.15, Al Sulay District</p>
-                <p class="text-lg md:text-xl lg:text-2xl leading-relaxed text-[#444444] secondaryfont text-center">Mobile: +966 56 9131777</p>
+                <h3 class="herofont uppercase font-extrabold text-center text-[#004890] 2xl:text-4xl lg:text-2xl md:text-3xl text-2xl md:mx-4">RIYADH - KSA</h3>
+                <p class="text-lg 2xl:text-2xl leading-relaxed text-[#444444] secondaryfont text-center">Warehouse No.15, Al Sulay District</p>
+                <p class="text-lg 2xl:text-2xl leading-relaxed text-[#444444] secondaryfont text-center">Mobile: +966 56 9131777</p>
                 
             </div>
         </div>

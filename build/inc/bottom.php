@@ -117,7 +117,7 @@ document.querySelector('.unique-animation-container').addEventListener('mouseove
             setTimeout(() => {
                 preloader.style.opacity = "0";
                 setTimeout(() => preloader.style.display = "none", 500); // Smooth hide after fade-out
-            }, 10000); // Keep the loader visible for 10 seconds
+            }, 8000); // Keep the loader visible for 10 seconds
         }
     });
 </script>

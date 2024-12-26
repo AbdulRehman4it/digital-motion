@@ -109,7 +109,7 @@ require_once('./inc/top.php');
       class="bg-[#004890] py-10 lg:py-20 flex items-center"
       data-aos="fade-up"
     >
-      <div class="container mx-auto flex flex-col md:flex-row h-full gap-8">
+      <div class="container mx-auto flex flex-col lg:flex-row h-full gap-8">
         <!-- Div 1: Left Side -->
         <div
           class="w-full lg:w-1/2 md:w-full p-4 flex flex-col justify-center text-center md:text-center lg:text-left"
@@ -124,7 +124,7 @@ require_once('./inc/top.php');
 
           <!-- Main Heading -->
           <h1
-            class="text-3xl md:text-3xl lg:text-5xl herofont uppercase font-extrabold leading-tight sm:leading-snug md:leading-normal lg:leading-normal text-white mb-8"
+            class="text-3xl md:text-3xl xl:text-5xl herofont uppercase font-extrabold leading-tight sm:leading-snug md:leading-normal lg:leading-normal text-white mb-8"
           >
           Tailored Solutions in Marketing, Promotion, and Exceptional Spaces.
 
@@ -132,20 +132,20 @@ require_once('./inc/top.php');
 
           <!-- Paragraphs Section -->
           <p
-            class="secondaryfont text-white text-base md:text-lg lg:text-xl leading-relaxed lg:leading-[1.75] mb-6 combined-animation"
+            class="secondaryfont text-white text-base md:text-lg xl:text-xl leading-relaxed lg:leading-[1.75] mb-6 combined-animation"
           >
           Dynamic Motion is your trusted partner for Event Turnkey Construction, Structure Buildups, POSM, Fit-Outs, and Exhibitions. With cutting-edge production plants in Dubai and Riyadh, we deliver exceptional quality across the MENA and GCC regions. Our strategic locations and offices ensure seamless execution and on-time delivery for both regional and global clients.  
 
           </p>
 
           <p
-            class="secondaryfont text-white text-base md:text-lg lg:text-xl leading-relaxed lg:leading-[1.75] mb-6 combined-animation"
+            class="secondaryfont text-white text-base md:text-lg xl:text-xl leading-relaxed lg:leading-[1.75] mb-6 combined-animation"
           >
           We stand out with our personalized approach, crafting unique solutions that align with your brand’s goals. Trusted by leading brands, multinationals, and government entities, we take your vision from concept to reality—delivering impactful, results-driven experiences every time.
 
           </p>
           <p
-            class="secondaryfont text-white text-base md:text-lg lg:text-xl leading-relaxed lg:leading-[1.75] mb-6 combined-animation"
+            class="secondaryfont text-white text-base md:text-lg xl:text-xl leading-relaxed lg:leading-[1.75] mb-6 combined-animation"
           >
           Our tailored services span the complete spectrum of marketing, promotional, and live event support. From the initial discovery meeting through to post-event or campaign follow-up, we take your brief to heart, working closely with you to create meaningful value at every step.
 
@@ -154,13 +154,13 @@ require_once('./inc/top.php');
 
         <!-- Div 2: Right Side -->
         <div
-          class=" lg:grid md:w-1/2 grid-cols-2 gap-6"
+          class=" lg:grid lg:w-1/2 w-full grid-cols-2 gap-6"
           data-aos="flip-right"
         >
           <!-- Row 1 -->
    <!-- Div 1 -->
    <a href="./Event Turnkey.php">
-  <div class="relative w-full sm:w-[300px] md:w-[350px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s1.webp')">
+  <div class="relative w-full lg:w-[350px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s1.webp')">
     
     <!-- Overlay -->
     <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -171,7 +171,7 @@ require_once('./inc/top.php');
   </a>
   <!-- Div 2 -->
    <a href="./BUILT-UP STRUCTURES.php">
-  <div class="relative w-full sm:w-[300px] md:w-[350px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/stru.jpg')">
+  <div class="relative w-full xl:w-[350px] lg:w-[220px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/stru.jpg')">
     
     <!-- Overlay -->
     <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -181,7 +181,7 @@ require_once('./inc/top.php');
   </a>
   <!-- Div 3 -->
    <a href="./FIlloutandinterior.php">
-  <div class="relative w-full sm:w-[300px] md:w-[350px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s3.JPG')">
+  <div class="relative w-full lg:w-[350px] h-[300px] lg:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s3.JPG')">
     
     <!-- Overlay -->
     <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -193,7 +193,7 @@ require_once('./inc/top.php');
           <!-- Row 2 -->
       <!-- Div 1 -->
       <a href="./Event Managment.php">
-    <div class="relative w-full sm:w-[300px] md:w-[350px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s4.webp')">
+    <div class="relative w-full xl:w-[350px] lg:w-[220px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s4.webp')">
       
       <!-- Overlay -->
       <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -203,7 +203,7 @@ require_once('./inc/top.php');
     </a>
     <!-- Div 2 -->
      <a href="./Exibition Stand.php">
-    <div class="relative w-full sm:w-[300px] md:w-[350px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s5.png')">
+    <div class="relative w-full lg:w-[350px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s5.png')">
       
       <!-- Overlay -->
       <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -213,7 +213,7 @@ require_once('./inc/top.php');
     </a>
     <!-- Div 3 -->
      <a href="./Pointofsale.php">
-    <div class="relative w-full sm:w-[300px] md:w-[350px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s6.png')">
+    <div class="relative w-full xl:w-[350px] lg:w-[220px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/s6.png')">
       
       <!-- Overlay -->
       <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -446,7 +446,7 @@ require_once('./inc/top.php');
             />
           </div>
         </div>
-        <div class="flex flex-wrap justify-center gap-4">
+ <div class="flex flex-wrap justify-center gap-4">
   <!-- Div 1 -->
   
   <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/j1.jpg')">
@@ -484,49 +484,48 @@ require_once('./inc/top.php');
     </div>
   </div>
 </div>
-
 <!-- Row 2 -->
-<div class="flex justify-center">
-  <div class="flex flex-wrap justify-center gap-4">
+<div class="flex flex-wrap justify-center gap-4">
+  <!-- Div 1 -->
+  
+  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/j5.JPG')">
     
-    <!-- Div 1 -->
-    
-    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/j5.JPG')">
+    <!-- Overlay -->
+    <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
       
-      <!-- Overlay -->
-      <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-        
-      </div>
     </div>
-   
-    <!-- Div 2 -->
-   
-    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/j6.JPG')">
-      
-      <!-- Overlay -->
-      <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-        
-      </div>
-    </div>
+  </div>
+  
+  <!-- Div 2 -->
+  
+  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/j6.JPG')">
     
-    <!-- Div 3 -->
+    <!-- Overlay -->
+    <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
      
-    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/j7.JPG')">
-      
-      <!-- Overlay -->
-      <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-        
-      </div>
     </div>
-    <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/j8.JPG')">
+  </div>
+ 
+  <!-- Div 3 -->
+
+  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/j7.JPG')">
+    
+    <!-- Overlay -->
+    <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
       
-      <!-- Overlay -->
-      <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-        
-      </div>
+    </div>
+  </div>
+  <div class="relative w-full sm:w-[300px] md:w-[300px] h-[300px] md:h-[300px] flex flex-col items-center justify-end bg-cover bg-center group" style="background-image: url('./assets/img/j8.JPG')">
+    
+    <!-- Overlay -->
+    <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+      
     </div>
   </div>
 </div>
+
+
+
 
     </section>
 
@@ -543,26 +542,26 @@ require_once('./inc/top.php');
     <div class="flex flex-wrap justify-center w-full">
       <!-- Counter 1 -->
       <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up">
-        <span id="count1" class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white">0</span>
-        <span class="text-xl sm:text-xl secondaryfont text-white uppercase">Years of Experience</span>
+        <span id="count1" class="text-7xl sm:text-4xl lg:text-6xl xl:text-9xl herofont uppercase font-extrabold text-white">0</span>
+        <span class="text-xl sm:text-base lg:text-xl secondaryfont text-white uppercase">Years of Experience</span>
       </div>
 
       <!-- Counter 2 -->
       <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up">
-        <span id="count2" class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white">0</span>
-        <span class="text-xl sm:text-xl secondaryfont text-white uppercase">Successful Projects</span>
+        <span id="count2" class="text-7xl sm:text-4xl lg:text-6xl xl:text-9xl herofont uppercase font-extrabold text-white">0</span>
+        <span class="text-xl sm:text-base lg:text-xl secondaryfont text-white uppercase">Successful Projects</span>
       </div>
 
       <!-- Counter 3 -->
       <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up">
-        <span id="count3" class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white">0</span>
-        <span class="text-xl sm:text-xl secondaryfont text-white uppercase" >Global Brands Served</span>
+        <span id="count3" class="text-7xl sm:text-4xl lg:text-6xl xl:text-9xl herofont uppercase font-extrabold text-white">0</span>
+        <span class="text-xl sm:text-base lg:text-xl secondaryfont text-white uppercase" >Global Brands Served</span>
       </div>
 
       <!-- Counter 4 -->
       <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up">
-        <span id="count4" class="text-7xl sm:text-8xl md:text-9xl herofont uppercase font-extrabold text-white">0</span>
-        <span class="text-xl sm:text-xl secondaryfont text-white uppercase">Client Retention Rate</span>
+        <span id="count4" class="text-7xl sm:text-4xl lg:text-6xl xl:text-9xl herofont uppercase font-extrabold text-white">0</span>
+        <span class="text-xl sm:text-base lg:text-xl secondaryfont text-white uppercase">Client Retention Rate</span>
       </div>
     </div>
   </div>
@@ -619,8 +618,8 @@ require_once('./inc/top.php');
         <div class="bg-background p-8 flex flex-col items-center space-y-14">
             <div class="flex justify-between w-full">
                 <img src="./assets/img/c1.png" alt="Left Image" class="hidden md:inline-block w-20 h-20"> <!-- Small image on the left side -->
-                <h1 class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-4xl md:text-2xl text-2xl leading-[40px] md:leading-[75px] lg:leading-[100px]" data-aos="fade-up">
-                    <span class="herofont uppercase font-extrabold text-center bg-[#004890] text-white lg:text-5xl md:text-4xl text-2xl px-2 py-1 rounded-lg">Ready to Bring Your Vision to Life?
+                <h1 class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-4xl md:text-2xl text-2xl leading-[40px] md:leading-[75px] lg:leading-[70px] xl:leading-[100px]" data-aos="fade-up">
+                    <span class="herofont uppercase font-extrabold text-center bg-[#004890] text-white lg:text-5xl md:text-4xl text-2xl px-2 py-1 rounded-lg lg:leading-[100px]">Ready to Bring Your Vision to Life?
                     </span>
                     <br>
                     Reach Out for Inquiries and Collaboration
