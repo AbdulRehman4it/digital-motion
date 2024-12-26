@@ -10,7 +10,7 @@ error_reporting(E_ALL);
 // $password = getenv('DB_PASS') ?: '';
 // $dbname = getenv('DB_NAME') ?: 'blogadmin';
 
-
+// Database credentials server
 $servername = getenv('DB_HOST') ?: 'localhost';
 $username = getenv('DB_USER') ?: 'u927419660_Riss226721';
 $password = getenv('DB_PASS') ?: 'Riss226721@@';

@@ -2,6 +2,10 @@
 $webtitle='Acceeditations';
 require_once('./inc/top.php');
 ?>
+<!-- Preloader -->
+<div id="preloader" class="fixed inset-0 bg-white flex justify-center items-center z-50">
+    <img src="./assets/img/video.gif" alt="Loading..." class="w-16 h-16">
+</div>
     <!-- clientsection start  -->
     <section class="py-12 px-12">
       <!-- Row 1 -->

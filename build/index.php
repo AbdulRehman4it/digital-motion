@@ -2,7 +2,12 @@
 $webtitle='Home';
 require_once('./inc/top.php');
 ?>
-
+<!-- Preloader -->
+<div id="preloader" class="fixed inset-0 bg-white flex justify-center items-center z-50">
+    <img src="./assets/img/video.gif" alt="Loading..." class="w-16 h-16">
+</div>
+    <!-- <div id="nextSection"> -->
+    <div id="content">
     <!-- hero start -->
     <section
       class="relative h-screen flex items-center lg:justify-start md:justify-center justify-center px-12"
@@ -658,6 +663,7 @@ require_once('./inc/top.php');
 <script async src="//www.instagram.com/embed.js"></script>
 </div>
 </section>
+
      <?php
 require_once('./inc/bottom.php');
 ?>

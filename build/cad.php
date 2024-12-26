@@ -2,6 +2,10 @@
 $webtitle='Services || CONCEPT AND DESIGN';
 require_once('./inc/top.php');
 ?>
+<!-- Preloader -->
+<div id="preloader" class="fixed inset-0 bg-white flex justify-center items-center z-50">
+    <img src="./assets/img/video.gif" alt="Loading..." class="w-16 h-16">
+</div>
 <section class="hidden sm:block w-full px-6 md:px-12 lg:px-24 pt-12">
   <div class="flex w-full">
     <!-- Left 50% Div -->

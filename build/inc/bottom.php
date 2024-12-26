@@ -25,6 +25,7 @@
 
 
 
+   
 
 
     <!-- counter end -->
@@ -100,7 +101,30 @@ document.querySelector('.unique-animation-container').addEventListener('mouseove
 
 
     </script>
+      <script>
+    // window.addEventListener("load", function () {
+    //     const preloader = document.getElementById("preloader");
+    //     if (preloader) {
+    //         preloader.style.opacity = "0";
+    //         setTimeout(() => preloader.style.display = "none", 5000); // Smooth hide
+    //     }
+    // });
+</script>
+<script>
+    window.addEventListener("load", function () {
+        const preloader = document.getElementById("preloader");
+        if (preloader) {
+            setTimeout(() => {
+                preloader.style.opacity = "0";
+                setTimeout(() => preloader.style.display = "none", 500); // Smooth hide after fade-out
+            }, 10000); // Keep the loader visible for 10 seconds
+        }
+    });
+</script>
+
   </body>
+
+
 </html>
 
    
