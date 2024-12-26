@@ -1,5 +1,5 @@
 <?php
-$webtitle='Acceeditations';
+$webtitle='Accreditation';
 require_once('./inc/top.php');
 ?>
 <!-- Preloader -->
