@@ -63,9 +63,9 @@
                 <li><a href="Event Turnkey.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Event Turnkey</a></li>
                 <li><a href="BUILT-UP STRUCTURES.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Built-Up Structures</a></li>
                 <li><a href="POSM.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">POSM</a></li>
-                <!-- <li><a href="production.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Production</a></li>
-                <li><a href="FIlloutandinterior.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">FIllout and interior</a></li>
-                <li><a href="Pointofsale.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Point of sale</a></li> -->
+                <li><a href="Exhibitions.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Exhibitions</a></li>
+                <li><a href="Filloutandinterior.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">FIllout and interior</a></li>
+                <li><a href="cad.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Concept & Design</a></li>
               </ul>
               <span class="block h-[2px] bg-white absolute bottom-0 left-0 w-0 group-hover:w-full transition-all duration-300 ease-in-out"></span>
             </li>

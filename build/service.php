@@ -61,6 +61,59 @@ require_once('./inc/top.php');
     </div>
   </div>
   <!-- service4 -->
+  <div class="relative w-full h-[100vh] bg-cover bg-center" style="background-image: url('./assets/img/f1.png');">
+    <!-- Inner Div: Centered Vertically and Left-Aligned -->
+    <div class="absolute top-2/3 left-4 md:left-8 lg:left-16 transform -translate-y-2/3 flex flex-col items-start md:w-[40%] w-[100%] space-y-4 px-4 py-6  bg-[#004890] text-white rounded-lg">
+      <!-- Inner Heading -->
+      <h3 class="text-xl sm:text-2xl md:text-3xl font-semibold">
+      FIT OUTS
+
+      </h3>
+      <!-- Paragraph -->
+      <p class="text-sm sm:text-base md:text-lg">
+      Dynamic Motion provides exceptional fit-out services that transform interiors into immersive, brand-centered environments. 
+      </p>
+      <!-- Button -->
+       <a href="Filloutandinterior.php" class=" text-white  rounded  transition-all duration-200"> Dive Deeper &#10230;</a>
+    
+    </div>
+  </div>
+  <!-- service5 -->
+  <div class="relative w-full h-[100vh] bg-cover bg-center" style="background-image: url('./assets/img/f2.png');">
+    <!-- Inner Div: Centered Vertically and Left-Aligned -->
+    <div class="absolute top-2/3 left-4 md:left-8 lg:left-16 transform -translate-y-2/3 flex flex-col items-start md:w-[40%] w-[100%] space-y-4 px-4 py-6  bg-[#004890] text-white rounded-lg">
+      <!-- Inner Heading -->
+      <h3 class="text-xl sm:text-2xl md:text-3xl font-semibold">
+      EXHIBITIONS
+
+      </h3>
+      <!-- Paragraph -->
+      <p class="text-sm sm:text-base md:text-lg">
+      Dynamic Motion brings brands to life through captivating exhibition setups that make a memorable impact.
+      </p>
+      <!-- Button -->
+       <a href="Exhibitions.php" class=" text-white  rounded  transition-all duration-200"> Dive Deeper &#10230;</a>
+    
+    </div>
+  </div>
+  <!-- service6 -->
+  <div class="relative w-full h-[100vh] bg-cover bg-center" style="background-image: url('./assets/img/f3.png');">
+    <!-- Inner Div: Centered Vertically and Left-Aligned -->
+    <div class="absolute top-2/3 left-4 md:left-8 lg:left-16 transform -translate-y-2/3 flex flex-col items-start md:w-[40%] w-[100%] space-y-4 px-4 py-6  bg-[#004890] text-white rounded-lg">
+      <!-- Inner Heading -->
+      <h3 class="text-xl sm:text-2xl md:text-3xl font-semibold">
+      CONCEPT AND DESIGN
+
+      </h3>
+      <!-- Paragraph -->
+      <p class="text-sm sm:text-base md:text-lg">
+      At Dynamic Motion, concept and design are at the heart of every project.
+      </p>
+      <!-- Button -->
+       <a href="cad.php" class=" text-white  rounded  transition-all duration-200"> Dive Deeper &#10230;</a>
+    
+    </div>
+  </div>
 </section>
 
 <?php

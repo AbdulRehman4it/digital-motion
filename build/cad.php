@@ -1,6 +1,5 @@
 <?php
-$webtitle='Services || FIT OUTS
-';
+$webtitle='Services || CONCEPT AND DESIGN';
 require_once('./inc/top.php');
 ?>
 <section class="hidden sm:block w-full px-6 md:px-12 lg:px-24 pt-12">
@@ -28,8 +27,7 @@ require_once('./inc/top.php');
         <!-- Heading -->
         <div class="flex items-center justify-between">
   <h1 class="uppercase font-extrabold text-[#004890] lg:text-6xl md:text-4xl text-2xl text-left">
-  FIT OUTS
-
+  CONCEPT AND DESIGN
   </h1>
   <img
     src="./assets/img/heroleft.png"
@@ -41,7 +39,7 @@ require_once('./inc/top.php');
 
         <!-- Paragraph 1 -->
         <p class="text-left text-lg md:text-xl lg:text-2xl text-[#444444] secondaryfont leading-relaxed">
-        Dynamic Motion provides exceptional fit-out services that transform interiors into immersive, brand-centered environments. Our fit-out solutions cover a range of high-quality offerings, from the production of top-tier furniture with exquisite finishing and detailing to specialized joinery, piping, and cladding. We work across various settings—retail stores, showrooms, corporate spaces, restaurants, malls, and residential properties—ensuring each space reflects the client’s vision and operational needs. From initial concept through final installation, our focus on design, functionality, and skilled craftsmanship guarantees spaces that are inviting, inspiring, and leave a lasting impression on every visitor.
+        At Dynamic Motion, concept and design are at the heart of every project. We believe in creating more than just visuals—we craft ideas that capture attention, convey meaning, and reflect each client’s unique brand identity. Our creative team collaborates closely with clients to understand their vision, audience, and goals, transforming them into immersive, memorable designs. From initial brainstorming and sketches to detailed renderings and final layouts, we ensure every concept aligns with our client’s objectives, bringing innovative and impactful designs to life.
 
 
 
@@ -55,39 +53,39 @@ require_once('./inc/top.php');
   <!-- Row 1 -->
   <div class="flex gap-4">
     <div class="w-[40%] h-[40%]">
-      <img src="./assets/img/f1.png" alt="Image 1" class="w-[200px] h-[200px] object-cover" />
+      <img src="./assets/img/POSM1.jpg" alt="Image 1" class="w-[200px] h-[200px] object-cover" />
     </div>
     <div class="w-[40%] h-[40%]">
-      <img src="./assets/img/f2.png" alt="Image 2" class="w-[200px] h-[200px] object-cover" />
+      <img src="./assets/img/POSM2.jpg" alt="Image 2" class="w-[200px] h-[200px] object-cover" />
     </div>
     <div class="w-[40%] h-[40%]">
-      <img src="./assets/img/f3.png" alt="Image 3" class="w-[200px] h-[200px] object-cover" />
+      <img src="./assets/img/POSM3.jpg" alt="Image 3" class="w-[200px] h-[200px] object-cover" />
     </div>
   </div>
 
   <!-- Row 2 -->
   <div class="flex gap-4">
     <div class="w-[40%] h-[40%]">
-      <img src="./assets/img/f4.png" alt="Image 4" class="w-[200px] h-[200px] object-cover"/>
+      <img src="./assets/img/POSM4.jpg" alt="Image 4" class="w-[200px] h-[200px] object-cover"/>
     </div>
     <div class="w-[40%] h-[40%]">
-      <img src="./assets/img/f5.png" alt="Image 5" class="w-[200px] h-[200px] object-cover"/>
+      <img src="./assets/img/POSM5.jpg" alt="Image 5" class="w-[200px] h-[200px] object-cover"/>
     </div>
     <div class="w-[40%] h-[40%]">
-      <img src="./assets/img/f6.png" alt="Image 6" class="w-[200px] h-[200px] object-cover"/>
+      <img src="./assets/img/POSM6.jpg" alt="Image 6" class="w-[200px] h-[200px] object-cover"/>
     </div>
   </div>
 
   <!-- Row 3 -->
   <div class="flex gap-4">
     <div class="w-[40%] h-[40%]">
-      <img src="./assets/img/f7.png" alt="Image 7" class="w-[200px] h-[200px] object-cover" />
+      <img src="./assets/img/POSM7.jpg" alt="Image 7" class="w-[200px] h-[200px] object-cover" />
     </div>
     <div class="w-[40%] h-[40%]">
-      <img src="./assets/img/f8.png" alt="Image 8" class="w-[200px] h-[200px] object-cover" />
+      <img src="./assets/img/POSM8.jpg" alt="Image 8" class="w-[200px] h-[200px] object-cover" />
     </div>
     <div class="w-[40%] h-[40%]">
-      <img src="./assets/img/f9.png" alt="Image 9" class="w-[200px] h-[200px] object-cover" />
+      <img src="./assets/img/POSM9.png" alt="Image 9" class="w-[200px] h-[200px] object-cover" />
     </div>
   </div>
 </div>
