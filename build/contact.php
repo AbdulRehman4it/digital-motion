@@ -2,10 +2,7 @@
 $webtitle='Contact';
 require_once('./inc/top.php');
 ?>
-<!-- Preloader -->
-<div id="preloader" class="fixed inset-0 bg-white flex justify-center items-center z-50">
-    <img src="./assets/img/video.gif" alt="Loading..." class="w-16 h-16">
-</div>
+
 
 <section class="my-24 px-6 md:px-12 lg:px-24" data-aos="flip-right">
 <div class="bg-background p-8 flex flex-col items-center space-y-14">

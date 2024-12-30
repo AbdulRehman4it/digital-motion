@@ -25,10 +25,7 @@ if ($stmt->rowCount() > 0) {
     exit();
 }
 ?>
-<!-- Preloader -->
-<div id="preloader" class="fixed inset-0 bg-white flex justify-center items-center z-50">
-    <img src="./assets/img/video.gif" alt="Loading..." class="w-16 h-16">
-</div>
+
 <!-- Blog Section -->
 <section class="my-24 px-6 md:px-12 lg:px-24">
     <!-- Blog Heading -->

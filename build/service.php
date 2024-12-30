@@ -2,10 +2,7 @@
 $webtitle='Service';
 require_once('./inc/top.php');
 ?>
-<!-- Preloader -->
-<div id="preloader" class="fixed inset-0 bg-white flex justify-center items-center z-50">
-    <img src="./assets/img/video.gif" alt="Loading..." class="w-16 h-16">
-</div>
+
 <section >
 <div class="px-6 md:px-12 lg:px-24 py-12 ">
 <h1 class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-6xl md:text-4xl text-2xl leading-[40px] md:leading-[75px] lg:leading-[100px]" data-aos="fade-up">

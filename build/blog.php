@@ -10,10 +10,7 @@ $stmt = $conn->prepare($query);
 $stmt->execute();
 $recent_blogs = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
-<!-- Preloader -->
-<div id="preloader" class="fixed inset-0 bg-white flex justify-center items-center z-50">
-    <img src="./assets/img/video.gif" alt="Loading..." class="w-16 h-16">
-</div>
+
 
 <!-- Slider Section -->
 <section class="py-12 px-12" data-aos="flip-left">

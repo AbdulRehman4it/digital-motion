@@ -2,10 +2,7 @@
 $webtitle='About';
 require_once('./inc/top.php');
 ?>
-<!-- Preloader -->
-<div id="preloader" class="fixed inset-0 bg-white flex justify-center items-center z-50">
-    <img src="./assets/img/video.gif" alt="Loading..." class="w-16 h-16">
-</div>
+
 <section class="space-y-10 mt-10">
     <!-- Row 1: Meet Our Team Heading -->
     <div class="flex flex-col items-center justify-center w-full">
