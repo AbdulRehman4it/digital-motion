@@ -6,6 +6,17 @@ require_once('./inc/top.php');
 <div id="preloader" class="fixed inset-0 bg-white flex justify-center items-center z-50">
     <img src="./assets/img/loader.mp4" alt="Loading..." class="w-16 h-16">
 </div>
+<script>
+        window.addEventListener("load", function () {
+            const preloader = document.getElementById("preloader");
+            if (preloader) {
+                setTimeout(() => {
+                    preloader.style.opacity = "0";
+                    setTimeout(() => preloader.style.display = "none", 500);
+                }, 3000);
+            }
+        });
+    </script>
     <!-- <div id="nextSection"> -->
     <div id="content">
     <!-- hero start -->
