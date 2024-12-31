@@ -4,7 +4,10 @@ require_once('./inc/top.php');
 ?>
 <!-- Preloader -->
 <div id="preloader" class="fixed inset-0 bg-white flex justify-center items-center z-50">
-    <img src="./assets/img/loader.gif" alt="Loading..." class="w-16 h-16">
+<video class="w-24 h-24" autoplay loop muted>
+        <source src="./assets/img/loader.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
 </div>
 <script>
         window.addEventListener("load", function () {
