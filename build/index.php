@@ -34,7 +34,7 @@ require_once('./inc/top.php');
         loop
         class="absolute inset-0 w-full h-full object-cover"
       >
-        <source src="./assets/img/video.mp4" type="video/mp4" />
+        <source src="./assets/img/video.mp4" type="video/mp4"  loop autoplay/>
        
       </video>
 
@@ -178,7 +178,7 @@ require_once('./inc/top.php');
     
     <!-- Overlay -->
     <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-      <span class="text-white text-center"> Event Turnkey Construction 
+      <span class="text-white text-center"> Event Turnkey Construction (Read More)
       </span>
     </div>
   </div>
@@ -189,7 +189,7 @@ require_once('./inc/top.php');
     
     <!-- Overlay -->
     <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-      <span class="text-white text-center">Structure Build-Up</span>
+      <span class="text-white text-center">Structure Build-Up (Read More)</span>
     </div>
   </div>
   </a>
@@ -199,7 +199,7 @@ require_once('./inc/top.php');
     
     <!-- Overlay -->
     <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-      <span class="text-white text-center">POSM</span>
+      <span class="text-white text-center">POSM (Read More)</span>
     </div>
   </div>
   </a>
@@ -211,7 +211,7 @@ require_once('./inc/top.php');
       
       <!-- Overlay -->
       <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-        <span class="text-white text-center">Fit-Outs</span>
+        <span class="text-white text-center">Fit-Outs (Read More)</span>
       </div>
     </div>
     </a>
@@ -221,7 +221,7 @@ require_once('./inc/top.php');
       
       <!-- Overlay -->
       <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-        <span class="text-white text-center">Concept and Design</span>
+        <span class="text-white text-center">Concept and Design (Read More)</span>
       </div>
     </div>
     </a>
@@ -231,7 +231,7 @@ require_once('./inc/top.php');
       
       <!-- Overlay -->
       <div class="absolute bottom-0 left-0 w-full h-[100%] bg-[#004890] bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-        <span class="text-white text-center">Exhibitions</span>
+        <span class="text-white text-center">Exhibitions (Read More)</span>
       </div>
     </div>
     </a>
@@ -554,7 +554,7 @@ require_once('./inc/top.php');
       <!-- Counter 1 -->
       <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up">
         <span id="count1" class="text-7xl sm:text-4xl lg:text-6xl xl:text-9xl herofont uppercase font-extrabold text-white">0</span>
-        <span class="text-xl sm:text-base lg:text-xl secondaryfont text-white uppercase">Years of Experience</span>
+        <span class="text-xl sm:text-base lg:text-xl secondaryfont text-white uppercase">Years in Business</span>
       </div>
 
       <!-- Counter 2 -->
@@ -570,10 +570,10 @@ require_once('./inc/top.php');
       </div>
 
       <!-- Counter 4 -->
-      <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up">
+      <!-- <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up">
         <span id="count4" class="text-7xl sm:text-4xl lg:text-6xl xl:text-9xl herofont uppercase font-extrabold text-white">0</span>
         <span class="text-xl sm:text-base lg:text-xl secondaryfont text-white uppercase">Client Retention Rate</span>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
@@ -596,10 +596,10 @@ require_once('./inc/top.php');
 
   // Trigger counters on scroll
   const counters = [
-    { id: "count1", endValue: 30, duration: 2000 },
+    { id: "count1", endValue: 25, duration: 2000 },
     { id: "count2", endValue: 1000, duration: 2000 },
     { id: "count3", endValue: 300, duration: 2000 },
-    { id: "count4", endValue: 100, duration: 2000 },
+    // { id: "count4", endValue: 100, duration: 2000 },
   ];
 
   // Intersection Observer to detect when the section is in view
@@ -630,11 +630,11 @@ require_once('./inc/top.php');
                     Your browser does not support the video tag.
                 </video>
             </div>
-            <h1
+            <!-- <h1
                 class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-4xl md:text-3xl text-2xl md:mx-4"
             >
                 UAE
-            </h1>
+            </h1> -->
         </div>
 
         <!-- Second Child Div -->
@@ -645,11 +645,11 @@ require_once('./inc/top.php');
                     Your browser does not support the video tag.
                 </video>
             </div>
-            <h1
+            <!-- <h1
                 class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-4xl md:text-3xl text-2xl md:mx-4"
             >
                 KSA
-            </h1>
+            </h1> -->
         </div>
 
         <!-- Third Child Div -->
@@ -660,11 +660,11 @@ require_once('./inc/top.php');
                     Your browser does not support the video tag.
                 </video>
             </div>
-            <h1
+            <!-- <h1
                 class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-4xl md:text-3xl text-2xl md:mx-4"
             >
                 Egypt
-            </h1>
+            </h1> -->
         </div>
 
         <!-- Fourth Child Div -->
@@ -675,11 +675,11 @@ require_once('./inc/top.php');
                     Your browser does not support the video tag.
                 </video>
             </div>
-            <h1
+            <!-- <h1
                 class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-4xl md:text-3xl text-2xl md:mx-4"
             >
                 China
-            </h1>
+            </h1> -->
         </div>
     </div>
 </section>

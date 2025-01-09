@@ -60,12 +60,12 @@
             <li class="relative group">
               <a href="service.php" class="secondaryfont text-white font-semibold text-xs lg:text-base xl:text-xl uppercase">Services</a>
               <ul class="hidden group-hover:block absolute bg-[#004890] text-white min-w-[220px] p-3 rounded-lg shadow-lg z-10 transition ease-in-out duration-300">
-                <li><a href="Event Turnkey.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Event Turnkey</a></li>
-                <li><a href="BUILT-UP STRUCTURES.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Built-Up Structures</a></li>
-                <li><a href="POSM.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">POSM</a></li>
-                <li><a href="Exhibitions.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Exhibitions</a></li>
-                <li><a href="Filloutandinterior.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">FIllout and interior</a></li>
-                <li><a href="cad.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg">Concept & Design</a></li>
+                <li><a href="Event Turnkey.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg uppercase">Event Turnkey</a></li>
+                <li><a href="BUILT-UP STRUCTURES.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg uppercase">Built-Up Structures</a></li>
+                <li><a href="POSM.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg uppercase">POSM</a></li>
+                <li><a href="Exhibitions.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg uppercase">Exhibitions</a></li>
+                <li><a href="Filloutandinterior.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg uppercase">FIllout and interior</a></li>
+                <li><a href="cad.php" class="block px-4 py-2 hover:bg-white hover:text-black rounded-lg uppercase">Concept & Design</a></li>
               </ul>
               <span class="block h-[2px] bg-white absolute bottom-0 left-0 w-0 group-hover:w-full transition-all duration-300 ease-in-out"></span>
             </li>
@@ -137,10 +137,12 @@ $categories = $stmt->fetchAll(PDO::FETCH_ASSOC);
       <li class="relative group">
         <a href="service.php" class="block secondaryfont text-white font-semibold text-sm uppercase">Services</a>
         <ul class="pl-4 space-y-2 mt-2 hidden group-hover:block">
-        <li><a href="Event Turnkey.php" class="block text-white">Event Turnkey</a></li>
-                <li><a href="BUILT-UP STRUCTURES.php" class="block text-white">Built-Up Structures</a></li>
-                <li><a href="POSM.php" class="block text-white">POSM</a></li>
-          
+        <li><a href="Event Turnkey.php" class="block text-white uppercase">Event Turnkey</a></li>
+                <li><a href="BUILT-UP STRUCTURES.php" class="block text-white uppercase">Built-Up Structures</a></li>
+                <li><a href="POSM.php" class="block text-white uppercase">POSM</a></li>
+                <li><a href="Exhibitions.php" class="block text-white uppercase">Exhibitions</a></li>
+                <li><a href="Filloutandinterior.php" class="block text-white uppercase">FIllout and interior</a></li>
+                <li><a href="cad.php" class="block text-white uppercase">Concept & Design</a></li>
           <!-- <li><a href="production.php" class="block text-white">Production</a></li>
           <li><a href="FIlloutandinterior.php" class="block text-white">FIllout and interior</a></li>
           <li><a href="Pointofsale.php" class="block text-white">Point of sale</a></li> -->
