@@ -553,19 +553,19 @@ require_once('./inc/top.php');
     <div class="flex flex-wrap justify-center w-full">
       <!-- Counter 1 -->
       <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up">
-        <span id="count1" class="text-7xl sm:text-4xl lg:text-6xl xl:text-9xl herofont uppercase font-extrabold text-white">0</span>
+        <span id="count1" class="text-7xl sm:text-4xl lg:text-6xl xl:text-9xl herofont uppercase font-extrabold text-white">25</span>
         <span class="text-xl sm:text-base lg:text-xl secondaryfont text-white uppercase">Years in Business</span>
       </div>
 
       <!-- Counter 2 -->
       <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up">
-        <span id="count2" class="text-7xl sm:text-4xl lg:text-6xl xl:text-9xl herofont uppercase font-extrabold text-white">0</span>
+        <span id="count2" class="text-7xl sm:text-4xl lg:text-6xl xl:text-9xl herofont uppercase font-extrabold text-white">10000</span>
         <span class="text-xl sm:text-base lg:text-xl secondaryfont text-white uppercase">Successful Projects</span>
       </div>
 
       <!-- Counter 3 -->
       <div class="flex flex-col items-center text-center p-4 sm:p-6 md:p-8 lg:p-10 w-full sm:w-1/2 md:w-1/4" data-aos="fade-up">
-        <span id="count3" class="text-7xl sm:text-4xl lg:text-6xl xl:text-9xl herofont uppercase font-extrabold text-white">0</span>
+        <span id="count3" class="text-7xl sm:text-4xl lg:text-6xl xl:text-9xl herofont uppercase font-extrabold text-white">300</span>
         <span class="text-xl sm:text-base lg:text-xl secondaryfont text-white uppercase" >Global Brands Served</span>
       </div>
 
@@ -578,7 +578,7 @@ require_once('./inc/top.php');
   </div>
 </section>
 
-<script>
+<!-- <script>
   // Function to animate counters
   function animateCounter(id, endValue, duration) {
     let startValue = 0;
@@ -619,7 +619,7 @@ require_once('./inc/top.php');
 
   // Start observing the section
   observer.observe(section);
-</script>
+</script> -->
 <section class="h-auto flex items-center justify-center py-12 px-6 md:px-12 lg:px-24">
     <div class="flex flex-wrap justify-center gap-8 w-full pt-12">
         <!-- First Child Div -->
