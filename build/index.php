@@ -620,7 +620,7 @@ require_once('./inc/top.php');
   // Start observing the section
   observer.observe(section);
 </script> -->
-<section class="h-auto flex items-center justify-center py-12 px-6 md:px-12 lg:px-24">
+<section class="h-auto flex items-center justify-center py-12 ">
     <div class="flex flex-wrap justify-center gap-8 w-full pt-12">
         <!-- First Child Div -->
         <div class="flex flex-col items-center w-full md:w-[20%]">
