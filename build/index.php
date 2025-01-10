@@ -632,13 +632,13 @@ require_once('./inc/top.php');
         <div class="w-full lg:w-1/4 md:w-1/2 sm:w-full">
             <video class="w-full h-auto rounded-lg shadow-lg" controls>
                 <source src="./assets/img/v2.mp4" type="video/mp4">
-                Your browser does not support the video tag.
+               
             </video>
         </div>
         <div class="w-full lg:w-1/4 md:w-1/2 sm:w-full">
             <video class="w-full h-auto rounded-lg shadow-lg" controls>
                 <source src="./assets/img/v3.mp4" type="video/mp4">
-                Your browser does not support the video tag.
+               
             </video>
         </div>
         <div class="w-full lg:w-1/4 md:w-1/2 sm:w-full">
