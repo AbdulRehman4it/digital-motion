@@ -620,10 +620,10 @@ require_once('./inc/top.php');
   // Start observing the section
   observer.observe(section);
 </script> -->
-<section class="h-auto flex items-center justify-center py-12 ">
+<section class="h-auto flex items-center justify-center py-12 px-6 md:px-12 lg:px-24">
     <div class="flex flex-wrap justify-center gap-8 w-full pt-12">
         <!-- First Child Div -->
-        <div class="flex flex-col items-center w-full md:w-[20%]">
+        <div class="flex flex-col items-center w-full ">
             <div class="w-full aspect-video">
                 <video class="w-full h-full rounded-lg" autoplay loop muted>
                     <source src="./assets/img/v1.mp4" type="video/mp4">
@@ -638,7 +638,7 @@ require_once('./inc/top.php');
         </div>
 
         <!-- Second Child Div -->
-        <div class="flex flex-col items-center w-full md:w-[20%]">
+        <div class="flex flex-col items-center w-full ">
             <div class="w-full aspect-video">
                 <video class="w-full h-full rounded-lg" autoplay loop muted>
                     <source src="./assets/img/v2.mp4" type="video/mp4">
@@ -653,7 +653,7 @@ require_once('./inc/top.php');
         </div>
 
         <!-- Third Child Div -->
-        <div class="flex flex-col items-center w-full md:w-[20%]">
+        <div class="flex flex-col items-center w-full ">
             <div class="w-full aspect-video">
                 <video class="w-full h-full rounded-lg" autoplay loop muted>
                     <source src="./assets/img/v3.mp4" type="video/mp4">
@@ -668,7 +668,7 @@ require_once('./inc/top.php');
         </div>
 
         <!-- Fourth Child Div -->
-        <div class="flex flex-col items-center w-full md:w-[20%]">
+        <div class="flex flex-col items-center w-full ">
             <div class="w-full aspect-video">
                 <video class="w-full h-full rounded-lg" autoplay loop muted>
                     <source src="./assets/img/v4.mp4" type="video/mp4">
