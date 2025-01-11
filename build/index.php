@@ -34,7 +34,7 @@ require_once('./inc/top.php');
         loop
         class="absolute inset-0 w-full h-full object-cover"
       >
-        <source src="./assets/img/video.mp4" type="video/mp4"  loop autoplay/>
+        <source src="./assets/img/video.mp4" type="video/mp4"  autoplay loop muted playsinline/>
        
       </video>
 
@@ -625,7 +625,7 @@ require_once('./inc/top.php');
         <!-- First Child Div -->
         <div class="flex flex-col items-center w-full sm:w-[48%] md:w-[20%]">
             <div class="w-full aspect-video">
-                <video class="w-full h-full rounded-lg object-cover" autoplay loop muted>
+                <video class="w-full h-full rounded-lg object-cover" autoplay loop muted playsinline>
                     <source src="./assets/img/v1.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -635,7 +635,7 @@ require_once('./inc/top.php');
         <!-- Second Child Div -->
         <div class="flex flex-col items-center w-full sm:w-[48%] md:w-[20%]">
             <div class="w-full aspect-video">
-                <video class="w-full h-full rounded-lg object-cover" autoplay loop muted>
+                <video class="w-full h-full rounded-lg object-cover" autoplay loop muted playsinline>
                     <source src="./assets/img/v2.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -645,7 +645,7 @@ require_once('./inc/top.php');
         <!-- Third Child Div -->
         <div class="flex flex-col items-center w-full sm:w-[48%] md:w-[20%]">
             <div class="w-full aspect-video">
-                <video class="w-full h-full rounded-lg object-cover" autoplay loop muted>
+                <video class="w-full h-full rounded-lg object-cover" autoplay loop muted playsinline>
                     <source src="./assets/img/v3.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -653,9 +653,9 @@ require_once('./inc/top.php');
         </div>
 
         <!-- Fourth Child Div -->
-        <div class="flex flex-col items-center w-full sm:w-[48%] md:w-[20%]">
+        <div class="flex flex-col items-center w-full sm:w-[48%]  md:w-[20%]">
             <div class="w-full aspect-video">
-                <video class="w-full h-full rounded-lg object-cover" autoplay loop muted>
+                <video class="w-full h-full rounded-lg object-cover" autoplay loop muted playsinline>
                     <source src="./assets/img/v4.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
