@@ -620,69 +620,50 @@ require_once('./inc/top.php');
   // Start observing the section
   observer.observe(section);
 </script> -->
-<section class="h-auto flex items-center justify-center md:py-12 py-2 px-1 md:px-12 lg:px-24">
-    <div class="flex flex-wrap justify-center gap-8 w-full pt-12">
+<section class="h-auto flex items-center justify-center py-4 md:py-12 px-4 md:px-12 lg:px-24">
+    <div class="flex flex-wrap justify-center gap-4 md:gap-8 w-full">
         <!-- First Child Div -->
-        <div class="flex flex-col items-center w-full md:w-[20%]">
+        <div class="flex flex-col items-center w-full sm:w-[48%] md:w-[20%]">
             <div class="w-full aspect-video">
-                <video class="w-full h-full rounded-lg" autoplay loop muted>
+                <video class="w-full h-full rounded-lg object-cover" autoplay loop muted>
                     <source src="./assets/img/v1.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
-            <!-- <h1
-                class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-4xl md:text-3xl text-2xl md:mx-4"
-            >
-                UAE
-            </h1> -->
         </div>
 
         <!-- Second Child Div -->
-        <div class="flex flex-col items-center w-full md:w-[20%]">
+        <div class="flex flex-col items-center w-full sm:w-[48%] md:w-[20%]">
             <div class="w-full aspect-video">
-                <video class="w-full h-full rounded-lg" autoplay loop muted>
+                <video class="w-full h-full rounded-lg object-cover" autoplay loop muted>
                     <source src="./assets/img/v2.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
-            <!-- <h1
-                class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-4xl md:text-3xl text-2xl md:mx-4"
-            >
-                KSA
-            </h1> -->
         </div>
 
         <!-- Third Child Div -->
-        <div class="flex flex-col items-center w-full md:w-[20%]">
+        <div class="flex flex-col items-center w-full sm:w-[48%] md:w-[20%]">
             <div class="w-full aspect-video">
-                <video class="w-full h-full rounded-lg" autoplay loop muted>
+                <video class="w-full h-full rounded-lg object-cover" autoplay loop muted>
                     <source src="./assets/img/v3.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
-            <!-- <h1
-                class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-4xl md:text-3xl text-2xl md:mx-4"
-            >
-                Egypt
-            </h1> -->
         </div>
 
         <!-- Fourth Child Div -->
-        <div class="flex flex-col items-center w-full md:w-[20%]">
+        <div class="flex flex-col items-center w-full sm:w-[48%] md:w-[20%]">
             <div class="w-full aspect-video">
-                <video class="w-full h-full rounded-lg" autoplay loop muted>
+                <video class="w-full h-full rounded-lg object-cover" autoplay loop muted>
                     <source src="./assets/img/v4.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
-            <!-- <h1
-                class="herofont uppercase font-extrabold text-center text-[#004890] lg:text-4xl md:text-3xl text-2xl md:mx-4"
-            >
-                China
-            </h1> -->
         </div>
     </div>
 </section>
+
 
 
 
